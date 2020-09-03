@@ -2,11 +2,11 @@
 
 ## Antes de empezar
 
-1. Crear un proyecto nuevo desde su IDE llamándolo final-efectos-original. Una vez creado copiar todas las carpetas con
+1. Crear un proyecto nuevo desde su IDE llamándolo final-modelo.modelo.efectos.efectos-original. Una vez creado copiar todas las carpetas con
  clases de este zip.
-2. Crear un proyecto nuevo desde su IDE llamándolo final-efectos-alumno. Una vez creado copiar todas las carpetas con
+2. Crear un proyecto nuevo desde su IDE llamándolo final-modelo.modelo.efectos.efectos-alumno. Una vez creado copiar todas las carpetas con
  clases de este zip.
-3.  Trabajar SIEMPRE sobre el proyecto **final-efectos-alumno**
+3.  Trabajar SIEMPRE sobre el proyecto **final-modelo.modelo.efectos.efectos-alumno**
 
 ## Consignas
 
@@ -19,10 +19,10 @@
 2. Desarrolle diseñando, programando una mejora TOTAL de diseño del proyecto que apunte a
  las siguientes mejoras:
  
-    1. Facilitar el agregado de nuevos efectos
+    1. Facilitar el agregado de nuevos modelo.modelo.efectos.efectos
     2. Reducir (idealmente eliminar) cualquier codigo duplicado
     
-3. Incorporar dos nuevo efectos que realicen las siguientes operaciones en el orden indicado:
+3. Incorporar dos nuevo modelo.modelo.efectos.efectos que realicen las siguientes operaciones en el orden indicado:
 
     1. Primer efecto a agregar
         - Agregar un numero 3 al final de la cadena

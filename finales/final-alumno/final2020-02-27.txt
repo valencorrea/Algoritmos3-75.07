@@ -7,9 +7,9 @@ final 2020-02-27
 	 considera que representan un problema de diseño.
 
     Respuesta:
-        Dentro de FabricaDeEfectos se repite mucho la creacion de efectos; tal vez se podria hacer un poco mas general creando
+        Dentro de modelo.modelo.efectos.efectos.FabricaDeEfectos se repite mucho la creacion de modelo.modelo.efectos.efectos; tal vez se podria hacer un poco mas general creando
         un creador de efecetos y que reciba algun parametro en particular en funcion de devolver el particular que necesita. Ademas
-        tambien se repite la creacion de efectos que agregan un numero al final y que cambian a mayuscula/minuscula la primera letra
+        tambien se repite la creacion de modelo.modelo.efectos.efectos que agregan un numero al final y que cambian a mayuscula/minuscula la primera letra
         del string.
 
 

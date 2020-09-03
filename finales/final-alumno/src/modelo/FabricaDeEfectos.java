@@ -1,3 +1,7 @@
+package modelo;
+
+import modelo.efectos.*;
+
 public class FabricaDeEfectos {
 
     public static ColeccionDeEfectos CrearEfectoAgregarCincoAlFinal() {

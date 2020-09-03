@@ -1,4 +1,6 @@
-public class EfectoAgregarNumeroAlFinal extends Efecto{
+package modelo.efectos;
+
+public class EfectoAgregarNumeroAlFinal extends Efecto {
 
     private int numero;
 
@@ -8,7 +10,6 @@ public class EfectoAgregarNumeroAlFinal extends Efecto{
 
     @Override
     public String aplicarA(String unString){
-        verificarStringNoVacio(unString);
         return (unString + this.numero);
     }
 
