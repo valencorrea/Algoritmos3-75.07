@@ -5,12 +5,12 @@ public class FabricaDeEfectos {
         efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(5));
         return efectos;
     }
-/*
-    public static EfectoAgregarNumeroAlFinal CrearEfectoAgregarOchoAlFinal() {
-        return new EfectoAgregarNumeroAlFinal(8);
+
+    public static ColeccionDeEfectos CrearEfectoAgregarOchoAlFinal() {
+        ColeccionDeEfectos efectos = new ColeccionDeEfectos();
+        efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(8));
+        return efectos;
     }
-
-
 
     /*
     public static EfectoDarVueltaYPrimeraMayuscula CrearEfectoDarVueltaYPrimeraMayuscula() {

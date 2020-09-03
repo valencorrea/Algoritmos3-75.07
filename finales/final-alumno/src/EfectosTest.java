@@ -8,13 +8,13 @@ public class EfectosTest {
         String cadena = FabricaDeEfectos.CrearEfectoAgregarCincoAlFinal().aplicarA("algo");
         Assert.assertEquals("algo5", cadena);
     }
-/*
+
     @Test
     public void testAgregarOchoAlFinal() {
         String cadena = FabricaDeEfectos.CrearEfectoAgregarOchoAlFinal().aplicarA("ALGO");
         Assert.assertEquals("ALGO8", cadena);
     }
-
+/*
     @Test
     public void testDarVueltaYPrimeraMayuscula() {
         String cadena = FabricaDeEfectos.CrearEfectoDarVueltaYPrimeraMayuscula().aplicarA("algo");
