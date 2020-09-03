@@ -20,6 +20,7 @@ public class EfectosTest {
         String cadena = FabricaDeEfectos.CrearEfectoDarVueltaYPrimeraMayuscula().aplicarA("algo");
         Assert.assertEquals("Ogla", cadena);
     }
+*/
 
     @Test
     public void testPrimeraMayuscula() {
@@ -27,6 +28,7 @@ public class EfectosTest {
         Assert.assertEquals("Algo", cadena);
     }
 
+    /*
     @Test
     public void testPrimeraMayusculaYAgregarOcho() {
         String cadena = FabricaDeEfectos.CrearEfectoPrimeraMayusculaYAgregarOcho().aplicarA("algo");

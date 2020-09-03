@@ -12,6 +12,12 @@ public class FabricaDeEfectos {
         return efectos;
     }
 
+    public static ColeccionDeEfectos CrearEfectoPrimeraMayuscula() {
+        ColeccionDeEfectos efectos = new ColeccionDeEfectos();
+        efectos.agregarEfecto(new EfectoPrimerLetraMayuscula());
+        return efectos;
+    }
+
     /*
     public static EfectoDarVueltaYPrimeraMayuscula CrearEfectoDarVueltaYPrimeraMayuscula() {
         return new EfectoDarVueltaYPrimeraMayuscula();

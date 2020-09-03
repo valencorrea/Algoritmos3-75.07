@@ -6,7 +6,7 @@ public class EfectoAgregarNumeroAlFinal implements Efecto{
         this.numero = numero;
     }
 
-    
+    @Override
     public String aplicarA(String unString){
         return (unString + this.numero);
     }
