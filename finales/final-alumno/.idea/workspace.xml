@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="944379a4-8906-4ae6-84d4-e7c6f2263e1b" name="Default Changelist" comment="creo proyecto">
+      <change afterPath="$PROJECT_DIR$/../IdeaProjects/miProyecto/miProyecto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/algo3_ejemplo_mvc_colores" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/java-fx-full.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/javaFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/src/fiuba/algo3/javafx/Integrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/src/fiuba/algo3/javafx/eventos/manejadores/BotonEnviarEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/src/fiuba/algo3/javafx/eventos/manejadores/BotonLimpiarEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFX1/src/fiuba/algo3/javafx/eventos/manejadores/TextoEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/javaFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/src/fiuba/algo3/javafx/Integrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/src/fiuba/algo3/javafx/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/src/fiuba/algo3/javafx/eventos/manejadores/BotonEnviarEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/src/fiuba/algo3/javafx/eventos/manejadores/BotonLimpiarEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/javaFXEjIntegrador/src/fiuba/algo3/javafx/eventos/manejadores/TextoEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/libraries/Maven__junit_junit_4_13_rc_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/libraries/Maven__org_openjfx_javafx_base_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/libraries/Maven__org_openjfx_javafx_base_win_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/libraries/Maven__org_openjfx_javafx_controls_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/libraries/Maven__org_openjfx_javafx_controls_win_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/libraries/Maven__org_openjfx_javafx_graphics_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/MetalSlug.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/controller/MainKeyboardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerHeavyMachineGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerNoGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerSimpleGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/modelo/AttackStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/modelo/Attackable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/modelo/HeavyMachineGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/modelo/NoGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/modelo/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/modelo/SimpleGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/vista/ButtonHeavyMachineGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/vista/ButtonNoGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/vista/ButtonSimpleGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/vista/Drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/vista/GunButtonContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/vista/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/java/com/fiuba/algo3/vista/PlayerView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/resources/fondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/resources/marco_heavy_machinegun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/resources/marco_pistola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/main/resources/marco_unarmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/bin/test/java/com/fiuba/algo3/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/controller/MainKeyboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerHeavyMachineGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerNoGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerSimpleGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/AttackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/Attackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/HeavyMachineGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/NoGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/Positionable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/modelo/SimpleGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/vista/ButtonHeavyMachineGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/vista/ButtonNoGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/vista/ButtonSimpleGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/vista/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/vista/GunButtonContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/vista/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/vista/MapView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/java/com/fiuba/algo3/vista/PlayerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/resources/fondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/resources/marco_heavy_machinegun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/resources/marco_pistola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/main/resources/marco_unarmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/src/test/java/com/fiuba/algo3/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/fondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/controller/MainKeyboardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerHeavyMachineGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerNoGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/controller/buttonHandlers/HandlerSimpleGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/AttackStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/Attackable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/HeavyMachineGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/Map.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/NoGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/Observable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/Observer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/Positionable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/modelo/SimpleGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/vista/ButtonHeavyMachineGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/vista/ButtonNoGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/vista/ButtonSimpleGun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/vista/Drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/vista/GunButtonContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/vista/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/vista/MapView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/main/java/com/fiuba/algo3/vista/PlayerView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/marco_heavy_machinegun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/marco_pistola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/classes/marco_unarmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/metalslugexample-master/target/test-classes/main/java/com/fiuba/algo3/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/Desktop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/modelo/Direccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/modelo/Posicion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/modelo/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/modelo/Terreno(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/modelo/Terreno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/(1).DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/Aplicacion(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/Aplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/BarraDeMenu(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/BarraDeMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/CanvasAjustable(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/CanvasAjustable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/ContenedorBienvenidos(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/ContenedorBienvenidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/ContenedorPrincipal(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/ContenedorPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/VistaRobot(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/VistaRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/VistaTerreno(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/VistaTerreno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/AplicacionOnKeyPressEventHandler(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/AplicacionOnKeyPressEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/BotonDireccionHandler(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/BotonDireccionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/BotonEntrarEventHandler(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/BotonEntrarEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/BotonMoverHandler(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/BotonMoverHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/OpcionAcercaDeEventHandler(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/OpcionAcercaDeEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/OpcionPantallaCompletaEventHandler(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/OpcionPantallaCompletaEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/OpcionSalirEventHandler(1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/eventos/OpcionSalirEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/imagenes/fondo-verde(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/imagenes/fondo-verde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/imagenes/textura(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/cosasdetp2/src/vista/imagenes/textura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/ejemplo3/solid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/.idea/ejercicios_patrones_campus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/buscador/tp2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/buscador_sol_1/tp2 (3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/buscador_sol_2/tp2 (4).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/calculadora/tp2 (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/calculadora_sol_1/tp2 (6).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/calculadora_sol_2/tp2 (7).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/calculadora_sol_3/tp2 (8).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/personajes/tp2 (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/patrones/ejercicios_patrones_campus/personajes_sol_1/tp2 (5).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algo3/tp2/kashoot/tp2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EfectoAgregarCincoAlFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EfectoAgregarOchoAlFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EfectoDarVueltaYPrimeraMayuscula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EfectoPrimeraMayuscula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EfectoPrimeraMayusculaYAgregarOcho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EfectosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FabricaDeEfectos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/TP2-Kahoot.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/SystemInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/Clasico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/Jugador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/Pregunta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/Respuesta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/RespuestaCorrecta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/RespuestaIncorrecta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/TipoFormato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/TipoPregunta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/TipoRespuesta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/edu/fiuba/algo3/modelo/VerdaderoFalso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/ClasicoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/JugadorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/KahootTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/MessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/PreguntaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/RespuestaCorrectaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/RespuestaIncorrectaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/RespuestaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/src/main/test/edu/fiuba/algo3/modelo/VerdaderoFalsoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/SystemInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/Clasico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/Jugador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/Pregunta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/Respuesta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/RespuestaCorrecta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/RespuestaIncorrecta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/TipoFormato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/TipoPregunta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/TipoRespuesta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/edu/fiuba/algo3/modelo/VerdaderoFalso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/META-INF/tp2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/ClasicoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/JugadorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/KahootTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/MessageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/PreguntaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/RespuestaCorrectaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/RespuestaIncorrectaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/RespuestaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/target/test-classes/edu/fiuba/algo3/modelo/VerdaderoFalsoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unaCarpeta/tp2-master/kashoot/tp2.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1h0mhZz5KVYRr2jYevoZ5FG0Qyl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\final-alumno\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="944379a4-8906-4ae6-84d4-e7c6f2263e1b" name="Default Changelist" comment="" />
+      <created>1599156503783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599156503783</updated>
+      <workItem from="1599156506300" duration="507000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creo proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="creo proyecto" />
+  </component>
+</project>
