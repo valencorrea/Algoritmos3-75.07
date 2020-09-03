@@ -36,4 +36,18 @@ public class FabricaDeEfectos {
         return efectos;
     }
 
+    public static ColeccionDeEfectos CrearEfectoAgregar3AlFinalYPrimerLetraMinuscula() {
+        ColeccionDeEfectos efectos = new ColeccionDeEfectos();
+        efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(3));
+        efectos.agregarEfecto(new EfectoPrimerLetraMinuscula());
+        return efectos;
+    }
+
+    public static ColeccionDeEfectos CrearEfectoDarVueltaPrimeraLetraEnMinusculaYAgregar4AlFinal() {
+        ColeccionDeEfectos efectos = new ColeccionDeEfectos();
+        efectos.agregarEfecto(new EfectoDarVuelta());
+        efectos.agregarEfecto(new EfectoPrimerLetraMinuscula());
+        efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(4));
+        return efectos;
+    }
 }

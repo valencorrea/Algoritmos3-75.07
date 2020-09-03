@@ -46,4 +46,16 @@ public class EfectosTest {
         }
     }
 
+    @Test
+    public void testEfectoAgregar3AlFinalYPrimerLetraMinuscula(){
+        String cadena = FabricaDeEfectos.CrearEfectoAgregar3AlFinalYPrimerLetraMinuscula().aplicarA("ALGO");
+        Assert.assertEquals("aLGO3", cadena);
+    }
+
+    @Test
+    public void testEfectoDarVueltaPrimeraLetraEnMinusculaYAgregar4AlFinal(){
+        String cadena = FabricaDeEfectos.CrearEfectoDarVueltaPrimeraLetraEnMinusculaYAgregar4AlFinal().aplicarA("ALGO");
+        Assert.assertEquals("oGLA4", cadena);
+    }
+
 }
