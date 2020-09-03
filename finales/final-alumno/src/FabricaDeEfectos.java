@@ -32,10 +32,4 @@ public class FabricaDeEfectos {
         return efectos;
     }
 
-    /*
-    public static EfectoDarVueltaYPrimeraMayuscula CrearEfectoDarVueltaYPrimeraMayuscula() {
-        return new EfectoDarVueltaYPrimeraMayuscula();
-    }
-*/
-
 }

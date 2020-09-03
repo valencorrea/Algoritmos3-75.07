@@ -1,4 +1,4 @@
-public class EfectoAgregarNumeroAlFinal implements Efecto{
+public class EfectoAgregarNumeroAlFinal extends Efecto{
 
     private int numero;
 
@@ -8,6 +8,7 @@ public class EfectoAgregarNumeroAlFinal implements Efecto{
 
     @Override
     public String aplicarA(String unString){
+        verificarStringNoVacio(unString);
         return (unString + this.numero);
     }
 

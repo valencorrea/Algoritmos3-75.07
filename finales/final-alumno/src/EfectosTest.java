@@ -32,7 +32,7 @@ public class EfectosTest {
         String cadena = FabricaDeEfectos.CrearEfectoPrimeraMayusculaYAgregarOcho().aplicarA("algo");
         Assert.assertEquals("Algo8", cadena);
     }
-/*
+
     @Test
     public void testEfectoAgregarCincoAlFinalNoSeAplicaACadenaVacia() {
         try {
@@ -42,5 +42,5 @@ public class EfectosTest {
             Assert.assertEquals("no se puede aplicar efecto a cadena vacia", exception.getMessage());
         }
     }
-*/
+
 }

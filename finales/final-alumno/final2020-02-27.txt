@@ -22,14 +22,3 @@ final 2020-02-27
 	        - open close: el modelo es muy rigido, mas que nada en los metodos como EfectoAgregarCincoAlFinal que
 	        son muy especificos innecesariamente
 
-
-
-
-2. Desarrolle diseñando, programando una mejora TOTAL de diseño del proyecto que apunte a
- las siguientes mejoras:
-
-    1. Facilitar el agregado de nuevos efectos
-    2. Reducir (idealmente eliminar) cualquier codigo duplicado
-
-
-    Comentario:
