@@ -1,0 +1,11 @@
+final 2020-02-27
+
+
+1. Analice el modelo otorgado y conteste:
+
+	1. ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos por qué
+	 considera que representan un problema de diseño.
+
+
+
+	2. ¿Se viola algún principio de diseño ? ¿Cuál(es)?
