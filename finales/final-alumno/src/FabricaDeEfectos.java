@@ -1,13 +1,15 @@
 public class FabricaDeEfectos {
 
-    public static EfectoAgregarCincoAlFinal CrearEfectoAgregarCincoAlFinal() {
-        return new EfectoAgregarCincoAlFinal();
+    public static EfectoAgregarNumeroAlFinal CrearEfectoAgregarCincoAlFinal() {
+        return new EfectoAgregarNumeroAlFinal(5);
     }
 
-    public static EfectoAgregarOchoAlFinal CrearEfectoAgregarOchoAlFinal() {
-        return new EfectoAgregarOchoAlFinal();
+    public static EfectoAgregarNumeroAlFinal CrearEfectoAgregarOchoAlFinal() {
+        return new EfectoAgregarNumeroAlFinal(8);
     }
 
+
+    /*
     public static EfectoDarVueltaYPrimeraMayuscula CrearEfectoDarVueltaYPrimeraMayuscula() {
         return new EfectoDarVueltaYPrimeraMayuscula();
     }
@@ -18,6 +20,6 @@ public class FabricaDeEfectos {
 
     public static EfectoPrimeraMayusculaYAgregarOcho CrearEfectoPrimeraMayusculaYAgregarOcho() {
         return new EfectoPrimeraMayusculaYAgregarOcho();
-    }
+    }*/
 
 }
