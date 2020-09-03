@@ -18,17 +18,24 @@ public class FabricaDeEfectos {
         return efectos;
     }
 
+    public static ColeccionDeEfectos CrearEfectoPrimeraMayusculaYAgregarOcho() {
+        ColeccionDeEfectos efectos = new ColeccionDeEfectos();
+        efectos.agregarEfecto(new EfectoPrimerLetraMayuscula());
+        efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(8));
+        return efectos;
+    }
+
+    public static ColeccionDeEfectos CrearEfectoDarVueltaYPrimeraMayuscula() {
+        ColeccionDeEfectos efectos = new ColeccionDeEfectos();
+        efectos.agregarEfecto(new EfectoDarVuelta());
+        efectos.agregarEfecto(new EfectoPrimerLetraMayuscula());
+        return efectos;
+    }
+
     /*
     public static EfectoDarVueltaYPrimeraMayuscula CrearEfectoDarVueltaYPrimeraMayuscula() {
         return new EfectoDarVueltaYPrimeraMayuscula();
     }
-
-    public static EfectoPrimeraMayuscula CrearEfectoPrimeraMayuscula() {
-        return new EfectoPrimeraMayuscula();
-    }
-
-    public static EfectoPrimeraMayusculaYAgregarOcho CrearEfectoPrimeraMayusculaYAgregarOcho() {
-        return new EfectoPrimeraMayusculaYAgregarOcho();
-    }*/
+*/
 
 }

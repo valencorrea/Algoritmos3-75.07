@@ -14,13 +14,12 @@ public class EfectosTest {
         String cadena = FabricaDeEfectos.CrearEfectoAgregarOchoAlFinal().aplicarA("ALGO");
         Assert.assertEquals("ALGO8", cadena);
     }
-/*
+
     @Test
     public void testDarVueltaYPrimeraMayuscula() {
         String cadena = FabricaDeEfectos.CrearEfectoDarVueltaYPrimeraMayuscula().aplicarA("algo");
         Assert.assertEquals("Ogla", cadena);
     }
-*/
 
     @Test
     public void testPrimeraMayuscula() {
@@ -28,13 +27,12 @@ public class EfectosTest {
         Assert.assertEquals("Algo", cadena);
     }
 
-    /*
     @Test
     public void testPrimeraMayusculaYAgregarOcho() {
         String cadena = FabricaDeEfectos.CrearEfectoPrimeraMayusculaYAgregarOcho().aplicarA("algo");
         Assert.assertEquals("Algo8", cadena);
     }
-
+/*
     @Test
     public void testEfectoAgregarCincoAlFinalNoSeAplicaACadenaVacia() {
         try {
