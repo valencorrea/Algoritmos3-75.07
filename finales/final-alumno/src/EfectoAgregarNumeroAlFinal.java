@@ -1,4 +1,4 @@
-public class EfectoAgregarNumeroAlFinal {
+public class EfectoAgregarNumeroAlFinal implements Efecto{
 
     private int numero;
 
@@ -6,6 +6,7 @@ public class EfectoAgregarNumeroAlFinal {
         this.numero = numero;
     }
 
+    
     public String aplicarA(String unString){
         return (unString + this.numero);
     }

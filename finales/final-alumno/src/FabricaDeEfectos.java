@@ -1,12 +1,15 @@
 public class FabricaDeEfectos {
 
-    public static EfectoAgregarNumeroAlFinal CrearEfectoAgregarCincoAlFinal() {
-        return new EfectoAgregarNumeroAlFinal(5);
+    public static ColeccionDeEfectos CrearEfectoAgregarCincoAlFinal() {
+        ColeccionDeEfectos efectos = new ColeccionDeEfectos();
+        efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(5));
+        return efectos;
     }
-
+/*
     public static EfectoAgregarNumeroAlFinal CrearEfectoAgregarOchoAlFinal() {
         return new EfectoAgregarNumeroAlFinal(8);
     }
+
 
 
     /*
