@@ -1,0 +1,32 @@
+final 2020-02-27
+
+
+
+DUDAS:
+    1) hubiese estado bien refactorizar a EfectoModificarPrimerLetra y mandarle por parametros (unString.toUpperCase() o
+    toDownCase())??
+    2) esta bien que aplicarA dentro de Efecto devuelva v por default?
+
+
+
+1. Analice el modelo otorgado y conteste:
+
+	1. ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos por qué
+	 considera que representan un problema de diseño.
+
+    Respuesta:
+        Dentro de modelo.modelo.efectos.efectos.FabricaDeEfectos se repite mucho la creacion de modelo.modelo.efectos.efectos; tal vez se podria hacer un poco mas general creando
+        un creador de efecetos y que reciba algun parametro en particular en funcion de devolver el particular que necesita. Ademas
+        tambien se repite la creacion de modelo.modelo.efectos.efectos que agregan un numero al final y que cambian a mayuscula/minuscula la primera letra
+        del string.
+
+
+	2. ¿Se viola algún principio de diseño ? ¿Cuál(es)?
+
+	Respuesta:
+	    Los principios que noto que se violan son
+	        - single responsability: particularmente en los metodos EfectoDarVueltaYPrimeraMayuscula y
+	        EfectoPrimeraMayusculaYAgregarOcho ya que ambos tienen dos razones de cambio
+	        - open close: el modelo es muy rigido, mas que nada en los metodos como EfectoAgregarCincoAlFinal que
+	        son muy especificos innecesariamente
+
