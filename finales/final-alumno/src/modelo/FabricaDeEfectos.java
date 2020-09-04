@@ -4,15 +4,9 @@ import modelo.efectos.*;
 
 public class FabricaDeEfectos {
 
-    public static ColeccionDeEfectos CrearEfectoAgregarCincoAlFinal() {
+    public static ColeccionDeEfectos CrearEfectoAgregarNumeroAlFinal(int unNumero) {
         ColeccionDeEfectos efectos = new ColeccionDeEfectos();
-        efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(5));
-        return efectos;
-    }
-
-    public static ColeccionDeEfectos CrearEfectoAgregarOchoAlFinal() {
-        ColeccionDeEfectos efectos = new ColeccionDeEfectos();
-        efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(8));
+        efectos.agregarEfecto(new EfectoAgregarNumeroAlFinal(unNumero));
         return efectos;
     }
 

@@ -1,6 +1,14 @@
 final 2020-02-27
 
 
+
+DUDAS:
+    1) hubiese estado bien refactorizar a EfectoModificarPrimerLetra y mandarle por parametros (unString.toUpperCase() o
+    toDownCase())??
+    2) esta bien que aplicarA dentro de Efecto devuelva v por default?
+
+
+
 1. Analice el modelo otorgado y conteste:
 
 	1. ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos por qué

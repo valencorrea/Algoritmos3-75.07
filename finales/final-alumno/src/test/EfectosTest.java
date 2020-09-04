@@ -8,13 +8,13 @@ public class EfectosTest {
 
     @Test
     public void testAgregarCincoAlFinal() {
-        String cadena = FabricaDeEfectos.CrearEfectoAgregarCincoAlFinal().aplicarA("algo");
+        String cadena = FabricaDeEfectos.CrearEfectoAgregarNumeroAlFinal(5).aplicarA("algo");
         Assert.assertEquals("algo5", cadena);
     }
 
     @Test
     public void testAgregarOchoAlFinal() {
-        String cadena = FabricaDeEfectos.CrearEfectoAgregarOchoAlFinal().aplicarA("ALGO");
+        String cadena = FabricaDeEfectos.CrearEfectoAgregarNumeroAlFinal(8).aplicarA("ALGO");
         Assert.assertEquals("ALGO8", cadena);
     }
 
@@ -39,7 +39,7 @@ public class EfectosTest {
     @Test
     public void testEfectoAgregarCincoAlFinalNoSeAplicaACadenaVacia() {
         try {
-            String cadena = FabricaDeEfectos.CrearEfectoAgregarCincoAlFinal().aplicarA("");
+            String cadena = FabricaDeEfectos.CrearEfectoAgregarNumeroAlFinal(5).aplicarA("");
             Assert.fail("no se arrojo exception al aplicar en cadena vacia");
         } catch (RuntimeException exception) {
             Assert.assertEquals("no se puede aplicar efecto a cadena vacia", exception.getMessage());
