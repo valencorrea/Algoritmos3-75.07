@@ -10,22 +10,23 @@ public class ColegioTest {
     public void conCuatroAlumnosNoHermanosLaDeudaAcumuladaEsDeXXXPesos() {
         Colegio nacional = new Colegio();
 
-        nacional.anotar( new Alumno());
-        nacional.anotar( new Alumno());
-        nacional.anotar( new Alumno());
-        nacional.anotar( new Alumno());
+        nacional.anotar( new Alumno("unNombre", "unApellido"));
+        nacional.anotar( new Alumno("unNombre", "unApellido"));
+        nacional.anotar( new Alumno("unNombre", "unApellido"));
+        nacional.anotar( new Alumno("unNombre", "unApellido"));
 
         assertEquals(400, nacional.deudaAcumulada());
     }
-	
+
     @Test
     public void conDosAlumnosHermanosLaDeudaAcumuladaEsDeXXXPesos() {
         Colegio nacional = new Colegio();
 
         Alumno gabi = new Alumno("gabi", "sabatini");
         nacional.anotar(gabi);
-        nacional.anotar(new Alumno("ova", gabi));
-
+        Alumno ova = new Alumno("ova", "unApellido");
+        ova.agregarHermano(gabi);
+        nacional.anotar(ova);
 
         // Cuando hay dos hermanos, uno de ellos paga 25% menos
         assertEquals(175, nacional.deudaAcumulada());
@@ -36,15 +37,19 @@ public class ColegioTest {
         Colegio nacional = new Colegio();
 
         Alumno gabi = new Alumno("gabi", "sabatini");
-        Alumno quique = new Alumno("quique", gabi);
-        Alumno ova = new Alumno("ova", gabi);
-        nacional.anotar(gabi);
-        nacional.anotar(quique);
-        nacional.anotar(ova);
+        Alumno quique = new Alumno("quique", "unApellido");
+        Alumno ova = new Alumno("ova", "unApellido");
+
+        quique.agregarHermano(gabi);
+        quique.agregarHermano(ova);
+
+        nacional.anotar(quique);//tiene los 3 hermanos -> no paga
+        nacional.anotar(gabi);//paga 100 normal
+        nacional.anotar(ova);//paga 100 normal
+
 
         // Cuando hay tres hermanos, uno de ellos no paga
         assertEquals(200, nacional.deudaAcumulada());
     }
 
-    
 }

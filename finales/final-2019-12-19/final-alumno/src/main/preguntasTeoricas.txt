@@ -1,0 +1,33 @@
+
+DUDAS:
+    - que tan legal es cambiar la ultima test de colegio a como la deje? es mejor para
+    la implementacion pero no se si tiene tanto sentido ya que es como si solo uno de los
+    tres hermanos tuviese hermanos, ya que la lista de hermanos de los otros dos esta vacia. No se
+    me ocurre como puedo hacer respetando que en las tests original hacian:
+
+        Alumno quique = new Alumno("quique", gabi); -> a quique le agrego a gabi como hermano
+        Alumno ova = new Alumno("ova", gabi); -> a ova le agrego a gabi como hermano
+
+
+
+
+a) ¿Qué potenciales problemas de diseño encuentra en el cóodigo? Enumérelos explicando PARA CADA UNO de ellos
+ porqué considera que representan un problema de diseño.
+
+    RESPUESTA:
+        - deudaAcumulada dentro de colegio es muy estructurada y ademas viola el tell dont ask, se
+        tendria que haber encapsulado mas
+        - es legal tener tantos constructores?
+        - deuda en alumno tampoco esta orientada a objetos y tambien viola el tell dont ask
+
+
+
+b) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
+
+    RESPUESTA:
+        - ambos metodos mencionados arriba al estar mas orientados a la programacion estructurada
+        violan el ppio open close
+        - colegio ademas viola el single responsability por tener dos razones de cambio (metodos deudaAcumulada
+        y anotar)
+        - ambas clases tienen como atributos a la clase alumno la cual es concreta -> viola el de inversion
+        de la dependencia
