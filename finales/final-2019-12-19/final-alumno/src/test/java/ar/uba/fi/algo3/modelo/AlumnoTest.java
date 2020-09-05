@@ -21,4 +21,5 @@ public class AlumnoTest {
 
         assertEquals(75, ova.deuda());
     }
+
 }
