@@ -12,7 +12,7 @@ public class Thanos {
         ironMan.recibirAtaque(15);
     }
 
-    public void recibirAtaque(int puntosAtaque) {
+    public void recibirAtaque(double puntosAtaque) {
         this.puntosDeVida -= puntosAtaque;
     }
 }

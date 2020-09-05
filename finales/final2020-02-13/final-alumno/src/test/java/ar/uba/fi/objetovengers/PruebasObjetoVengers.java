@@ -44,10 +44,10 @@ public class PruebasObjetoVengers {
 
         assertEquals(240, thanos.getPuntosDeVida(), DELTA);
     }
-/*
-    @Test
+
+    @Test//y el %?
     public void test05IronManConArmaduraMarkIIQuita12PorCientoDeSuVidaAThanos() {
-        IronManConArmaduraMarkII ironMan = new IronManConArmaduraMarkII();
+        IronMan ironMan = new IronMan (new ArmaduraMarkII());
         Thanos thanos = new Thanos();
 
         ironMan.atacar(thanos); // Ataca con 12
@@ -58,15 +58,15 @@ public class PruebasObjetoVengers {
 
         ironMan.atacar(thanos); // Ataca con 12
 
-        assertEquals(226, thanos.getPuntosDeVida(), DELTA);
+        assertEquals(226, thanos.getPuntosDeVida(), DELTA);// 12% !!
     }
 
     @Test
     public void test06IronManConArmaduraWarMachineAtacaAThanosYLeRoba10PuntosDeVida() {
-        IronManConArmaduraDeWarMachine ironMan = new IronManConArmaduraDeWarMachine();
+        IronMan ironMan = new IronMan (new ArmaduraDeWarMachine());
         Thanos thanos = new Thanos();
 
-        ironMan.atacar(thanos);
+        ironMan.atacar(thanos);//ATACAR LE SACA A UNO Y SE LOS PONE AL OTRO!
 
         assertEquals(240, thanos.getPuntosDeVida(), DELTA);
         assertEquals(110, ironMan.getPuntosDeVida(), DELTA);
@@ -74,7 +74,7 @@ public class PruebasObjetoVengers {
 
     @Test
     public void test07IronManConArmaduraMarkISePoneArmaduraMarkIIYAtacaAThanos() {
-        IronManConArmaduraMarkI ironMan = new IronManConArmaduraMarkI();
+        IronMan ironMan = new IronMan (new ArmaduraMarkI());
         Thanos thanos = new Thanos();
 
         ironMan.atacar(thanos);
@@ -92,7 +92,7 @@ public class PruebasObjetoVengers {
 
     @Test
     public void test08IronManConArmaduraMarkISePoneArmaduraWarMachineYAtacaAThanos() {
-        IronManConArmaduraMarkI ironMan = new IronManConArmaduraMarkI();
+        IronMan ironMan = new IronMan (new ArmaduraMarkI());
         Thanos thanos = new Thanos();
 
         ironMan.atacar(thanos);
@@ -108,7 +108,7 @@ public class PruebasObjetoVengers {
         assertEquals(220, thanos.getPuntosDeVida(), DELTA);
         assertEquals(110, ironMan.getPuntosDeVida(), DELTA);
     }
-
+/*
     @Test
     public void test09IronManConArmaduraMarkIISePoneLasOtrasArmadurasYAtacaAThanos() {
         IronManConArmaduraMarkII ironMan = new IronManConArmaduraMarkII();

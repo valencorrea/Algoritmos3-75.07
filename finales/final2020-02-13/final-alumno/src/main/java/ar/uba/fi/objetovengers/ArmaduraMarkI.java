@@ -8,4 +8,8 @@ public class ArmaduraMarkI implements Armadura {
         return this.puntosAtaque;
     }
 
+    public void atacar(Thanos thanos, IronMan ironMan) {
+        thanos.recibirAtaque(this.puntosAtaque());
+    }
+
 }

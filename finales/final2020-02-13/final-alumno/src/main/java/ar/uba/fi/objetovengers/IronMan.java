@@ -1,12 +1,14 @@
 package ar.uba.fi.objetovengers;
 
+import java.util.LinkedList;
+
 public class IronMan {
 
-    private Armadura armadura;
     private int puntosVida = 100;
+    private LinkedList<Armadura> armaduras = new LinkedList<Armadura>();
 
     public IronMan(Armadura unaArmadura) {
-        this.armadura = unaArmadura;
+        this.armaduras.add(unaArmadura);
     }
 
     public double getPuntosDeVida() {
@@ -18,6 +20,22 @@ public class IronMan {
     }
 
     public void atacar(Thanos thanos) {
-        thanos.recibirAtaque(this.armadura.puntosAtaque());
+        for(Armadura unaArmadura: this.armaduras) {
+            unaArmadura.atacar(thanos, this);
+            //thanos.recibirAtaque(unaArmadura.puntosAtaque());
+            //this.sumarVida(unaArmadura.puntosAtaque());
+        }
+    }
+
+    public void sumarVida(int puntosAtaque) {
+        this.puntosVida += puntosAtaque;
+    }
+
+    public void agregarArmaduraMarkII() {
+        this.armaduras.add(new ArmaduraMarkII());
+    }
+
+    public void agregarArmaduraDeWarMachine() {
+        this.armaduras.add(new ArmaduraDeWarMachine());
     }
 }

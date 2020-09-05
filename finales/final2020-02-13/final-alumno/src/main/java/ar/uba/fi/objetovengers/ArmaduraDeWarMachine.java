@@ -2,8 +2,15 @@ package ar.uba.fi.objetovengers;
 
 public class ArmaduraDeWarMachine implements Armadura {
 
+    private int puntosAtaque = 10;
+
     public int puntosAtaque() {
-        return 0;
+        return this.puntosAtaque;
+    }
+
+    public void atacar(Thanos thanos, IronMan ironMan) {
+        thanos.recibirAtaque(this.puntosAtaque());
+        ironMan.sumarVida(this.puntosAtaque());
     }
 
 }
