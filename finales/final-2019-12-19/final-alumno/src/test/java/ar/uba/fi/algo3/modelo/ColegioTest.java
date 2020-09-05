@@ -52,4 +52,45 @@ public class ColegioTest {
         assertEquals(200, nacional.deuda());
     }
 
+    @Test
+    public void dosHermanosOtroAlumnoYUnaMascotaBuenitaAdeudan325Pe(){
+        Colegio nacional = new Colegio();
+
+        Alumno gabi = new Alumno("gabi", "sabatini");
+        Alumno quique = new Alumno("quique", "unApellido");
+        Alumno ova = new Alumno("ova", "unApellido");
+
+        Mascota boni = new Mascota();
+
+        quique.agregarHermano(gabi);
+
+        nacional.anotar(gabi);
+        nacional.anotar(quique);
+        nacional.anotar(ova);
+        nacional.anotar(boni);
+
+        assertEquals(425, nacional.deuda());
+    }
+
+    @Test
+    public void dosHermanosOtroAlumnoYUnaMascotaQueMordioAdeudan575Pe(){
+        Colegio nacional = new Colegio();
+
+        Alumno gabi = new Alumno("gabi", "sabatini");
+        Alumno quique = new Alumno("quique", "unApellido");
+        Alumno ova = new Alumno("ova", "unApellido");
+
+        Mascota boni = new Mascota();
+        boni.morderMaestra();
+
+        quique.agregarHermano(gabi);
+
+        nacional.anotar(gabi);
+        nacional.anotar(quique);
+        nacional.anotar(ova);
+        nacional.anotar(boni);
+
+        assertEquals(575, nacional.deuda());
+    }
+
 }
