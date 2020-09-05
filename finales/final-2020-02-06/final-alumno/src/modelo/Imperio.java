@@ -8,7 +8,7 @@ public class Imperio {
     private int fondoAcumulado = 0;
 
     public void solicitarRemesaDeProduccion() {
-
+        // no lo se rick falta el enunciado :/
     }
 
     public int getFondoAcumulado() {
