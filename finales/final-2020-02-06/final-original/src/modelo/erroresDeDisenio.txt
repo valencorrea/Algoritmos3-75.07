@@ -1,0 +1,2 @@
+
+- solicitarRemesaDeProduccion es muy estructurado y viola el open close y single responsability
