@@ -3,6 +3,9 @@ DUDAS:
     bien el tipo de letras de los metodos de la interfaz y las que lo implementan?
     en las de mark en atacar no uso el parametro de ironman pero lo necesito porque lo heredo
     flechas dobles en el diagrama de clases?
+    deberia poner los asserts en el de secuencia? (y llamar a la del getpuntosvida)
+    en el de secuencia cuando me mando como parametros deberia poner this o esta bien como
+    esta mandando explicita la clase?
 
 
 1. Analice el modelo otorgado y conteste:
