@@ -1,0 +1,31 @@
+
+DUDAS:
+
+
+
+1. Analice el modelo otorgado y conteste:
+
+	1. ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos por qué
+	 considera que representan un problema de diseño.
+
+	 RESPUESTA:
+	    Algunas cosas que me llamaron la atencion:
+        - no deberia ser normal usar un metodo y esperar que tire exception, como el nombre lo
+        dice deberia ser un caso excepcional
+        - las implementaciones del atacar estan muy estructuradas, mucho if. Ademas se deberian
+        haber modularizado
+        - en los atacar tambien hay mucho codigo repetido
+        - no se inicializan las variables en ninguno de los IronMan ni en thanos
+
+
+
+	2. ¿Se viola algún principio de diseño ? ¿Cuál(es)?
+
+    RESPUESTA:
+        El diseño viola los ppios:
+        - single responsability: ya que los ironMan tienen muchas razones de cambio (ej en
+        IronManConArmaduraDeWarMachine hay 7 razones de cambio ya que implementa 7 mensajes)
+        - open close: al ser el diseño tan estructurado cada vez que agregue una clase de una
+        armadura nueva voy a tener que agregar otra condicion en el atacar por ejemplo
+        - inversion de dependencia: las armaduras tienen de atributos otras armaduras las cuales
+        son clases concretas
