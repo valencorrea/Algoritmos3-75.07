@@ -1,27 +1,18 @@
 package ar.uba.fi.objetovengers;
 
 public class Thanos {
-    private double puntosDeVida;
-    private boolean tieneGemasDelInfinito;
 
-    public Thanos() {
-        this.puntosDeVida = 250;
-        this.tieneGemasDelInfinito = false;
-    }
+    private double puntosDeVida = 250;
 
     public double getPuntosDeVida() {
         return this.puntosDeVida;
     }
 
-    public void recibirDanio(double danio) throws Exception { //que onda esto
-        this.puntosDeVida -= danio;
+    public void atacar(IronMan ironMan) {
+        ironMan.recibirAtaque(15);
     }
 
-    public void atacar(ObjetoVenger ironMan) {
-        ironMan.recibirDanio(this.tieneGemasDelInfinito ? 60 : 15);
-    }
-
-    public void conseguirLasGemasDelInfinito() {
-        this.tieneGemasDelInfinito = true;
+    public void recibirAtaque(int puntosAtaque) {
+        this.puntosDeVida -= puntosAtaque;
     }
 }
