@@ -1,11 +1,11 @@
 package modelo;
 
-public class PlanetaTierra extends Planeta {
+public class PlanetaMarte extends Planeta{
 
-    private int poblacion;
     private int produccionPorHabitante;
+    private int poblacion;
 
-    public PlanetaTierra(int produccionPorHabitante, int poblaccion) {
+    public PlanetaMarte(int produccionPorHabitante, int poblaccion) {
         this.produccionPorHabitante = produccionPorHabitante;
         this.poblacion = poblaccion;
     }
@@ -13,4 +13,5 @@ public class PlanetaTierra extends Planeta {
     public int producir() {
         return this.produccionPorHabitante * this.poblacion;
     }
+
 }
