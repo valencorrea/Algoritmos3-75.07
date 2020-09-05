@@ -28,12 +28,11 @@ public class Alumno implements Deudor{
         return (this.hermanos.size() == 1);
     }
 
-
     private boolean noTieneHermanos() {
         return (this.hermanos.isEmpty());
     }
 
-    public void agregarHermano(Alumno alumno) {
+    public void agregarHermano(Deudor alumno) {
         this.hermanos.add(alumno);
     }
 }
