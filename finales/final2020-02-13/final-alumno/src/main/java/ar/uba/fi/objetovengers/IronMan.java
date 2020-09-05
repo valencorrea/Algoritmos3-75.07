@@ -22,8 +22,6 @@ public class IronMan {
     public void atacar(Thanos thanos) {
         for(Armadura unaArmadura: this.armaduras) {
             unaArmadura.atacar(thanos, this);
-            //thanos.recibirAtaque(unaArmadura.puntosAtaque());
-            //this.sumarVida(unaArmadura.puntosAtaque());
         }
     }
 

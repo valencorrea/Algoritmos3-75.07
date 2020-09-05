@@ -160,11 +160,11 @@ public class PruebasObjetoVengers {
         assertEquals(188, thanos.getPuntosDeVida(), DELTA);
         assertEquals(130, ironMan.getPuntosDeVida(), DELTA);
     }
-/*
+
     @Test
     public void test11ThanosConsigueLasGemasDelInfinitoYAtacaConElCuadrupleDePoder() {
         Thanos thanos = new Thanos();
-        IronManConArmaduraMarkI ironMan = new IronManConArmaduraMarkI();
+        IronMan ironMan = new IronMan (new ArmaduraMarkI());
 
         thanos.conseguirLasGemasDelInfinito();
 
@@ -172,5 +172,5 @@ public class PruebasObjetoVengers {
 
         assertEquals(40, ironMan.getPuntosDeVida(), DELTA);
     }
-*/
+
 }
