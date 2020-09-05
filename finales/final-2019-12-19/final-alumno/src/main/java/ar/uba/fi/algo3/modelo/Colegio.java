@@ -2,17 +2,18 @@ package ar.uba.fi.algo3.modelo;
 
 import java.util.LinkedList;
 
-public class Colegio {
+public class Colegio implements Deudor{
 
-    private LinkedList<Alumno> alumnos = new LinkedList<Alumno>();
+    private LinkedList<Deudor> alumnos = new LinkedList<Deudor>();
     private int deudaAcumulada = 0;
 
     public void anotar(Alumno alumno) {
         this.alumnos.add(alumno);
     }
 
-    public int deudaAcumulada() {
-        for(Alumno alumno: alumnos){
+    @Override
+    public int deuda() {
+        for(Deudor alumno: alumnos){
             this.deudaAcumulada += alumno.deuda();
         }
         return this.deudaAcumulada;

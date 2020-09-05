@@ -15,7 +15,7 @@ public class ColegioTest {
         nacional.anotar( new Alumno("unNombre", "unApellido"));
         nacional.anotar( new Alumno("unNombre", "unApellido"));
 
-        assertEquals(400, nacional.deudaAcumulada());
+        assertEquals(400, nacional.deuda());
     }
 
     @Test
@@ -29,7 +29,7 @@ public class ColegioTest {
         nacional.anotar(ova);
 
         // Cuando hay dos hermanos, uno de ellos paga 25% menos
-        assertEquals(175, nacional.deudaAcumulada());
+        assertEquals(175, nacional.deuda());
     }
 
     @Test
@@ -49,7 +49,7 @@ public class ColegioTest {
 
 
         // Cuando hay tres hermanos, uno de ellos no paga
-        assertEquals(200, nacional.deudaAcumulada());
+        assertEquals(200, nacional.deuda());
     }
 
 }
