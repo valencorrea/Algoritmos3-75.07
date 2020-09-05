@@ -1,4 +1,8 @@
-package ar.uba.fi.objetovengers;
+package ar.uba.fi.objetovengers.armaduras;
+
+import ar.uba.fi.objetovengers.IronMan;
+import ar.uba.fi.objetovengers.Thanos;
+import ar.uba.fi.objetovengers.armaduras.Armadura;
 
 public class ArmaduraDeWarMachine implements Armadura {
 

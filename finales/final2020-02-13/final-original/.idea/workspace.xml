@@ -20,27 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2be9cd-5e1f-4ccd-8075-07f88bfc1508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../final-alumno/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-alumno/.idea/final2020-02-13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-alumno/target/test-classes/ar/uba/fi/objetovengers/PruebasObjetoVengers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/final-original.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/main/ar/uba/fi/objetovengers/IronManConArmaduraDeWarMachine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/main/ar/uba/fi/objetovengers/IronManConArmaduraMarkI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/main/ar/uba/fi/objetovengers/IronManConArmaduraMarkII.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/main/ar/uba/fi/objetovengers/ObjetoVenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/main/ar/uba/fi/objetovengers/Thanos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-alumno/src/main/java/ar/uba/fi/objetovengers/IronManConArmaduraDeWarMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-alumno/src/main/java/ar/uba/fi/objetovengers/IronManConArmaduraMarkI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-alumno/src/main/java/ar/uba/fi/objetovengers/IronManConArmaduraMarkII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-alumno/src/main/java/ar/uba/fi/objetovengers/ObjetoVenger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-alumno/src/main/java/ar/uba/fi/objetovengers/Thanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/main/java/ar/uba/fi/objetovengers/Thanos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-alumno/src/test/java/ar/uba/fi/objetovengers/PruebasObjetoVengers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/test/java/ar/uba/fi/objetovengers/PruebasObjetoVengers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/respuestasConsignas" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/respuestasConsignas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +51,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\repoGitHub\Algoritmos3-75.07\finales\final2020-02-13\final-original" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="PruebasObjetoVengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -103,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599270716233</updated>
-      <workItem from="1599270717410" duration="610000" />
+      <workItem from="1599270717410" duration="1746000" />
     </task>
     <servers />
   </component>

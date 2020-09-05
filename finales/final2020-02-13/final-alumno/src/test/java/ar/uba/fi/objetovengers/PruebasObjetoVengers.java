@@ -1,6 +1,10 @@
 package ar.uba.fi.objetovengers;
 
 import static org.junit.Assert.assertEquals;
+
+import ar.uba.fi.objetovengers.armaduras.ArmaduraDeWarMachine;
+import ar.uba.fi.objetovengers.armaduras.ArmaduraMarkI;
+import ar.uba.fi.objetovengers.armaduras.ArmaduraMarkII;
 import org.junit.Test;
 
 public class PruebasObjetoVengers {

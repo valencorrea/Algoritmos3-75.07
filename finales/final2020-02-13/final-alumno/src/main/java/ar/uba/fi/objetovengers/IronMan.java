@@ -1,5 +1,10 @@
 package ar.uba.fi.objetovengers;
 
+import ar.uba.fi.objetovengers.armaduras.Armadura;
+import ar.uba.fi.objetovengers.armaduras.ArmaduraDeWarMachine;
+import ar.uba.fi.objetovengers.armaduras.ArmaduraMarkI;
+import ar.uba.fi.objetovengers.armaduras.ArmaduraMarkII;
+
 import java.util.LinkedList;
 
 public class IronMan {
