@@ -38,4 +38,8 @@ public class IronMan {
     public void agregarArmaduraDeWarMachine() {
         this.armaduras.add(new ArmaduraDeWarMachine());
     }
+
+    public void agregarArmaduraMarkI() {
+        this.armaduras.add(new ArmaduraMarkI());
+    }
 }

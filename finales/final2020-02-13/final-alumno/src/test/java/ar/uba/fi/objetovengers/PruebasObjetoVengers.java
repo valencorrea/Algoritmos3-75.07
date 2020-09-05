@@ -108,10 +108,10 @@ public class PruebasObjetoVengers {
         assertEquals(220, thanos.getPuntosDeVida(), DELTA);
         assertEquals(110, ironMan.getPuntosDeVida(), DELTA);
     }
-/*
+
     @Test
     public void test09IronManConArmaduraMarkIISePoneLasOtrasArmadurasYAtacaAThanos() {
-        IronManConArmaduraMarkII ironMan = new IronManConArmaduraMarkII();
+        IronMan ironMan = new IronMan (new ArmaduraMarkII());
         Thanos thanos = new Thanos();
 
         ironMan.atacar(thanos);
@@ -136,7 +136,7 @@ public class PruebasObjetoVengers {
 
     @Test
     public void test10IronManConArmaduraWarMachineSePoneLasOtrasArmadurasYAtacaAThanos() {
-        IronManConArmaduraDeWarMachine ironMan = new IronManConArmaduraDeWarMachine();
+        IronMan ironMan = new IronMan (new ArmaduraDeWarMachine());
         Thanos thanos = new Thanos();
 
         ironMan.atacar(thanos); // Ataca con 10 y absorbe 10
@@ -160,7 +160,7 @@ public class PruebasObjetoVengers {
         assertEquals(188, thanos.getPuntosDeVida(), DELTA);
         assertEquals(130, ironMan.getPuntosDeVida(), DELTA);
     }
-
+/*
     @Test
     public void test11ThanosConsigueLasGemasDelInfinitoYAtacaConElCuadrupleDePoder() {
         Thanos thanos = new Thanos();
