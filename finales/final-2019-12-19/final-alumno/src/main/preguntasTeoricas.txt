@@ -11,10 +11,11 @@ DUDAS:
 
 
 
-a) ¿Qué potenciales problemas de diseño encuentra en el cóodigo? Enumérelos explicando PARA CADA UNO de ellos
+···) ¿Qué potenciales problemas de diseño encuentra en el cóodigo? Enumérelos explicando PARA CADA UNO de ellos
  porqué considera que representan un problema de diseño.
 
     RESPUESTA:
+
         - deudaAcumulada dentro de colegio es muy estructurada y ademas viola el tell dont ask, se
         tendria que haber encapsulado mas
         - es legal tener tantos constructores?
@@ -22,12 +23,38 @@ a) ¿Qué potenciales problemas de diseño encuentra en el cóodigo? Enumérelos
 
 
 
-b) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
+···) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
 
     RESPUESTA:
+
         - ambos metodos mencionados arriba al estar mas orientados a la programacion estructurada
         violan el ppio open close
         - colegio ademas viola el single responsability por tener dos razones de cambio (metodos deudaAcumulada
         y anotar)
         - ambas clases tienen como atributos a la clase alumno la cual es concreta -> viola el de inversion
         de la dependencia
+
+
+···) Explique el concepto de SERIALIZACIÓN en POO.
+
+    RESPUESTA:
+
+        es convertir a un objeto en una secuencia de bytes (deserializacion pasar de los bytes al
+        objeto), que puede estar en formato propietario o en un lenguaje standard de texto.
+        serializar no implica que los objetos queden en un medio de memo permanente (no implica
+        persistencia)
+
+
+···) ¿Explique que función cumple M-V-C?
+
+    RESPUESTA:
+
+        MVC es un patron relacionado a la creacion de interfaces que busca separar las responsabilidades
+        en las categorias modelo(logica y entidades), vista(como se muestra al usuario) y controladores
+        (como la interfaz reacciona a sus acciones).
+
+
+···) ¿Como implementa interfaces en SMALLTALK?
+
+    RESPUESTA:
+        No existe el concepto de interfaz en smalltalk
