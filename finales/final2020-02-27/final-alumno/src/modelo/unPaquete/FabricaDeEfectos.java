@@ -1,6 +1,9 @@
-package modelo;
+package unPaquete;
 
-import modelo.efectos.*;
+import unPaquete.efectos.EfectoAgregarNumeroAlFinal;
+import unPaquete.efectos.EfectoDarVuelta;
+import unPaquete.efectos.EfectoPrimerLetraMayuscula;
+import unPaquete.efectos.EfectoPrimerLetraMinuscula;
 
 public class FabricaDeEfectos {
 

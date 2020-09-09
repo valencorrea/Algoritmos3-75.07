@@ -1,8 +1,8 @@
-package test;
+package otroPaquete;
 
-import modelo.FabricaDeEfectos;
 import org.junit.Assert;
 import org.junit.Test;
+import unPaquete.FabricaDeEfectos;
 
 public class EfectosTest {
 

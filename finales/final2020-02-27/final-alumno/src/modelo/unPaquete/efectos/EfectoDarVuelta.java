@@ -1,4 +1,4 @@
-package modelo.efectos;
+package unPaquete.efectos;
 
 public class EfectoDarVuelta extends Efecto {
 

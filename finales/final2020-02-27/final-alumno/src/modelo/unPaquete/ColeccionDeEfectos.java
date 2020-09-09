@@ -1,6 +1,7 @@
-package modelo;
+package unPaquete;
 
-import modelo.efectos.*;
+import unPaquete.efectos.Efecto;
+
 import java.util.ArrayList;
 
 public class ColeccionDeEfectos {
