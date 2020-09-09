@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import modelo.*;
 import modelo.herramientas.Hacha;
 import modelo.herramientas.Soplido;
+import modelo.herramientas.TaladroRotopercutor;
 import modelo.personajes.Chanchitos;
 import modelo.personajes.Lobo;
 import org.junit.Test;
@@ -79,6 +80,19 @@ public class BosqueTest {
 		bosque.loboAtacarCasaDelChanchito();
 
 		assertFalse(bosque.casaDestruida());
+	}
+
+
+	@Test
+	public void test08chanchitosHuyenACasaDeCementoLoboTaladrandoPuedeDestruirla() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo, new Chanchitos());
+
+		bosque.huirHaciaUnaCasaDeCemento();
+		lobo.cambiarHerramienta(new TaladroRotopercutor());
+		bosque.loboAtacarCasaDelChanchito();
+
+		assertTrue(bosque.casaDestruida());
 	}
 
 	@Test

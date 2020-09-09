@@ -12,4 +12,5 @@ public abstract class Casa {
 
     public abstract void usarHachaEnCasita();
 
+    public abstract void taladrarCasita();
 }

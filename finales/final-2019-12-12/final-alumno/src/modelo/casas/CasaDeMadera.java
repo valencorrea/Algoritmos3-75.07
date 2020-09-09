@@ -11,4 +11,9 @@ public class CasaDeMadera extends Casa {
     public void usarHachaEnCasita() {
         this.casaDestruida = true;
     }
+
+    @Override
+    public void taladrarCasita() {
+        this.casaDestruida = true;
+    }
 }

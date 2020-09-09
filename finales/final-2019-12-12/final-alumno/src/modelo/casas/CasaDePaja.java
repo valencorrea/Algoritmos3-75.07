@@ -12,4 +12,9 @@ public class CasaDePaja extends Casa {
         this.casaDestruida = true;
     }
 
+    @Override
+    public void taladrarCasita() {
+        this.casaDestruida = true;
+    }
+
 }
