@@ -1,4 +1,4 @@
-package modelo;
+package modelo.casas;
 
 public class CasaDePaja extends Casa {
 
@@ -11,10 +11,5 @@ public class CasaDePaja extends Casa {
     public void usarHachaEnCasita() {
         this.casaDestruida = true;
     }
-
-    @Override
-    public boolean casaDestruida(){
-        return this.casaDestruida;
-    };
 
 }

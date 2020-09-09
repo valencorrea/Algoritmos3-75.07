@@ -1,6 +1,8 @@
-package modelo;
+package modelo.herramientas;
 
-public class Hacha extends Herramienta {
+import modelo.personajes.Chanchitos;
+
+public class Hacha implements Herramienta {
 
     @Override
     public void atacarCasaDelChanchito(Chanchitos chanchitos) {

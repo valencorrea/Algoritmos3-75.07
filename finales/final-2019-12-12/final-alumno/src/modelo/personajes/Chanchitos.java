@@ -1,4 +1,9 @@
-package modelo;
+package modelo.personajes;
+
+import modelo.casas.Casa;
+import modelo.casas.CasaDeCemento;
+import modelo.casas.CasaDeMadera;
+import modelo.casas.CasaDePaja;
 
 public class Chanchitos {
 
@@ -12,13 +17,14 @@ public class Chanchitos {
         this.casita.soplarCasita();
     }
 
+    public void usarHachaEnCasita() {
+        this.casita.usarHachaEnCasita();
+    }
+
     public void huirHaciaUnaCasaDeMadera() {
         this.casita = new CasaDeMadera();
     }
 
-    public void usarHachaEnCasita() {
-        this.casita.usarHachaEnCasita();
-    }
 
     public void huirHaciaUnaCasaDeCemento() {
         this.casita = new CasaDeCemento();

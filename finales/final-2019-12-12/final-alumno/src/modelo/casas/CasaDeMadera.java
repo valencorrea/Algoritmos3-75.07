@@ -1,4 +1,4 @@
-package modelo;
+package modelo.casas;
 
 public class CasaDeMadera extends Casa {
 

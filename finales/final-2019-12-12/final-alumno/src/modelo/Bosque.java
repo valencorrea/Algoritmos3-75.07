@@ -1,5 +1,8 @@
 package modelo;
 
+import modelo.personajes.Chanchitos;
+import modelo.personajes.Lobo;
+
 public class Bosque {
 
     private final Lobo lobo;

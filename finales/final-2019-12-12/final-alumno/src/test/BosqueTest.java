@@ -3,6 +3,10 @@ package test;
 import static org.junit.Assert.*;
 
 import modelo.*;
+import modelo.herramientas.Hacha;
+import modelo.herramientas.Soplido;
+import modelo.personajes.Chanchitos;
+import modelo.personajes.Lobo;
 import org.junit.Test;
 
 public class BosqueTest {

@@ -1,4 +1,4 @@
-package modelo;
+package modelo.casas;
 
 public abstract class Casa {
 

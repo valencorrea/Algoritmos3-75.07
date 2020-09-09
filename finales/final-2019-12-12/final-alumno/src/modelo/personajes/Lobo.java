@@ -1,4 +1,7 @@
-package modelo;
+package modelo.personajes;
+
+import modelo.herramientas.Herramienta;
+import modelo.herramientas.Soplido;
 
 public class Lobo {
 
