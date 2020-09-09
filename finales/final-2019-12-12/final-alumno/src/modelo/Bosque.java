@@ -2,25 +2,25 @@ package modelo;
 
 public class Bosque {
 
+    private Chanchitos chanchitos;
     private Lobo lobo;
-    private boolean casaDestruida = false;
-    private CasaDePaja casita = new CasaDePaja();
 
-    public Bosque(Lobo lobo) {
+    public Bosque(Lobo lobo, Chanchitos chanchitos) {
         this.lobo = lobo;
+        this.chanchitos = chanchitos;
     }
 
     public boolean casaDestruida() {
-        return this.casaDestruida;
+        return this.chanchitos.casaDestruida();
     }
 
     public void loboAtacarCasaDelChanchito() {
-//        this.lobo.atacarCasaDelChanchito(this.casita, this.casaDestruida);
-            this.casaDestruida = true;
+        this.lobo.atacarCasaDelChanchito(this.chanchitos);
     }
+/*
 
     public void huirHaciaUnaCasaDeMadera() {
         this.casita = new CasaDeMadera();
         this.casaDestruida = false;
-    }
+    }*/
 }

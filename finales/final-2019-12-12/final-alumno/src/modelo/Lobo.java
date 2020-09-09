@@ -2,7 +2,9 @@ package modelo;
 
 public class Lobo {
 
-    public void atacarCasaDelChanchito(CasaDePaja casita, boolean casaDestruida) {
+    private Soplido ataque = new Soplido();
 
+    public void atacarCasaDelChanchito(Chanchitos chanchitos) {
+        chanchitos.loboAtacarCasita(this.ataque);
     }
 }
