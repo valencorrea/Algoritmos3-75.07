@@ -82,13 +82,35 @@ public class BosqueTest {
 		assertFalse(bosque.casaDestruida());
 	}
 
-
 	@Test
 	public void test08chanchitosHuyenACasaDeCementoLoboTaladrandoPuedeDestruirla() {
 		Lobo lobo = new Lobo();
 		Bosque bosque = new Bosque(lobo, new Chanchitos());
 
 		bosque.huirHaciaUnaCasaDeCemento();
+		lobo.cambiarHerramienta(new TaladroRotopercutor());
+		bosque.loboAtacarCasaDelChanchito();
+
+		assertTrue(bosque.casaDestruida());
+	}
+
+	@Test
+	public void test09chanchitosHuyenACasaDeMaderaLoboTaladrandoPuedeDestruirla() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo, new Chanchitos());
+
+		bosque.huirHaciaUnaCasaDeMadera();
+		lobo.cambiarHerramienta(new TaladroRotopercutor());
+		bosque.loboAtacarCasaDelChanchito();
+
+		assertTrue(bosque.casaDestruida());
+	}
+
+	@Test
+	public void test10chanchitosEnCasaDePajaLoboTaladrandoPuedeDestruirla() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo, new Chanchitos());
+
 		lobo.cambiarHerramienta(new TaladroRotopercutor());
 		bosque.loboAtacarCasaDelChanchito();
 

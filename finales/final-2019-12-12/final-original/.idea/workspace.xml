@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a97cfff-1f6a-4b71-86f9-5ec3338f54ec" name="Default Changelist" comment="" />
+    <list default="true" id="1a97cfff-1f6a-4b71-86f9-5ec3338f54ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/herramientas/TaladroRotopercutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/casas/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/casas/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/casas/CasaDeCemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/casas/CasaDeCemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/casas/CasaDeMadera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/casas/CasaDeMadera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/casas/CasaDePaja.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/casas/CasaDePaja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/personajes/Chanchitos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/personajes/Chanchitos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/test/BosqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/test/BosqueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
