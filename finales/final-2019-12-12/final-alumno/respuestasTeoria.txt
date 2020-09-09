@@ -1,5 +1,5 @@
-1.
-	a) ¿Qué potenciales problemas de diseño encuentra en el codigo? Enumérelos explicando PARA CADA UNO de ellos porqué considera que representan un problema de diseño.
+
+···) ¿Qué potenciales problemas de diseño encuentra en el codigo? Enumérelos explicando PARA CADA UNO de ellos porqué considera que representan un problema de diseño.
 
         RESPUESTA:
             muchos ifs, numeros magicos, se hereda de una concreta, se viola el polimorfismo cuando se
@@ -8,10 +8,34 @@
             y las unitarias?????¿¿¿¿¿¿¿
 
 
-	b) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
+
+···) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
 
         RESPUESTA:
             - dependency inversion: las casas depentden de CasaDelChanchito y esta es concreta
             - open close: en loboAtacarCasaDelChanchito para cuando quiera agregar herramientas
             - single resp: en Bosque (4 razones de cambio)
 
+
+
+···) Explique el concepto de PERSISTENCIA en POO.
+
+        RESPUESTA:
+            Refiere a que un dato SOBREVIVA despues de que el proceso/app termine (recupera los objetos
+            con los que estaba trabajando antes de cortar)
+
+
+
+···) ¿Que tipos de persistencia conoce?
+
+        RESPUESTA:
+            - nativa: provista por la plataforma (ej: java, smalltalk)
+            - no nativa: a travez de una biblio externa o programada a mano
+
+
+
+···) ¿Como la implementan JAVA y SMALLTALK?
+
+        RESPUESTA:
+            - java: se implementa a travez de la interfaz Serializable
+            - smalltalk: ni idea <-------- VER CLASE
