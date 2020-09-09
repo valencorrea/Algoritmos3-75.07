@@ -2,11 +2,8 @@ package modelo;
 
 public class Soplido {
 
-    public boolean puedeDestruirCasaDePaja() {
-        return true;
+    public void atacarCasaDelChanchito(Chanchitos chanchitos) {
+        chanchitos.soplarCasita();
     }
 
-    public boolean puedeDestruirCasaDeMadera() {
-        return false;
-    }
 }

@@ -2,21 +2,13 @@ package modelo;
 
 public class Chanchitos {
 
-    private Casa casita;
-
-    public Chanchitos(){
-        this.casita = new CasaDePaja();
-    }
+    private Casa casita = new CasaDePaja();
 
     public boolean casaDestruida() {
-        return casita.casaDestruida();
+        return this.casita.casaDestruida();
     }
 
-    public void loboAtacarCasita(Soplido ataque) {
-        this.casita.loboAtacarCasita(ataque);
-    }
-
-    public void huirHaciaUnaCasaDeMadera() {
-        this.casita = new CasaDeMadera();
+    public void soplarCasita() {
+        this.casita.soplarCasita();
     }
 }

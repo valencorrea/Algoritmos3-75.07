@@ -2,9 +2,10 @@ package modelo;
 
 public class Lobo {
 
-    private Soplido ataque = new Soplido();
+    private Soplido ataque = new Soplido(); //Despues cambiar a clase Ataque
 
     public void atacarCasaDelChanchito(Chanchitos chanchitos) {
-        chanchitos.loboAtacarCasita(this.ataque);
+        this.ataque.atacarCasaDelChanchito(chanchitos);
     }
+
 }

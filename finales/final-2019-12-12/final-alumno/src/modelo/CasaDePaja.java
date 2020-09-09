@@ -1,14 +1,15 @@
 package modelo;
 
-public class CasaDePaja implements Casa {
+public class CasaDePaja extends Casa {
 
-    private boolean casaDestruida = false;
-
-    public void loboAtacarCasita(Soplido ataque) {
-        this.casaDestruida = ataque.puedeDestruirCasaDePaja();
+    @Override
+    public void soplarCasita() {
+        this.casaDestruida = true;
     }
 
-    public boolean casaDestruida() {
+    @Override
+    public boolean casaDestruida(){
         return this.casaDestruida;
-    }
+    };
+
 }

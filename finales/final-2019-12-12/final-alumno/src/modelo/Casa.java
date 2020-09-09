@@ -1,7 +1,13 @@
 package modelo;
 
-public interface Casa {
-    boolean casaDestruida();
+public abstract class Casa {
 
-    void loboAtacarCasita(Soplido ataque);
+    protected boolean casaDestruida;
+
+    public boolean casaDestruida(){
+        return false;
+    };
+
+    public abstract void soplarCasita();
+
 }

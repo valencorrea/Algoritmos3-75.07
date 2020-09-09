@@ -2,8 +2,8 @@ package modelo;
 
 public class Bosque {
 
-    private Chanchitos chanchitos;
-    private Lobo lobo;
+    private final Lobo lobo;
+    private final Chanchitos chanchitos;
 
     public Bosque(Lobo lobo, Chanchitos chanchitos) {
         this.lobo = lobo;
@@ -17,9 +17,4 @@ public class Bosque {
     public void loboAtacarCasaDelChanchito() {
         this.lobo.atacarCasaDelChanchito(this.chanchitos);
     }
-
-    public void huirHaciaUnaCasaDeMadera() {
-        this.chanchitos.huirHaciaUnaCasaDeMadera();
-    }
-
 }
