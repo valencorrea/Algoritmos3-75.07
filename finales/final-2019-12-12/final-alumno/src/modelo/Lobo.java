@@ -2,10 +2,13 @@ package modelo;
 
 public class Lobo {
 
-    private Soplido ataque = new Soplido(); //Despues cambiar a clase Ataque
+    private Herramienta herramienta = new Soplido();
 
     public void atacarCasaDelChanchito(Chanchitos chanchitos) {
-        this.ataque.atacarCasaDelChanchito(chanchitos);
+        this.herramienta.atacarCasaDelChanchito(chanchitos);
     }
 
+    public void cambiarHerramienta(Herramienta herramienta) {
+        this.herramienta = herramienta;
+    }
 }

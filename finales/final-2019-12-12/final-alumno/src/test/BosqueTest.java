@@ -4,20 +4,21 @@ import static org.junit.Assert.*;
 
 import modelo.Bosque;
 import modelo.Chanchitos;
+import modelo.Hacha;
 import modelo.Lobo;
 import org.junit.Test;
 
 public class BosqueTest {
 
 	@Test
-	public void creoUnBosqueYLaCasaNoEstaDestruida() {
+	public void test01creoUnBosqueYLaCasaNoEstaDestruida() {
 		Bosque bosque = new Bosque(new Lobo(), new Chanchitos());
 
 		assertFalse(bosque.casaDestruida());
 	}
 
 	@Test
-	public void siElLoboAtacaSoplandoALaCasaDePajaSeDestruye() {
+	public void test02siElLoboAtacaSoplandoALaCasaDePajaSeDestruye() {
 		Bosque bosque = new Bosque(new Lobo(), new Chanchitos());
 
 		bosque.loboAtacarCasaDelChanchito();
@@ -26,7 +27,7 @@ public class BosqueTest {
 	}
 
 	@Test
-	public void chanchitosVanALaCasaDeMaderaYNoEstaDestruida() {
+	public void test03chanchitosVanALaCasaDeMaderaYNoEstaDestruida() {
 		Bosque bosque = new Bosque(new Lobo(), new Chanchitos());
 
 		bosque.huirHaciaUnaCasaDeMadera();
@@ -35,7 +36,7 @@ public class BosqueTest {
 	}
 
 	@Test
-	public void loboQuiereDestruirCasaDeMaderaSoplandoNoPuede() {
+	public void test04loboQuiereDestruirCasaDeMaderaSoplandoNoPuede() {
 		Bosque bosque = new Bosque(new Lobo(), new Chanchitos());
 
 		bosque.huirHaciaUnaCasaDeMadera();
@@ -43,12 +44,23 @@ public class BosqueTest {
 
 		assertFalse(bosque.casaDestruida());
 	}
-/*
+
 	@Test
-	public void jueguemosEnElBosqueMientrasLoboNoEstaLoboEsta() {
+	public void test05loboQuiereDestruirCasaDeMaderaConHachaPuede() {
 
 		Lobo lobo = new Lobo();
-		Bosque bosque = new Bosque(lobo);
+		Bosque bosque = new Bosque(lobo, new Chanchitos());
+
+		lobo.cambiarHerramienta(new Hacha());
+
+		bosque.loboAtacarCasaDelChanchito();
+		assertTrue(bosque.casaDestruida());
+	}
+
+	@Test
+	public void jueguemosEnElBosqueMientrasLoboNoEstaLoboEsta() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo, new Chanchitos());
 		
 		// 1. LA CASA NO ESTA DESTRUIDA
 		assertFalse(bosque.casaDestruida());
@@ -70,10 +82,10 @@ public class BosqueTest {
 		assertFalse(bosque.casaDestruida());
 
 		// 7. LOBO CAMBIA DE HERRAMIENTA Y DESTRUYE LA CASA DE MADERA
-		lobo.cambiarHerramienta(Herramienta.HACHA);
+		lobo.cambiarHerramienta(new Hacha());
 		bosque.loboAtacarCasaDelChanchito();
 		assertTrue(bosque.casaDestruida());
-
+/*
 		// 8. LOS CHANCHITOS HUYEN A LA CASA DE CEMENTO
 		bosque.huirHaciaUnaCasaDeCemento();
 		
@@ -85,7 +97,6 @@ public class BosqueTest {
 		lobo.cambiarHerramienta(Herramienta.PULMONES);
 		bosque.loboAtacarCasaDelChanchito();
 		assertFalse(bosque.casaDestruida());
-
-	}
 */
+	}
 }

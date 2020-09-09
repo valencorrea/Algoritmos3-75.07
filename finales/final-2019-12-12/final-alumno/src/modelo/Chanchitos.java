@@ -15,4 +15,8 @@ public class Chanchitos {
     public void huirHaciaUnaCasaDeMadera() {
         this.casita = new CasaDeMadera();
     }
+
+    public void usarHachaEnCasita() {
+        this.casita.usarHachaEnCasita();
+    }
 }
