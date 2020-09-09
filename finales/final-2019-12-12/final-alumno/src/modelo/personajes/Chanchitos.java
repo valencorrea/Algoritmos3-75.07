@@ -25,7 +25,6 @@ public class Chanchitos {
         this.casita = new CasaDeMadera();
     }
 
-
     public void huirHaciaUnaCasaDeCemento() {
         this.casita = new CasaDeCemento();
     }
