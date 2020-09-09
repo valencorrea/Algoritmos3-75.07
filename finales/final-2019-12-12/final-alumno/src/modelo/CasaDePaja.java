@@ -1,8 +1,8 @@
 package modelo;
 
-public class CasaDePaja {
+public class CasaDePaja implements Casa {
 
-    private boolean casaDestruida;
+    private boolean casaDestruida = false;
 
     public void loboAtacarCasita(Soplido ataque) {
         this.casaDestruida = ataque.puedeDestruirCasaDePaja();

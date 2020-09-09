@@ -2,7 +2,11 @@ package modelo;
 
 public class Chanchitos {
 
-    private CasaDePaja casita = new CasaDePaja();
+    private Casa casita;
+
+    public Chanchitos(){
+        this.casita = new CasaDePaja();
+    }
 
     public boolean casaDestruida() {
         return casita.casaDestruida();
@@ -10,5 +14,9 @@ public class Chanchitos {
 
     public void loboAtacarCasita(Soplido ataque) {
         this.casita.loboAtacarCasita(ataque);
+    }
+
+    public void huirHaciaUnaCasaDeMadera() {
+        this.casita = new CasaDeMadera();
     }
 }

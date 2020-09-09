@@ -6,4 +6,7 @@ public class Soplido {
         return true;
     }
 
+    public boolean puedeDestruirCasaDeMadera() {
+        return false;
+    }
 }

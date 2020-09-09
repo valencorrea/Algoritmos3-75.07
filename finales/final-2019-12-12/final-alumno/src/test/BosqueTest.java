@@ -3,6 +3,7 @@ package test;
 import static org.junit.Assert.*;
 
 import modelo.Bosque;
+import modelo.CasaDeMadera;
 import modelo.Chanchitos;
 import modelo.Lobo;
 import org.junit.Test;
@@ -24,28 +25,27 @@ public class BosqueTest {
 
 		assertTrue(bosque.casaDestruida());
 	}
-/*
+
 	@Test
 	public void chanchitosVanALaCasaDeMaderaYNoEstaDestruida() {
-		Lobo lobo = new Lobo();
-		Bosque bosque = new Bosque(lobo);
+		Bosque bosque = new Bosque(new Lobo(), new Chanchitos());
 
 		bosque.huirHaciaUnaCasaDeMadera();
 
-		assertFalse(bosque.casaDestruida());
+		assertFalse(bosque.casaDestruida());//se esta llamando a la casa de paja por alguna razon
 	}
 
 	@Test
 	public void loboQuiereDestruirCasaDeMaderaSoplandoNoPuede() {
-		Lobo lobo = new Lobo();
-		Bosque bosque = new Bosque(lobo);
+		Bosque bosque = new Bosque(new Lobo(), new Chanchitos());
 
 		bosque.huirHaciaUnaCasaDeMadera();
+		bosque.loboAtacarCasaDelChanchito();
 
 		assertFalse(bosque.casaDestruida());
 	}
 
-
+/*
 	@Test
 	public void jueguemosEnElBosqueMientrasLoboNoEstaLoboEsta() {
 
