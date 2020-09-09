@@ -16,8 +16,6 @@ public class BosqueTest {
 		assertFalse(bosque.casaDestruida());
 	}
 
-
-
 	@Test
 	public void siElLoboAtacaSoplandoALaCasaDePajaSeDestruye() {
 		Bosque bosque = new Bosque(new Lobo(), new Chanchitos());
@@ -26,7 +24,7 @@ public class BosqueTest {
 
 		assertTrue(bosque.casaDestruida());
 	}
-/*
+
 	@Test
 	public void chanchitosVanALaCasaDeMaderaYNoEstaDestruida() {
 		Bosque bosque = new Bosque(new Lobo(), new Chanchitos());
@@ -45,6 +43,7 @@ public class BosqueTest {
 
 		assertFalse(bosque.casaDestruida());
 	}
+/*
 	@Test
 	public void jueguemosEnElBosqueMientrasLoboNoEstaLoboEsta() {
 

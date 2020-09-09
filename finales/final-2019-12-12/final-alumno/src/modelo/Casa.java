@@ -8,6 +8,8 @@ public abstract class Casa {
         return false;
     };
 
-    public abstract void soplarCasita();
+    public void soplarCasita(){
+        this.casaDestruida = false;
+    };
 
 }

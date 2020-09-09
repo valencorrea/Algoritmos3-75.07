@@ -17,4 +17,8 @@ public class Bosque {
     public void loboAtacarCasaDelChanchito() {
         this.lobo.atacarCasaDelChanchito(this.chanchitos);
     }
+
+    public void huirHaciaUnaCasaDeMadera() {
+        this.chanchitos.huirHaciaUnaCasaDeMadera();
+    }
 }
