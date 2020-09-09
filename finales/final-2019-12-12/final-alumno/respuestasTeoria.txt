@@ -5,6 +5,7 @@
             muchos ifs, numeros magicos, se hereda de una concreta, se viola el polimorfismo cuando se
             pregunta si es una instance of, y cuando se chequea el tipo por ej con Herramineta.PULMONES
             las casas quedaron como clases contenedoras.
+            y las unitarias?????¿¿¿¿¿¿¿
 
 
 	b) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?

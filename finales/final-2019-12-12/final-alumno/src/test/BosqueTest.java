@@ -2,14 +2,51 @@ package test;
 
 import static org.junit.Assert.*;
 
+import modelo.Bosque;
+import modelo.Lobo;
 import org.junit.Test;
-
-import personajes.Bosque;
-import personajes.Herramienta;
-import personajes.Lobo;
 
 public class BosqueTest {
 
+	@Test
+	public void creoUnBosqueYLaCasaNoEstaDestruida() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo);
+
+		assertFalse(bosque.casaDestruida());
+	}
+
+	@Test
+	public void siElLoboAtacaSoplandoALaCasaDePajaSeDestruye() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo);
+
+		bosque.loboAtacarCasaDelChanchito();
+
+		assertTrue(bosque.casaDestruida());
+	}
+
+	@Test
+	public void chanchitosVanALaCasaDeMaderaYNoEstaDestruida() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo);
+
+		bosque.huirHaciaUnaCasaDeMadera();
+
+		assertFalse(bosque.casaDestruida());
+	}
+/*
+	@Test
+	public void chanchitosVanALaCasaDeMaderaYNoEstaDestruida() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo);
+
+		bosque.huirHaciaUnaCasaDeMadera();
+
+		assertFalse(bosque.casaDestruida());
+	}*/
+
+/*
 	@Test
 	public void jueguemosEnElBosqueMientrasLoboNoEstaLoboEsta() {
 
@@ -53,5 +90,5 @@ public class BosqueTest {
 		assertFalse(bosque.casaDestruida());
 
 	}
-
+*/
 }
