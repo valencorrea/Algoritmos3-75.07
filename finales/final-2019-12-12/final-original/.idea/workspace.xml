@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a97cfff-1f6a-4b71-86f9-5ec3338f54ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../final-alumno/out/production/final-alumno/modelo/CasaDeMadera.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-alumno/out/production/final-alumno/modelo/Soplido.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/Hacha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/Herramienta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/Lobo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/Lobo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/Soplido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/Soplido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/CasaDeCemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/Bosque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/Bosque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-alumno/src/modelo/Chanchitos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/modelo/Chanchitos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-alumno/src/test/BosqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-alumno/src/test/BosqueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>

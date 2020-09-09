@@ -21,4 +21,8 @@ public class Bosque {
     public void huirHaciaUnaCasaDeMadera() {
         this.chanchitos.huirHaciaUnaCasaDeMadera();
     }
+
+    public void huirHaciaUnaCasaDeCemento() {
+        this.chanchitos.huirHaciaUnaCasaDeCemento();
+    }
 }

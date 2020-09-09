@@ -12,6 +12,8 @@ public abstract class Casa {
         this.casaDestruida = false;
     };
 
-    public abstract void usarHachaEnCasita();
+    public void usarHachaEnCasita(){
+        this.casaDestruida = false;
+    };
 
 }

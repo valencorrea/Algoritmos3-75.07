@@ -58,6 +58,20 @@ public class BosqueTest {
 	}
 
 	@Test
+	public void test06chanchitosHuyenACasaDeCementoLoboConHachaNoPuedeDestruirla() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo, new Chanchitos());
+
+		lobo.cambiarHerramienta(new Hacha());
+		bosque.huirHaciaUnaCasaDeCemento();
+		bosque.loboAtacarCasaDelChanchito();
+
+		assertFalse(bosque.casaDestruida());
+
+
+	}
+
+	@Test
 	public void jueguemosEnElBosqueMientrasLoboNoEstaLoboEsta() {
 		Lobo lobo = new Lobo();
 		Bosque bosque = new Bosque(lobo, new Chanchitos());
@@ -85,14 +99,15 @@ public class BosqueTest {
 		lobo.cambiarHerramienta(new Hacha());
 		bosque.loboAtacarCasaDelChanchito();
 		assertTrue(bosque.casaDestruida());
-/*
+
 		// 8. LOS CHANCHITOS HUYEN A LA CASA DE CEMENTO
 		bosque.huirHaciaUnaCasaDeCemento();
-		
+
+
 		// 9. LOBO NO PUEDE DESTRUIRLA
 		bosque.loboAtacarCasaDelChanchito();
 		assertFalse(bosque.casaDestruida());
-		
+/*
 		// 10. SOPLANDO MUCHO MENOS...
 		lobo.cambiarHerramienta(Herramienta.PULMONES);
 		bosque.loboAtacarCasaDelChanchito();
