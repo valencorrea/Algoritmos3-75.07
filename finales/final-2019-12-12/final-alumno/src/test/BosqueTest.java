@@ -2,10 +2,7 @@ package test;
 
 import static org.junit.Assert.*;
 
-import modelo.Bosque;
-import modelo.Chanchitos;
-import modelo.Hacha;
-import modelo.Lobo;
+import modelo.*;
 import org.junit.Test;
 
 public class BosqueTest {
@@ -67,8 +64,17 @@ public class BosqueTest {
 		bosque.loboAtacarCasaDelChanchito();
 
 		assertFalse(bosque.casaDestruida());
+	}
 
+	@Test
+	public void test07chanchitosHuyenACasaDeCementoLoboSoplandoNoPuedeDestruirla() {
+		Lobo lobo = new Lobo();
+		Bosque bosque = new Bosque(lobo, new Chanchitos());
 
+		bosque.huirHaciaUnaCasaDeCemento();
+		bosque.loboAtacarCasaDelChanchito();
+
+		assertFalse(bosque.casaDestruida());
 	}
 
 	@Test
@@ -107,11 +113,11 @@ public class BosqueTest {
 		// 9. LOBO NO PUEDE DESTRUIRLA
 		bosque.loboAtacarCasaDelChanchito();
 		assertFalse(bosque.casaDestruida());
-/*
+
 		// 10. SOPLANDO MUCHO MENOS...
-		lobo.cambiarHerramienta(Herramienta.PULMONES);
+		lobo.cambiarHerramienta(new Soplido());
 		bosque.loboAtacarCasaDelChanchito();
 		assertFalse(bosque.casaDestruida());
-*/
+
 	}
 }
