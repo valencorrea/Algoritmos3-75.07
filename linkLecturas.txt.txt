@@ -1,0 +1,2 @@
+
+1. "Design Principles Behind Smalltalk", Dan Ingalls -> https://www.smalltalking.net/Papers/stDesign/stDesign.htm

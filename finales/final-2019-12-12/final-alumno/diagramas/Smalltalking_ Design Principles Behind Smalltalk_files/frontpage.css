@@ -1,0 +1,90 @@
+/* Archivo CSS del sitio web de Smalltalking */
+
+body {
+	margin-top: 0pt;
+	margin-left: 10pt;
+	margin-right: 10pt;
+	font-family: Arial;
+	font-size: 10pt;
+	background-color: white;
+	background-image: url('images/background.png');
+	background-repeat: repeat-x;
+	text-align: left;
+}
+
+img {	border: 0;	}
+
+		
+.section {
+	font-family: 'Trebuchet MS',Times;
+	font-size: 10pt;
+	width: 250px;
+	text-align: left;
+}
+
+#leftlinks, #rightlinks { vertical-align: top }
+
+#newslinks {
+	vertical-align: top;
+	width: 0pt;
+	font-size: 8pt;
+	text-align: center;
+}		
+
+#news {
+border: 1pt solid gold;
+background-color: #FFFFBB;
+text-align: left;
+font-weight: bold;
+padding-left: 10pt;
+padding-right: 10pt;
+padding-bottom: 5pt;
+padding-top: 5pt;
+float: center;
+width: 80%;
+}
+
+
+dl { margin: 0 }
+
+td.sectionIcon {
+	margin-right: 10pt;
+	text-align: right;
+	vertical-align: top;}
+
+
+h2.secHead {
+	font-size: 10pt;
+	font-weight: bold;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+p.secDesc {
+	font-size: 9pt;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+
+/* Links de encabezados de sección */
+a.sec:link, a.sec:visited { text-decoration: none; color: black; }
+
+a.sec:hover {
+	color:red;
+	border: 1pt solid gold;
+	background-color: yellow;
+	padding-left: 5pt;
+	padding-right: 5pt;
+}
+
+/* Links estándar */
+a:link, a:visited { text-decoration: underline; }
+
+a:hover { color:red; }
+
+p.footer {
+	font-size: 9pt;
+	}
+
