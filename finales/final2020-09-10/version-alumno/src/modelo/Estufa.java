@@ -1,6 +1,6 @@
 package modelo;
 
-public class Estufa {
+public class Estufa extends ComponenteElectrico{
 
     private final int precioKw;
     private final int ambientes;
@@ -12,6 +12,7 @@ public class Estufa {
         this.calorias = calorias;
     }
 
+    @Override
     public int gasto() {
         return (this.precioKw * this. ambientes * this.calorias);
     }

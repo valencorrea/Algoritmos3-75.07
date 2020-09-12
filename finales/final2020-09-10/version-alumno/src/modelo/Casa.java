@@ -4,23 +4,30 @@ import java.util.LinkedList;
 
 public class Casa {
 
-    private LinkedList<Estufa> estufas = new LinkedList<Estufa>();
+    private LinkedList<ComponenteElectrico> componentesElectricos = new LinkedList<ComponenteElectrico>();
 
     public void comprarEstufa(int ambientes, int precioKw, int calorias) {
-        this.guardarEstufa(new Estufa(ambientes, precioKw, calorias));
+        this.guardarArtefacto(new Estufa(ambientes, precioKw, calorias));
     }
 
-    private void guardarEstufa(Estufa estufa) {
-        this.estufas.add(estufa);
+    public void comprarLosaRadiante(int metros, int precioKw) {
+        this.guardarArtefacto(new LosaRadiante(metros, precioKw));
+    }
+
+    private void guardarArtefacto(ComponenteElectrico componente) {
+        this.componentesElectricos.add(componente);
     }
 
     public int gastoTotal() {
         int precio = 0;
 
-        for(Estufa estufa: this.estufas){
-            precio += estufa.gasto();
+        for(ComponenteElectrico componente: this.componentesElectricos){
+            precio += componente.gasto();
         }
 
         return precio;
     }
+
+
+
 }

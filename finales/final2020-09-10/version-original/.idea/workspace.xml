@@ -20,38 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33dc222-a8ba-42bd-8843-4bfce5ff8823" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/out/production/final-alumno/modelo/EmpanadaCeliaca.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/out/production/final-alumno/modelo/EmpanaderoCeliaco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/comida/PanNoCeliaco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../version-alumno/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../version-alumno/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../version-alumno/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../version-alumno/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../version-alumno/respuestas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../version-alumno/version-alumno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/version-original/Casa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/version-original/CasaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/version-original/ComponenteElectrico.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/version-original.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/Comida.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/comida/Comida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/EmpanadaCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/comida/EmpanadaCeliaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/EmpanadaNoCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/comida/EmpanadaNoCeliaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/EmpanaderoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/EmpanaderoCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/EmpanaderoNoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/EmpanaderoNoCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PanCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/comida/PanCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PanNoCeliaco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PanaderoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PanaderoCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PanaderoNoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PanaderoNoCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PersonaCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PersonaCeliaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PersonaNoCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/modelo/PersonaNoCeliaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/test/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-07-25/final-alumno/src/test/PersonaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/LosaRadiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/tests/CasaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/tests/CasaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599943541464</updated>
-      <workItem from="1599943546966" duration="825000" />
+      <workItem from="1599943546966" duration="2027000" />
     </task>
     <servers />
   </component>
