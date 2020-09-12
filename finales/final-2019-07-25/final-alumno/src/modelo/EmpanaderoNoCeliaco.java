@@ -1,6 +1,6 @@
 package modelo;
 
-public class Empanadero {
+public class EmpanaderoNoCeliaco {
 
     public EmpanadaNoCeliaca hacerEmpanada() {
         return new EmpanadaNoCeliaca();

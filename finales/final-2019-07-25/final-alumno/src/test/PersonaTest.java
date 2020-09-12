@@ -6,6 +6,8 @@ import org.junit.Test;
 
 public class PersonaTest {
 
+
+	/* Persona no celiaca */
 	@Test
 	public void unNoCeliacoArrancaTeniendo0CaloriasEnSuCuerpo() {
 
@@ -19,7 +21,7 @@ public class PersonaTest {
 
 		PersonaNoCeliaca personaNoCeliaca = new PersonaNoCeliaca();
 
-		Panadero panadero = new Panadero();
+		PanaderoNoCeliaco panadero = new PanaderoNoCeliaco();
 		PanNoCeliaco pan = panadero.hacerPan();
 		personaNoCeliaca.comer(pan);
 		Assert.assertEquals(personaNoCeliaca.getCalorias(), 10);
@@ -31,11 +33,39 @@ public class PersonaTest {
 
 		PersonaNoCeliaca personaNoCeliaca = new PersonaNoCeliaca();
 
-		Empanadero empanadero = new Empanadero();
+		EmpanaderoNoCeliaco empanadero = new EmpanaderoNoCeliaco();
 		EmpanadaNoCeliaca empanada = empanadero.hacerEmpanada();
 		personaNoCeliaca.comer(empanada);
 		Assert.assertEquals(personaNoCeliaca.getCalorias(), 15);
 
 	}
+
+/*
+
+	@Test
+	public void personaCeliacaArrancaTeniendo0CaloriasEnSuCuerpo() {
+
+		PersonaCeliaca celiaco = new PersonaCeliaca();
+		Assert.assertEquals(celiaco.getCalorias(), 0);
+
+	}
+
+	@Test
+	public void unCeliacoComePanCeliacoPasaATener10CaloriasEnSuCuerpo() {
+
+		PersonaCeliaca personaCeliaca = new PersonaCeliaca();
+
+		Panadero panadero = new Panadero();
+		PanCeliaco pan = panadero.hacerPan();
+		personaCeliaca.comer(pan);
+		Assert.assertEquals(personaCeliaca.getCalorias(), 10);
+
+	}
+
+*/
+	/*
+	*
+	*
+	* */
 
 }

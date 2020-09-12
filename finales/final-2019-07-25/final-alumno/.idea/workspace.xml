@@ -20,36 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1057d74-e009-41f8-806c-5cf2ec785731" name="Default Changelist" comment="pasa la primer test (dividida en 3 unit tests)">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-alumno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/Comida.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/EmpanadaNoCeliaca.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/Empanadero.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/PanNoCeliaco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/Panadero.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/PersonaNoCeliaca.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/test/PersonaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/respuestas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Comida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/EmpanadaNoCeliaca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Empanadero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/PanNoCeliaco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Panadero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/PersonaNoCeliaca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/PersonaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-original/src/comensales/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-original/src/especialistas/Empanadero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-original/src/especialistas/EmpanaderoCeliaco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-original/src/especialistas/EmpanaderoYPanadero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-original/src/especialistas/Panadero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-original/src/especialistas/PanaderoCeliaco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-original/src/test/PersonaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/PersonaCeliaca.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/EmpanaderoNoCeliaco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/PanCeliaco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/PanaderoNoCeliaco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/PersonaCeliaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/modelo/Panadero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/PersonaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/test/PersonaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Comida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Comida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Empanadero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Panadero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PersonaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -172,8 +155,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599877287045</updated>
-      <workItem from="1599877288301" duration="1800000" />
+      <workItem from="1599877288301" duration="2897000" />
     </task>
+    <task id="LOCAL-00001" summary="pasa la primer test (dividida en 3 unit tests)">
+      <created>1599879133878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599879133878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,30 +186,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="pasa la primer test (dividida en 3 unit tests)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1599878937754">
+    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1599879879482">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1599878937754" />
+    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1599879879482" />
     <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599878167175">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1599878167175" />
-    <state width="981" height="47" key="GridCell.Tab.0.bottom" timestamp="1599879024055">
+    <state width="981" height="21" key="GridCell.Tab.0.bottom" timestamp="1599880130726">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="47" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1599879024055" />
-    <state width="981" height="47" key="GridCell.Tab.0.center" timestamp="1599879024055">
+    <state width="981" height="21" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1599880130726" />
+    <state width="981" height="21" key="GridCell.Tab.0.center" timestamp="1599880130726">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="47" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1599879024055" />
-    <state width="981" height="47" key="GridCell.Tab.0.left" timestamp="1599879024055">
+    <state width="981" height="21" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1599880130726" />
+    <state width="981" height="21" key="GridCell.Tab.0.left" timestamp="1599880130726">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="47" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1599879024055" />
-    <state width="981" height="47" key="GridCell.Tab.0.right" timestamp="1599879024055">
+    <state width="981" height="21" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1599880130726" />
+    <state width="981" height="21" key="GridCell.Tab.0.right" timestamp="1599880130726">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="47" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1599879024055" />
+    <state width="981" height="21" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1599880130726" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599879140394">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1599879140394" />
     <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599877793267">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
