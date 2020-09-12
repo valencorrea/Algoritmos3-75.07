@@ -29,7 +29,7 @@ public class PersonaTest {
 	}
 
 	@Test
-	public void unNoCeliacoComeEmpanadaNoCeliacaPasaATener10CaloriasEnSuCuerpo() {
+	public void unNoCeliacoComeEmpanadaNoCeliacaPasaATener15CaloriasEnSuCuerpo() {
 
 		PersonaNoCeliaca personaNoCeliaca = new PersonaNoCeliaca();
 
@@ -62,9 +62,16 @@ public class PersonaTest {
 
 	}
 
-	/*
-	*
-	*
-	* */
+	@Test
+	public void unCeliacoComeEmpanadaCeliacaPasaATener15CaloriasEnSuCuerpo() {
+
+		PersonaCeliaca personaCeliaca = new PersonaCeliaca();
+
+		EmpanaderoCeliaco empanadero = new EmpanaderoCeliaco();
+		EmpanadaCeliaca empanada = empanadero.hacerEmpanada();
+		personaCeliaca.comer(empanada);
+		Assert.assertEquals(personaCeliaca.getCalorias(), 15);
+
+	}
 
 }
