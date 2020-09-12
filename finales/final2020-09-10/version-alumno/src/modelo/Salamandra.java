@@ -2,7 +2,7 @@ package modelo;
 
 public class Salamandra implements ComponenteElectrico{
 
-    public Quebracho madera;
+    public Madera madera;
 
     @Override
     public int gasto() {
@@ -16,7 +16,7 @@ public class Salamandra implements ComponenteElectrico{
         }
     }
 
-    public void determinarMadera(Quebracho quebracho) {
-        this.madera = quebracho;
+    public void determinarMadera(Madera madera) {
+        this.madera = madera;
     }
 }

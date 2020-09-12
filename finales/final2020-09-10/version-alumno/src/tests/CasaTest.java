@@ -47,9 +47,8 @@ public class CasaTest {
         assertEquals(100, precio);
     }
 
-
     @Test
-    public void test04unaSalamandraDeQuebrachoYPureza2Y10MetrosCuesta3200() {
+    public void test04unaSalamandraDeQuebrachoY4KgY10MetrosCuesta3200() {
 
         Casa casa = new Casa();
 
@@ -88,6 +87,19 @@ public class CasaTest {
         }
     }
 
+    @Test
+    public void test07unaSalamandraDePinoY8KgY8MetrosCuesta170() {
+
+        Casa casa = new Casa();
+
+        Salamandra salamandra = new Salamandra();
+        salamandra.determinarMadera(new Pino(8, 8));
+        casa.comprarArtefacto(salamandra);
+
+        int precio = casa.gastoTotal();
+
+        assertEquals(170, precio);
+    }
 
     /*
 * Su productividad varía según el tipo de madera que se utilice
