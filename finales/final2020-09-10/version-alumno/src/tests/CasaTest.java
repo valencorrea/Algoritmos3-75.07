@@ -108,7 +108,7 @@ public class CasaTest {
     }
 
     @Test
-    public void test08unaSalamandraDePinoY8KgY8MetrosYQuebrachoCuesta0() {
+    public void test08unaSalamandraDePinoY8KgY8MetrosYQuebrachoCuesta4162() {
 
         Casa casa = new Casa();
 
@@ -119,7 +119,22 @@ public class CasaTest {
 
         int precio = casa.gastoTotal();
 
-        assertEquals(0, precio);
+        assertEquals(4162, precio);
+    }
+
+    @Test
+    public void test09unaSalamandraDePinoDe4KgY2MetrosYQuebrachoDe10KgY8MetrosCuesta5130() {
+
+        Casa casa = new Casa();
+
+        Salamandra salamandra = new Salamandra();
+        salamandra.determinarMadera(new Quebracho(10, 8));
+        salamandra.determinarMadera(new Pino(4, 2));
+        casa.comprarArtefacto(salamandra);
+
+        int precio = casa.gastoTotal();
+
+        assertEquals(5130, precio);
     }
 
 }
