@@ -54,7 +54,7 @@ public class CasaTest {
         Casa casa = new Casa();
 
         Salamandra salamandra = new Salamandra();
-        salamandra.determinarMadera(new Quebracho(4, 2, 10));
+        salamandra.determinarMadera(new Quebracho(4, 10));
         casa.comprarArtefacto(salamandra);
 
         int precio = casa.gastoTotal();
@@ -80,11 +80,8 @@ public class CasaTest {
     @Test
     public void test06unaSalamandraConQuebrachoSuperaLos15KilosTiraError() {
 
-        Casa casa = new Casa();
-        Salamandra salamandra = new Salamandra();
-
         try {
-            Quebracho quebracho = new Quebracho(16, 2, 10);
+            Quebracho quebracho = new Quebracho(16,10);
             Assert.fail("No se arrojo exception al exceder los 15 kg de la salamandra");
         } catch (RuntimeException exception) {
             assertEquals("No se pueden exceder los 15 kg", exception.getMessage());

@@ -3,14 +3,13 @@ package modelo;
 public class Quebracho {
 
     private int kg = 0;
-    private int precioPorKilo = 0;
-    private int pureza = 0;
+    private int precioPorKilo = 4;
+    private int pureza = 2;
     private int metros = 0;
 
-    public Quebracho(int kg, int pureza, int metros) {
+    public Quebracho(int kg, int metros) {
         this.validarKg(kg);
         this.kg = kg;
-        this.pureza = pureza;
         this.metros = metros;
     }
 
