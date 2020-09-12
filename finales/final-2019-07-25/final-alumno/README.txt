@@ -11,7 +11,7 @@ c.Trabajar SIEMPRE sobre el proyecto final-alumno
 * IMPORTANTE
 *********************************************************************************************************************************************/
 
-Para aprobar este examen el/la alum no/a debe entregar una solución integral y completa que resuelva el problema dado, demostrando un alto dominio de POO, así como también de UML.
+Para aprobar este examen el/la alumno/a debe entregar una solución integral y completa que resuelva el problema dado, demostrando un alto dominio de POO, así como también de UML.
 En este sentido cualquiera de las siguientes situaciones conlleva a la desaprobación AUTOMATICA del examen integrador:
 
 	1. NO entregar código desarrollado por el propio/a alumno/a.

@@ -1,0 +1,15 @@
+
+
+	···) ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos porqué considera que representan un problema de diseño.
+
+	    RESPUESTA:
+	        tiene ifs por todos lados -> no es para nada orientado a objetos
+	        tiene literales tambien por todos lados -> tampoco es muy de objetos eso
+	        esta muy cerrado a los cambios
+            no hay tests unitarias!!
+
+	···) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
+
+        RESPUESTA:
+            open close: al hacer las comparaciones con los ifs
+            single responsability: tiene 2 razones de cambio en EmpanaderoYPanadero
