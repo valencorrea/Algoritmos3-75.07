@@ -1,6 +1,6 @@
 package modelo;
 
-public class Estufa extends ComponenteElectrico{
+public class Estufa implements ComponenteElectrico{
 
     private final int precioKw;
     private final int ambientes;

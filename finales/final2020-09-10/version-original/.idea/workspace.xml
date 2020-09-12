@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33dc222-a8ba-42bd-8843-4bfce5ff8823" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/ComponenteElectrico.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/LosaRadiante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Estufa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/Estufa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../version-alumno/src/tests/CasaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/tests/CasaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -77,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599943541464</updated>
-      <workItem from="1599943546966" duration="2027000" />
+      <workItem from="1599943546966" duration="2256000" />
     </task>
     <servers />
   </component>

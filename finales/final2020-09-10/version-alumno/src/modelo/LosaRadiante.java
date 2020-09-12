@@ -1,6 +1,6 @@
 package modelo;
 
-public class LosaRadiante extends ComponenteElectrico{
+public class LosaRadiante implements ComponenteElectrico{
 
     private final int metros;
     private final int precioKw;

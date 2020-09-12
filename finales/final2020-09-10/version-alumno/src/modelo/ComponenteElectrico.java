@@ -1,7 +1,7 @@
 package modelo;
 
-public abstract class ComponenteElectrico {
+public interface ComponenteElectrico {
 
-    public abstract int gasto();
+    int gasto();
 
 }
