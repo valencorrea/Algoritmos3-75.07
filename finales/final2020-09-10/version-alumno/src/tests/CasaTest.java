@@ -1,6 +1,7 @@
 package tests;
 
 import modelo.*;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -52,7 +53,7 @@ public class CasaTest {
 
         Casa casa = new Casa();
 
-        Salamandra salamandra = new Salamandra(); //SI NO DETERMINO LA MADERA LARGO EXCEPTION
+        Salamandra salamandra = new Salamandra();
         salamandra.determinarMadera(new Quebracho(4, 2, 10));
         casa.comprarArtefacto(salamandra);
 
@@ -60,6 +61,22 @@ public class CasaTest {
 
         assertEquals(800, precio);
     }
+
+    @Test
+    public void test05unaSalamandraSinMaderaNoPuedeCalcularSuPrecio() {
+
+        Casa casa = new Casa();
+        Salamandra salamandra = new Salamandra();
+        casa.comprarArtefacto(salamandra);
+
+        try {
+            casa.gastoTotal();
+            Assert.fail("No se arrojo exception al calcular precio de salamandra sin determinar su madera");
+        } catch (RuntimeException exception) {
+            assertEquals("No se puede calcular el precio de una salamandra a la cual no se le indico su madera", exception.getMessage());
+        }
+    }
+
 
 
 /*
