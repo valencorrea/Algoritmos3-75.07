@@ -6,22 +6,6 @@ public class Casa {
 
     private LinkedList<ComponenteElectrico> componentesElectricos = new LinkedList<ComponenteElectrico>();
 
-    public void comprarEstufa(int ambientes, int precioKw, int calorias) {
-        this.guardarArtefacto(new Estufa(ambientes, precioKw, calorias));
-    }
-
-    public void comprarLosaRadiante(int metros, int precioKw) {
-        this.guardarArtefacto(new LosaRadiante(metros, precioKw));
-    }
-
-    public void comprarCercoElectrico(int metros, int precioKw) {
-        this.guardarArtefacto(new CercoElectrico(metros, precioKw));
-    }
-
-    private void guardarArtefacto(ComponenteElectrico componente) {
-        this.componentesElectricos.add(componente);
-    }
-
     public int gastoTotal() {
         int precio = 0;
 
@@ -32,5 +16,7 @@ public class Casa {
         return precio;
     }
 
-
+    public void comprarArtefacto(ComponenteElectrico artefacto) {
+        this.componentesElectricos.add(artefacto);
+    }
 }
