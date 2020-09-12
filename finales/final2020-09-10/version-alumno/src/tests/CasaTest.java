@@ -29,23 +29,16 @@ public class CasaTest {
         assertEquals(1000, precio);
     }
 
+    @Test
+    public void test03unCercoElectricoDe10metrosY10precioKwCuesta100() {
+
+        Casa casa = new Casa();
+        casa.comprarCercoElectrico(10, 10);
+
+        int precio = casa.gastoTotal();
+
+        assertEquals(100, precio);
+    }
 
 
 }
-/*
-*
-        ComponenteElectrico losaComedor = new ComponenteElectrico("LOSA_RADIANTE");
-        losaComedor.metros = 10;
-        losaComedor.precioKw = 10;
-
-        casa.losas.add(losaComedor);
-
-        ComponenteElectrico cercoFondo = new ComponenteElectrico("CeRcO-ElEcTrIcO");
-        cercoFondo.metros = 10;
-        cercoFondo.precioKw = 10;
-
-        casa.cercos.add(cercoFondo);
-
-        org.junit.Assert.assertEquals(11100, casa.getGastoTotal());
-*
-* */

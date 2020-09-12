@@ -2,9 +2,9 @@ package modelo;
 
 public class Estufa implements ComponenteElectrico{
 
-    private final int precioKw;
-    private final int ambientes;
-    private final int calorias;
+    private int precioKw = 0;
+    private int ambientes = 0;
+    private int calorias = 0;
 
     public Estufa(int ambientes, int precioKw, int calorias) {
         this.ambientes = ambientes;

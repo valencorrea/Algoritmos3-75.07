@@ -1,17 +1,17 @@
 package modelo;
 
-public class LosaRadiante implements ComponenteElectrico{
+public class CercoElectrico implements ComponenteElectrico {
 
     private int metros = 0;
     private int precioKw = 0;
 
-    public LosaRadiante(int metros, int precioKw) {
+    public CercoElectrico(int metros, int precioKw) {
         this.metros = metros;
         this.precioKw = precioKw;
     }
 
     @Override
     public int gasto() {
-        return (this.metros * this.metros * this.precioKw);
+        return (this.metros * this.precioKw);
     }
 }

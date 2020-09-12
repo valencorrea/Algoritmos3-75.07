@@ -14,6 +14,10 @@ public class Casa {
         this.guardarArtefacto(new LosaRadiante(metros, precioKw));
     }
 
+    public void comprarCercoElectrico(int metros, int precioKw) {
+        this.guardarArtefacto(new CercoElectrico(metros, precioKw));
+    }
+
     private void guardarArtefacto(ComponenteElectrico componente) {
         this.componentesElectricos.add(componente);
     }
@@ -27,7 +31,6 @@ public class Casa {
 
         return precio;
     }
-
 
 
 }
