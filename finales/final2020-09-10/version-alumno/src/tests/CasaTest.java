@@ -1,9 +1,6 @@
 package tests;
 
-import modelo.Casa;
-import modelo.CercoElectrico;
-import modelo.Estufa;
-import modelo.LosaRadiante;
+import modelo.*;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -49,5 +46,31 @@ public class CasaTest {
         assertEquals(100, precio);
     }
 
+
+    @Test
+    public void test04unaSalamandraDeQuebrachoYPureza2Y10MetrosCuesta800() {
+
+        Casa casa = new Casa();
+
+        Salamandra salamandra = new Salamandra(); //SI NO DETERMINO LA MADERA LARGO EXCEPTION
+        salamandra.determinarMadera(new Quebracho(4, 2, 10));
+        casa.comprarArtefacto(salamandra);
+
+        int precio = casa.gastoTotal();
+
+        assertEquals(800, precio);
+    }
+
+
+/*
+* Su productividad varía según el tipo de madera que se utilice
+* Quebracho cuesta $4 el kg y tiene un grado de pureza 2. Calculo del gasto : metros cuadrados x kg x pureza
+* Pino cuesta $2 el kg y tiene un coeficiente calórico de 3. Calculo del gasto: ( metros cuadrados x kg ) / coeficiente calorico
+*
+*  La Salamandra tiene una capacidad máxima de 15 kg que NO PUEDE SER EXCEDIDA.
+*
+* La Salamandra puede ser llenada 100% con Quebracho, 100% con Pino, o puede contener una parte de Pino y otra de Quebracho
+* (El gasto total de la salamandra siempre será la suma de lo que gastan todas sus maderas)
+*/
 
 }
