@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33dc222-a8ba-42bd-8843-4bfce5ff8823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../final2020-02-27/javaVersion/final-alumno/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final2020-02-27/javaVersion/final-alumno/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final2020-02-27/javaVersion/final-alumno/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final2020-02-27/javaVersion/final-alumno/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Quebracho.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/Quebracho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Salamandra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/Salamandra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../version-alumno/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/CercoElectrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/CercoElectrico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/ComponenteElectrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/ComponenteElectrico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Estufa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/Estufa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/LosaRadiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/LosaRadiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Madera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Madera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Pino.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Pino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Quebracho.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Quebracho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/Salamandra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/Salamandra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../version-alumno/src/tests/CasaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/tests/CasaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

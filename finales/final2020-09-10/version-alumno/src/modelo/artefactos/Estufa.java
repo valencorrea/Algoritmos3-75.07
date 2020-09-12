@@ -1,6 +1,8 @@
-package modelo;
+package modelo.artefactos;
 
-public class Estufa implements ComponenteElectrico{
+import modelo.artefactos.ComponenteElectrico;
+
+public class Estufa implements ComponenteElectrico {
 
     private int precioKw = 0;
     private int ambientes = 0;

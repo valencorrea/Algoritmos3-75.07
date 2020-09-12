@@ -1,5 +1,7 @@
 package modelo;
 
+import modelo.artefactos.ComponenteElectrico;
+
 import java.util.LinkedList;
 
 public class Casa {

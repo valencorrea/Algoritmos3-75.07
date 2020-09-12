@@ -1,4 +1,4 @@
-package modelo;
+package modelo.artefactos;
 
 public interface ComponenteElectrico {
 

@@ -1,4 +1,4 @@
-package modelo;
+package modelo.artefactos;
 
 public class CercoElectrico implements ComponenteElectrico {
 

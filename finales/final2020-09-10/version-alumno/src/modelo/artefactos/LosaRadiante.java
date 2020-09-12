@@ -1,6 +1,6 @@
-package modelo;
+package modelo.artefactos;
 
-public class LosaRadiante implements ComponenteElectrico{
+public class LosaRadiante implements ComponenteElectrico {
 
     private int metros = 0;
     private int precioKw = 0;
