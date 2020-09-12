@@ -19,10 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1057d74-e009-41f8-806c-5cf2ec785731" name="Default Changelist" comment="agrego equivalencias de un celiaco">
-      <change afterPath="$PROJECT_DIR$/src/modelo/EmpanadaCeliaca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/EmpanaderoCeliaco.java" afterDir="false" />
+    <list default="true" id="c1057d74-e009-41f8-806c-5cf2ec785731" name="Default Changelist" comment="termino de agregar unitarias">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/EmpanadaCeliaca.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/EmpanaderoCeliaco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/comida/PanNoCeliaco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Comida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/comida/Comida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/EmpanadaCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/comida/EmpanadaCeliaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/EmpanadaNoCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/comida/EmpanadaNoCeliaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/EmpanaderoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/EmpanaderoCeliaco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/EmpanaderoNoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/EmpanaderoNoCeliaco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/PanCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/comida/PanCeliaco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/PanNoCeliaco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/PanaderoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PanaderoCeliaco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/PanaderoNoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PanaderoNoCeliaco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/PersonaCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PersonaCeliaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/PersonaNoCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PersonaNoCeliaca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PersonaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +67,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -147,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599877287045</updated>
-      <workItem from="1599877288301" duration="3257000" />
+      <workItem from="1599877288301" duration="5256000" />
     </task>
     <task id="LOCAL-00001" summary="pasa la primer test (dividida en 3 unit tests)">
       <created>1599879133878</created>
@@ -170,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599880408237</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="termino de agregar unitarias">
+      <created>1599880576653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599880576653</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +212,8 @@
     <MESSAGE value="pasa la primer test (dividida en 3 unit tests)" />
     <MESSAGE value="cambio clases a Panadero etc celiaco/noCeliaco" />
     <MESSAGE value="agrego equivalencias de un celiaco" />
-    <option name="LAST_COMMIT_MESSAGE" value="agrego equivalencias de un celiaco" />
+    <MESSAGE value="termino de agregar unitarias" />
+    <option name="LAST_COMMIT_MESSAGE" value="termino de agregar unitarias" />
   </component>
   <component name="WindowStateProjectService">
     <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1599880538006">
@@ -202,26 +224,26 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1599878167175" />
-    <state width="981" height="21" key="GridCell.Tab.0.bottom" timestamp="1599880392488">
+    <state width="981" height="21" key="GridCell.Tab.0.bottom" timestamp="1599897596864">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="21" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1599880392488" />
-    <state width="981" height="21" key="GridCell.Tab.0.center" timestamp="1599880392488">
+    <state width="981" height="21" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1599897596864" />
+    <state width="981" height="21" key="GridCell.Tab.0.center" timestamp="1599897596864">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="21" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1599880392488" />
-    <state width="981" height="21" key="GridCell.Tab.0.left" timestamp="1599880392487">
+    <state width="981" height="21" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1599897596864" />
+    <state width="981" height="21" key="GridCell.Tab.0.left" timestamp="1599897596864">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="21" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1599880392487" />
-    <state width="981" height="21" key="GridCell.Tab.0.right" timestamp="1599880392488">
+    <state width="981" height="21" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1599897596864" />
+    <state width="981" height="21" key="GridCell.Tab.0.right" timestamp="1599897596864">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="21" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1599880392488" />
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599880413142">
+    <state width="981" height="21" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1599897596864" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599880584372">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1599880413142" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1599880584372" />
     <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599877793267">
       <screen x="0" y="0" width="1024" height="728" />
     </state>

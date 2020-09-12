@@ -1,4 +1,4 @@
-package modelo;
+package modelo.comida;
 
 public class EmpanadaNoCeliaca implements Comida {
 

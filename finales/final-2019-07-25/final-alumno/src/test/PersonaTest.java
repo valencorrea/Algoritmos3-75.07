@@ -1,6 +1,10 @@
 package test;
 
 import modelo.*;
+import modelo.comida.EmpanadaCeliaca;
+import modelo.comida.EmpanadaNoCeliaca;
+import modelo.comida.PanCeliaco;
+import modelo.comida.PanNoCeliaco;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -71,6 +75,20 @@ public class PersonaTest {
 		EmpanadaCeliaca empanada = empanadero.hacerEmpanada();
 		personaCeliaca.comer(empanada);
 		Assert.assertEquals(personaCeliaca.getCalorias(), 15);
+
+	}
+
+
+	/* Nueva funcionalidad (master cheff) */
+	@Test
+	public void unMasterCheffLeCocinaAUnHipertensoYTiene10PorcientoMenosDeCalorias() {
+
+		PersonaHipertensa personaHipertensa = new PersonaHipertensa();
+
+		Mastercheff cocinero = new Mastercheff();
+		PanHipertenso pan = cocinero.hacerPan();
+		personaCeliaca.comer(pan);
+		Assert.assertEquals(personaCeliaca.getCalorias(), 10);
 
 	}
 

@@ -1,5 +1,7 @@
 package modelo;
 
+import modelo.comida.Comida;
+
 public class PersonaNoCeliaca {
 
     private int calorias = 0;

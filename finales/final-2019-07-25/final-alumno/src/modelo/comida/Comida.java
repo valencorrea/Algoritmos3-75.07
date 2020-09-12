@@ -1,4 +1,4 @@
-package modelo;
+package modelo.comida;
 
 public interface Comida {
 

@@ -1,6 +1,6 @@
-package modelo;
+package modelo.comida;
 
-public class PanCeliaco implements Comida{
+public class PanCeliaco implements Comida {
 
     @Override
     public int getCalorias() {

@@ -1,0 +1,20 @@
+
+
+a. ¿Qué potenciales problemas de diseño encuentra en el cóodigo? Enumérelos explicando
+PARA CADA UNO de ellos porqué considera que representan un problema de diseño.
+
+    RESPUESTA:
+        · no esta orientado a objetos por tener ifs basados en un string
+        · es raro tener else: nada
+        · esta toda la implementacion junta en un solo lugar
+        · hay codigo repetido mas que nada al calcular el gastoTotal
+        · en las tests se accede a los atributos de las clases! son tests de caja blanca
+
+
+b. ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
+
+    RESPUESTA:
+        · single responsability se viola en componenteElectrico porque tiene dos razones de cambio
+        · open close se viola por todos lados al tener tantos condicionales que encima se basan en strings
+        · dependency inversion ya que en casa tengo de atributos a listas de componenteElectrico
+        y es una clase concreta
