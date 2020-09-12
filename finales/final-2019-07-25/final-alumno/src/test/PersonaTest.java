@@ -40,8 +40,8 @@ public class PersonaTest {
 
 	}
 
-/*
 
+	/* Persona celiaca */
 	@Test
 	public void personaCeliacaArrancaTeniendo0CaloriasEnSuCuerpo() {
 
@@ -55,14 +55,13 @@ public class PersonaTest {
 
 		PersonaCeliaca personaCeliaca = new PersonaCeliaca();
 
-		Panadero panadero = new Panadero();
+		PanaderoCeliaco panadero = new PanaderoCeliaco();
 		PanCeliaco pan = panadero.hacerPan();
 		personaCeliaca.comer(pan);
 		Assert.assertEquals(personaCeliaca.getCalorias(), 10);
 
 	}
 
-*/
 	/*
 	*
 	*

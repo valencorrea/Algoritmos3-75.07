@@ -7,4 +7,13 @@ public class PersonaCeliaca {
     public int getCalorias() {
         return this.calorias;
     }
+
+    public void comer(Comida pan) {
+        this.aumentarCalorias(pan.getCalorias());
+    }
+
+    private void aumentarCalorias(int calorias) {
+        this.calorias += calorias;
+    }
+    
 }

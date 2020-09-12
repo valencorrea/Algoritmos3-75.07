@@ -19,18 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1057d74-e009-41f8-806c-5cf2ec785731" name="Default Changelist" comment="pasa la primer test (dividida en 3 unit tests)">
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/PersonaCeliaca.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/EmpanaderoNoCeliaco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/PanCeliaco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/PanaderoNoCeliaco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/PersonaCeliaca.java" afterDir="false" />
+    <list default="true" id="c1057d74-e009-41f8-806c-5cf2ec785731" name="Default Changelist" comment="cambio clases a Panadero etc celiaco/noCeliaco">
+      <change afterPath="$PROJECT_DIR$/src/modelo/PanaderoCeliaco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/modelo/Panadero.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/PersonaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/test/PersonaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Comida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Comida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Empanadero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Panadero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/PersonaCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PersonaCeliaca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PersonaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599877287045</updated>
-      <workItem from="1599877288301" duration="2897000" />
+      <workItem from="1599877288301" duration="3096000" />
     </task>
     <task id="LOCAL-00001" summary="pasa la primer test (dividida en 3 unit tests)">
       <created>1599879133878</created>
@@ -164,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599879133878</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cambio clases a Panadero etc celiaco/noCeliaco">
+      <created>1599880252969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599880252969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +183,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pasa la primer test (dividida en 3 unit tests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="pasa la primer test (dividida en 3 unit tests)" />
+    <MESSAGE value="cambio clases a Panadero etc celiaco/noCeliaco" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambio clases a Panadero etc celiaco/noCeliaco" />
   </component>
   <component name="WindowStateProjectService">
     <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1599879879482">
@@ -194,26 +195,26 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1599878167175" />
-    <state width="981" height="21" key="GridCell.Tab.0.bottom" timestamp="1599880130726">
+    <state width="981" height="21" key="GridCell.Tab.0.bottom" timestamp="1599880288433">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="21" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1599880130726" />
-    <state width="981" height="21" key="GridCell.Tab.0.center" timestamp="1599880130726">
+    <state width="981" height="21" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1599880288433" />
+    <state width="981" height="21" key="GridCell.Tab.0.center" timestamp="1599880288433">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="21" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1599880130726" />
-    <state width="981" height="21" key="GridCell.Tab.0.left" timestamp="1599880130726">
+    <state width="981" height="21" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1599880288433" />
+    <state width="981" height="21" key="GridCell.Tab.0.left" timestamp="1599880288433">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="21" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1599880130726" />
-    <state width="981" height="21" key="GridCell.Tab.0.right" timestamp="1599880130726">
+    <state width="981" height="21" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1599880288433" />
+    <state width="981" height="21" key="GridCell.Tab.0.right" timestamp="1599880288433">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="21" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1599880130726" />
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599879140394">
+    <state width="981" height="21" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1599880288433" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599880259797">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1599879140394" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1599880259797" />
     <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599877793267">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
