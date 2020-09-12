@@ -1,0 +1,14 @@
+2. Identifique potenciales problemas de diseño en el código. Enumérelos y **ESCRIBIENDOLOS EN UNA HOJA** y
+ justificando por qué considera que representan un problema de diseño.
+
+
+    RESPUESTA:
+        super estructurado todo lleno de ifs
+        viola el encapsulamiento por todos lados porque todo se implementa en un mismo lugar
+
+
+3. ¿Se viola algún principio de diseño? ¿Cuál(es)?
+
+    RESPUESTA:
+        open close
+        single responsability
