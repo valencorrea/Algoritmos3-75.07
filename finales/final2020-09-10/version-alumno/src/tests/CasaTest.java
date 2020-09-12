@@ -49,7 +49,7 @@ public class CasaTest {
 
 
     @Test
-    public void test04unaSalamandraDeQuebrachoYPureza2Y10MetrosCuesta800() {
+    public void test04unaSalamandraDeQuebrachoYPureza2Y10MetrosCuesta3200() {
 
         Casa casa = new Casa();
 
@@ -59,7 +59,7 @@ public class CasaTest {
 
         int precio = casa.gastoTotal();
 
-        assertEquals(800, precio);
+        assertEquals(3200, precio);
     }
 
     @Test
@@ -77,9 +77,22 @@ public class CasaTest {
         }
     }
 
+    @Test
+    public void test06unaSalamandraConQuebrachoSuperaLos15KilosTiraError() {
+
+        Casa casa = new Casa();
+        Salamandra salamandra = new Salamandra();
+
+        try {
+            Quebracho quebracho = new Quebracho(16, 2, 10);
+            Assert.fail("No se arrojo exception al exceder los 15 kg de la salamandra");
+        } catch (RuntimeException exception) {
+            assertEquals("No se pueden exceder los 15 kg", exception.getMessage());
+        }
+    }
 
 
-/*
+    /*
 * Su productividad varía según el tipo de madera que se utilice
 * Quebracho cuesta $4 el kg y tiene un grado de pureza 2. Calculo del gasto : metros cuadrados x kg x pureza
 * Pino cuesta $2 el kg y tiene un coeficiente calórico de 3. Calculo del gasto: ( metros cuadrados x kg ) / coeficiente calorico
