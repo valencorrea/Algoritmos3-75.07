@@ -16,6 +16,7 @@ public class Pino extends Madera {
         return ((this.metros * this.metros * this.kg * this.precioPorKilo) / this.coefCalorico);
     }
 
+    @Override
     public int kilos(){
         return this.kg;
     }

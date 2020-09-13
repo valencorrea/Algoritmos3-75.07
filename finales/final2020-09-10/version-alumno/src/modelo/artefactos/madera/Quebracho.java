@@ -11,6 +11,7 @@ public class Quebracho extends Madera {
         this.metros = metros;
     }
 
+    @Override
     public int kilos(){
         return this.kg;
     }
