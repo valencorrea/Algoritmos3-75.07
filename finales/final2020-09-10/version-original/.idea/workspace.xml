@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33dc222-a8ba-42bd-8843-4bfce5ff8823" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Madera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Madera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Pino.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Pino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Quebracho.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Quebracho.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599943541464</updated>
       <workItem from="1599943546966" duration="2256000" />
-      <workItem from="1599947055553" duration="1645000" />
+      <workItem from="1599947055553" duration="2274000" />
     </task>
     <servers />
   </component>
