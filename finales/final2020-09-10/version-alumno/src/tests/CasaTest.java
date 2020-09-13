@@ -83,13 +83,20 @@ public class CasaTest {
     }
 
     @Test
-    public void test06unaSalamandraConQuebrachoSuperaLos15KilosTiraError() {
+    public void test06unaSalamandraQuebrachoYPinoJuntanMasDe15KilosTiraError() {
+
+        Casa casa = new Casa();
+
+        Salamandra salamandra = new Salamandra();
+        salamandra.determinarMadera(new Quebracho(8, 8));
+        salamandra.determinarMadera(new Pino(40, 5));
+        casa.comprarArtefacto(salamandra);
 
         try {
-            Quebracho quebracho = new Quebracho(16,10);
+            int precio = casa.gastoTotal();
             Assert.fail("No se arrojo exception al exceder los 15 kg de la salamandra");
         } catch (RuntimeException exception) {
-            assertEquals("No se pueden exceder los 15 kg", exception.getMessage());
+            assertEquals("No se puede tener una salamandra con mas de 15 kg", exception.getMessage());
         }
     }
 

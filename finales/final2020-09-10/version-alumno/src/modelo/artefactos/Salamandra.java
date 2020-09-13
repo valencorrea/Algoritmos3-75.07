@@ -2,7 +2,6 @@ package modelo.artefactos;
 
 import modelo.artefactos.madera.Madera;
 
-import javax.sound.sampled.Line;
 import java.util.LinkedList;
 
 public class Salamandra implements ComponenteElectrico {
@@ -14,10 +13,24 @@ public class Salamandra implements ComponenteElectrico {
         int gasto = 0;
 
         verificarMadera(this.maderas);
+        verificarLimiteKilos(this.maderas);
+
         for(Madera madera: this.maderas){
             gasto += madera.determinarGasto();
         }
         return gasto;
+    }
+
+    private void verificarLimiteKilos(LinkedList<Madera> maderas) {
+        int kilosTotales = 0;
+
+        for(Madera madera: maderas){
+            kilosTotales += madera.kilos();
+        }
+
+        if(kilosTotales >= 15){
+            throw new RuntimeException("No se puede tener una salamandra con mas de 15 kg");
+        }
     }
 
     private void verificarMadera(LinkedList<Madera> maderas) {

@@ -2,11 +2,11 @@ package modelo.artefactos.madera;
 
 public class Pino extends Madera {
 
+    public int kg =0;
     public int precioPorKilo = 2;
     public int coefCalorico = 3;
 
     public Pino(int kg, int metros) {
-        this.validarKg(kg);
         this.kg = kg;
         this.metros = metros;
     }
@@ -14,6 +14,10 @@ public class Pino extends Madera {
     @Override
     public int determinarGasto() {
         return ((this.metros * this.metros * this.kg * this.precioPorKilo) / this.coefCalorico);
+    }
+
+    public int kilos(){
+        return this.kg;
     }
 
 }
