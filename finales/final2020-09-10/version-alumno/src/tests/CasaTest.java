@@ -144,4 +144,21 @@ public class CasaTest {
         assertEquals(5130, precio);
     }
 
+    @Test
+    public void test10agregoUnCercoYUnaEstufaCuestan10100() {
+
+        Casa casa = new Casa();
+
+        Estufa estufa = new Estufa(1, 10, 1000);
+        CercoElectrico cerco = new CercoElectrico(10,10);
+
+        casa.comprarArtefacto(cerco);
+        casa.comprarArtefacto(estufa);
+
+        int precio = casa.gastoTotal();
+
+        assertEquals(10100, precio);
+    }
+
+
 }

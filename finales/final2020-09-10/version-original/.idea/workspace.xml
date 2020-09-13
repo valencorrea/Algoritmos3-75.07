@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33dc222-a8ba-42bd-8843-4bfce5ff8823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Madera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Madera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Pino.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Pino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Quebracho.java" beforeDir="false" afterPath="$PROJECT_DIR$/../version-alumno/src/modelo/artefactos/madera/Quebracho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../version-alumno/src/clasesArtefactosElectricos.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
