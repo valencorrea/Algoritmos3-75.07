@@ -1,6 +1,5 @@
 package modelo.artefactos.madera;
 
-
 public class Quebracho extends Madera {
     public int kg;
 
