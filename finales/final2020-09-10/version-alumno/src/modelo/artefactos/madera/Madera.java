@@ -2,9 +2,12 @@ package modelo.artefactos.madera;
 
 public abstract class Madera {
 
-    public int metros = 0;
+    public int kg;
+    public int metros;
 
     public abstract int determinarGasto();
 
-    public abstract int kilos();
+    public int kilos(){
+        return this.kg;
+    };
 }

@@ -1,7 +1,6 @@
 package modelo.artefactos.madera;
 
 public class Quebracho extends Madera {
-    public int kg;
 
     public int precioPorKilo = 4;
     public int pureza = 2;
@@ -9,11 +8,6 @@ public class Quebracho extends Madera {
     public Quebracho(int kg, int metros) {
         this.kg = kg;
         this.metros = metros;
-    }
-
-    @Override
-    public int kilos(){
-        return this.kg;
     }
 
     @Override
