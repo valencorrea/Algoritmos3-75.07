@@ -46,20 +46,19 @@ public class PitufosTest {
 
     }
 
-/*
     @Test
-    public void test3() {
-        Gaseosa gaseosa01 = new Gaseosa();
-        Gaseosa gaseosa02 = new Gaseosa();
-        DosPorUno combo = new DosPorUno(Arrays.asList(gaseosa01, gaseosa02));
+    public void testDosGaseosasConCosto80YPrecio800EnDolaresTienePromo2X1(){
 
-        // combo.setCosto(200);
-        gaseosa01.setCosto(100);
-        gaseosa02.setCosto(100);
+        Gaseosa gaseosa1 = new Gaseosa(80);
+        Gaseosa gaseosa2 = new Gaseosa(80);
+        DosPorUno promo = new DosPorUno(500);
+        promo.añadirProductos(gaseosa1, gaseosa2);
 
-        double renta = combo.setPrecio(1200, Moneda.PESOS);
+        promo.asociarPrecioPromo(new Precio(800, new Dolares()));
 
-        assertEquals(1000.0, renta);
+        double renta = promo.renta();
+
+        assertEquals(39500.0, renta);
+
     }
-*/
 }
