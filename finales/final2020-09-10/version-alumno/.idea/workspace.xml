@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b01e5000-7530-4408-8df1-fa346a4e22a3" name="Default Changelist" comment="ahre ahora funciona el kilos() en la abstracta ¿?¿">
+      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/DosPorUno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Gaseosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/MiClase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Moneda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/test/ar/edu/fiuba/algoiii/EqualsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/test/ar/edu/fiuba/algoiii/PitufosTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hQVtDLurF5dmyajz0ZdFq2Eev7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../final-2019-07-11" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\repoGitHub\Algoritmos3-75.07\finales\final2020-09-10\version-alumno\src" />
+      <recent name="C:\Users\Usuario\Desktop\repoGitHub\Algoritmos3-75.07\finales\final2020-09-10\version-alumno" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\repoGitHub\Algoritmos3-75.07\finales\final2020-09-10\version-alumno\src\diagramas" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="modelo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CasaTest">
+    <configuration name="CasaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="version-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CasaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasaTest.test06unaSalamandraQuebrachoYPinoJuntanMasDe15KilosTiraError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="version-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CasaTest" />
+      <option name="METHOD_NAME" value="test06unaSalamandraQuebrachoYPinoJuntanMasDe15KilosTiraError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasaTest.test07unaSalamandraDePinoY8KgY8MetrosCuesta170" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="version-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CasaTest" />
+      <option name="METHOD_NAME" value="test07unaSalamandraDePinoY8KgY8MetrosCuesta170" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasaTest.test09unaSalamandraDePinoDe4KgY2MetrosYQuebrachoDe10KgY8MetrosCuesta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="version-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CasaTest" />
+      <option name="METHOD_NAME" value="test09unaSalamandraDePinoDe4KgY2MetrosYQuebrachoDe10KgY8MetrosCuesta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasaTest.test10agregoUnCercoYUnaEstufaCuestan10100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="version-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CasaTest" />
+      <option name="METHOD_NAME" value="test10agregoUnCercoYUnaEstufaCuestan10100" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CasaTest" />
+        <item itemvalue="JUnit.CasaTest.test10agregoUnCercoYUnaEstufaCuestan10100" />
+        <item itemvalue="JUnit.CasaTest.test06unaSalamandraQuebrachoYPinoJuntanMasDe15KilosTiraError" />
+        <item itemvalue="JUnit.CasaTest.test09unaSalamandraDePinoDe4KgY2MetrosYQuebrachoDe10KgY8MetrosCuesta" />
+        <item itemvalue="JUnit.CasaTest.test07unaSalamandraDePinoY8KgY8MetrosCuesta170" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b01e5000-7530-4408-8df1-fa346a4e22a3" name="Default Changelist" comment="" />
+      <created>1599943518607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599943518607</updated>
+      <workItem from="1599943543392" duration="2754000" />
+      <workItem from="1599947057351" duration="15102000" />
+      <workItem from="1600035129642" duration="1168000" />
+    </task>
+    <task id="LOCAL-00001" summary="pasa la primer prueba">
+      <created>1599945199902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599945199902</updated>
+    </task>
+    <task id="LOCAL-00002" summary="agrego clase abstracta ComponenteElectrico">
+      <created>1599946098004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599946098004</updated>
+    </task>
+    <task id="LOCAL-00003" summary="agrego CercoElectrico">
+      <created>1599947783973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599947783973</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactorizo generalizando las tests a comprarArtefacto">
+      <created>1599948529098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599948529098</updated>
+    </task>
+    <task id="LOCAL-00005" summary="agrego funcionalidad de salamandra con quebracho">
+      <created>1599950018381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599950018381</updated>
+    </task>
+    <task id="LOCAL-00006" summary="agrego exception">
+      <created>1599951208242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599951208242</updated>
+    </task>
+    <task id="LOCAL-00007" summary="agrego exception de los +15 kg en salamandra">
+      <created>1599952033479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599952033479</updated>
+    </task>
+    <task id="LOCAL-00008" summary="corrijo valores para que pasen las cuentas">
+      <created>1599952349807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599952349807</updated>
+    </task>
+    <task id="LOCAL-00009" summary="agrego clase de pino">
+      <created>1599953494784</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599953494784</updated>
+    </task>
+    <task id="LOCAL-00010" summary="arreglo exception al refactorizar la lista de maderas">
+      <created>1599954833544</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599954833544</updated>
+    </task>
+    <task id="LOCAL-00011" summary="funcionan los calculos de todo">
+      <created>1599954954938</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599954954938</updated>
+    </task>
+    <task id="LOCAL-00012" summary="arregle la exception de los 15kg pero sin la abstracta">
+      <created>1599956445944</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599956445945</updated>
+    </task>
+    <task id="LOCAL-00013" summary="version final (tengo cod repetido en kilos())">
+      <created>1599956938837</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599956938837</updated>
+    </task>
+    <task id="LOCAL-00014" summary="agrego carpeta de diagramas">
+      <created>1599958633147</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599958633147</updated>
+    </task>
+    <task id="LOCAL-00015" summary="agrego diagrama de clases a la carpeta de uml">
+      <created>1599958958008</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599958958008</updated>
+    </task>
+    <task id="LOCAL-00016" summary="agrego test de estufa+cerco">
+      <created>1599959520901</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599959520901</updated>
+    </task>
+    <task id="LOCAL-00017" summary="agrego diagramas de secuencia">
+      <created>1599961522520</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599961522520</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ahre ahora funciona el kilos() en la abstracta ¿?¿">
+      <created>1600035434278</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600035434278</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="pasa la primer prueba" />
+    <MESSAGE value="agrego clase abstracta ComponenteElectrico" />
+    <MESSAGE value="agrego CercoElectrico" />
+    <MESSAGE value="refactorizo generalizando las tests a comprarArtefacto" />
+    <MESSAGE value="agrego funcionalidad de salamandra con quebracho" />
+    <MESSAGE value="agrego exception" />
+    <MESSAGE value="agrego exception de los +15 kg en salamandra" />
+    <MESSAGE value="corrijo valores para que pasen las cuentas" />
+    <MESSAGE value="agrego clase de pino" />
+    <MESSAGE value="arreglo exception al refactorizar la lista de maderas" />
+    <MESSAGE value="funcionan los calculos de todo" />
+    <MESSAGE value="arregle la exception de los 15kg pero sin la abstracta" />
+    <MESSAGE value="version final (tengo cod repetido en kilos())" />
+    <MESSAGE value="agrego carpeta de diagramas" />
+    <MESSAGE value="agrego diagrama de clases a la carpeta de uml" />
+    <MESSAGE value="agrego test de estufa+cerco" />
+    <MESSAGE value="agrego diagramas de secuencia" />
+    <MESSAGE value="ahre ahora funciona el kilos() en la abstracta ¿?¿" />
+    <option name="LAST_COMMIT_MESSAGE" value="ahre ahora funciona el kilos() en la abstracta ¿?¿" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1599953031687">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1599953031687" />
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1600043025270">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1600043025270" />
+    <state width="981" height="18" key="GridCell.Tab.0.bottom" timestamp="1600043026705">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="18" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600043026705" />
+    <state width="981" height="18" key="GridCell.Tab.0.center" timestamp="1600043026705">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="18" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600043026705" />
+    <state width="981" height="18" key="GridCell.Tab.0.left" timestamp="1600043026705">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="18" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600043026705" />
+    <state width="981" height="18" key="GridCell.Tab.0.right" timestamp="1600043026705">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="18" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600043026705" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600035442192">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600035442192" />
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599944487554">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1024.728@0.0.1024.728" timestamp="1599944487554" />
+    <state x="321" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599952315898">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="321" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1024.728@0.0.1024.728" timestamp="1599952315898" />
+    <state x="216" y="173" key="git4idea.merge.GitPullDialog" timestamp="1599959006810">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="216" y="173" key="git4idea.merge.GitPullDialog/0.0.1024.728@0.0.1024.728" timestamp="1599959006810" />
+  </component>
+</project>
