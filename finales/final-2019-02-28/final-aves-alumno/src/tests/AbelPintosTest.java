@@ -1,9 +1,9 @@
 package tests;
 
 import modelo.AbelPintos;
-import modelo.PistaAtletismo;
-import modelo.PistaDeHielo;
-import modelo.SupDeBarro;
+import modelo.superficies.PistaAtletismo;
+import modelo.superficies.PistaDeHielo;
+import modelo.superficies.SupDeBarro;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

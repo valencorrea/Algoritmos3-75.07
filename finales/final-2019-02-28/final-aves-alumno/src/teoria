@@ -7,6 +7,7 @@
             - por que volar y cantar devuelven strings?? que es 50??
             - es muy estucturado usar tantos ifs, por cada superficie nueva voy a tener que
             agregar otro if
+            - la exception es re especifica, y si no vuela pero si canta?
 
 
 

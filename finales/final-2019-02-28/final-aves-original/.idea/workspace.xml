@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b1415a-57fc-4d48-830f-faeea9f443d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/AbelPintos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/PistaAtletismo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AbelPintosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-aves-alumno/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AvestruzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/AbelPintos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/AbelPintos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/PistaAtletismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/superficies/PistaAtletismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/PistaDeHielo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/superficies/PistaDeHielo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/SupDeBarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/superficies/SupDeBarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Superficie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/superficies/Superficie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/teoria" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/teoria" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AbelPintosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AbelPintosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600068761575</updated>
-      <workItem from="1600068762912" duration="3286000" />
+      <workItem from="1600068762912" duration="4044000" />
     </task>
     <servers />
   </component>
