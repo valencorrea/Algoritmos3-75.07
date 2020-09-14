@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="refactor carpetas">
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/formasDePago/Precio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/formasDePago/Vaca.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/productos/Alfajor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/productos/Gaseosa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/productos/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/EqualsTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-28/final-aves-alumno/src/modelo/Gorrion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-28/final-aves-alumno/src/tests/GorrionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-28/final-aves-alumno/final-aves-alumno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-28/final-aves-alumno/final-aves-alumno.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-28/final-aves-original/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-28/final-aves-original/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../finalesAlgo3/7507-Algo3-master/Finales/final-2019-07-11/final-2019-07-11-alumno" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -170,6 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600043511561</updated>
       <workItem from="1600043512905" duration="8938000" />
+      <workItem from="1600071706299" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="agrego rtas teoria">
       <created>1600044303205</created>
@@ -306,6 +305,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="agrego rtas teoria" />
