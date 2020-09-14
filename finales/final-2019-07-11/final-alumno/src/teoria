@@ -17,6 +17,7 @@ justifique por qué considera que representan un problema de diseño.
         - DosPorUno es un producto??
         - es re confuso que setPrecio ademas devuelva el valor de la renta
         - por que se llama pitufosTest?
+        - por que esta MiClase???
 
 
 3. ¿Se viola algún principio de diseño? ¿Cuál(es)?

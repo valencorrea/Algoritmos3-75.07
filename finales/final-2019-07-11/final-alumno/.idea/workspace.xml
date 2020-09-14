@@ -19,16 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="agrego metodo para obtener el costo dela promo (y gaseosa)">
-      <change afterPath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/GaseosaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/PromoTest.java" afterDir="false" />
+    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="refactor clases de tests">
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/GaseosaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/PromoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Alfajor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Vaca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/VacaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Gaseosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Gaseosa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final-alumno/teoria" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/teoria" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/PitufosTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/EqualsTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/teoria" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/EqualsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/PitufosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/ProductosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../finalesAlgo3/7507-Algo3-master/Finales/final-2019-07-11/final-2019-07-11-alumno" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +72,7 @@
       <recent name="main.ar.edu.fiuba.algoiii" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.ar.edu.fiuba.algoiii in final-alumno">
+  <component name="RunManager" selected="JUnit.VacaTest">
     <configuration name="GaseosaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final-alumno" />
       <extension name="coverage">
@@ -117,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductosTest.testUnaGaseosaConCosto100YPrecio10DolaresSale400DeRenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VacaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final-alumno" />
       <extension name="coverage">
         <pattern>
@@ -126,9 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.ar.edu.fiuba.algoiii" />
-      <option name="MAIN_CLASS_NAME" value="test.ar.edu.fiuba.algoiii.ProductosTest" />
-      <option name="METHOD_NAME" value="testUnaGaseosaConCosto100YPrecio10DolaresSale400DeRenta" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="test.ar.edu.fiuba.algoiii.VacaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VacaTest" />
         <item itemvalue="JUnit.test.ar.edu.fiuba.algoiii in final-alumno" />
         <item itemvalue="JUnit.GaseosaTest" />
         <item itemvalue="JUnit.ProductosTest" />
         <item itemvalue="JUnit.ProductosTest.testDosGaseosasConCosto100YPrecio1200EnPesosTienePromo2X1" />
-        <item itemvalue="JUnit.ProductosTest.testUnaGaseosaConCosto100YPrecio10DolaresSale400DeRenta" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600043511561</updated>
-      <workItem from="1600043512905" duration="4989000" />
+      <workItem from="1600043512905" duration="6082000" />
     </task>
     <task id="LOCAL-00001" summary="agrego rtas teoria">
       <created>1600044303205</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600048341883</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor clases de tests">
+      <created>1600048524843</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600048524843</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +283,8 @@
     <MESSAGE value="refactor generalizo metodo renta" />
     <MESSAGE value="pasan 4 tests" />
     <MESSAGE value="agrego metodo para obtener el costo dela promo (y gaseosa)" />
-    <option name="LAST_COMMIT_MESSAGE" value="agrego metodo para obtener el costo dela promo (y gaseosa)" />
+    <MESSAGE value="refactor clases de tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor clases de tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="281" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600043563730">
@@ -290,26 +299,30 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1600045236330" />
-    <state width="981" height="26" key="GridCell.Tab.0.bottom" timestamp="1600048446201">
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1600049011420">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="26" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600048446201" />
-    <state width="981" height="26" key="GridCell.Tab.0.center" timestamp="1600048446201">
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1600049011420" />
+    <state width="981" height="26" key="GridCell.Tab.0.bottom" timestamp="1600049527219">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="26" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600048446201" />
-    <state width="981" height="26" key="GridCell.Tab.0.left" timestamp="1600048446201">
+    <state width="981" height="26" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600049527219" />
+    <state width="981" height="26" key="GridCell.Tab.0.center" timestamp="1600049527219">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="26" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600048446201" />
-    <state width="981" height="26" key="GridCell.Tab.0.right" timestamp="1600048446201">
+    <state width="981" height="26" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600049527219" />
+    <state width="981" height="26" key="GridCell.Tab.0.left" timestamp="1600049527219">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="26" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600048446201" />
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600047819460">
+    <state width="981" height="26" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600049527219" />
+    <state width="981" height="26" key="GridCell.Tab.0.right" timestamp="1600049527219">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600047819460" />
+    <state width="981" height="26" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600049527219" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600048636245">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600048636245" />
     <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600043538201">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
