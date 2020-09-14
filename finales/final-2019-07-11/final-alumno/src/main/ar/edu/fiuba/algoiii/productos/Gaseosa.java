@@ -1,4 +1,6 @@
-package main.ar.edu.fiuba.algoiii;
+package main.ar.edu.fiuba.algoiii.productos;
+
+import main.ar.edu.fiuba.algoiii.formasDePago.Precio;
 
 public class Gaseosa {
 

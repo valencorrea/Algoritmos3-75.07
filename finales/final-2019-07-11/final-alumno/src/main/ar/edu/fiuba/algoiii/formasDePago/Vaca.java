@@ -1,4 +1,4 @@
-package main.ar.edu.fiuba.algoiii;
+package main.ar.edu.fiuba.algoiii.formasDePago;
 
 public class Vaca {
     private int costo;

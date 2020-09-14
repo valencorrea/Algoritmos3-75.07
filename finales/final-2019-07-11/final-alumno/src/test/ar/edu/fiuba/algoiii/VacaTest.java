@@ -1,7 +1,7 @@
 package test.ar.edu.fiuba.algoiii;
 
-import main.ar.edu.fiuba.algoiii.Alfajor;
-import main.ar.edu.fiuba.algoiii.Vaca;
+import main.ar.edu.fiuba.algoiii.productos.Alfajor;
+import main.ar.edu.fiuba.algoiii.formasDePago.Vaca;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

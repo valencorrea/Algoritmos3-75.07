@@ -1,7 +1,7 @@
 package test.ar.edu.fiuba.algoiii;
 
-import main.ar.edu.fiuba.algoiii.Gaseosa;
-import main.ar.edu.fiuba.algoiii.Precio;
+import main.ar.edu.fiuba.algoiii.productos.Gaseosa;
+import main.ar.edu.fiuba.algoiii.formasDePago.Precio;
 import main.ar.edu.fiuba.algoiii.monedas.Dolares;
 import main.ar.edu.fiuba.algoiii.monedas.Pesos;
 import org.junit.Test;

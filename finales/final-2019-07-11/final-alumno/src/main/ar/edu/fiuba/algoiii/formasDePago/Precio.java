@@ -1,4 +1,4 @@
-package main.ar.edu.fiuba.algoiii;
+package main.ar.edu.fiuba.algoiii.formasDePago;
 
 import main.ar.edu.fiuba.algoiii.monedas.Moneda;
 
