@@ -2,14 +2,15 @@ package main.ar.edu.fiuba.algoiii;
 
 public class Gaseosa {
 
-    private int precio;
     private int costo;
-    private Pesos modena;
+    private Precio precioIndividual;
 
-    public Gaseosa(int costo, int precio, Pesos moneda) {
+    public Gaseosa(int costo) {
         this.costo = costo;
-        this.precio = precio;
-        this.modena = moneda;
+    }
+
+    public void asociarPrecioIndivudial(Precio precio) {
+        this.precioIndividual = precio;
     }
 
     public double renta() {
