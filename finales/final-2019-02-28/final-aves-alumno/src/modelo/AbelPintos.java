@@ -16,6 +16,7 @@ public class AbelPintos implements Corredor, Cantante {
         this.velocidadHielo = 0;
     }
 
+    @Override
     public int correr(Superficie superficie) {
         return superficie.correr(this);
     }
@@ -25,14 +26,17 @@ public class AbelPintos implements Corredor, Cantante {
         return this.cancion;
     }
 
+    @Override
     public int correrEnPistaDeAtletismo() {
         return this.velocidadPistaAtletismo;
     }
 
+    @Override
     public int correrEnHielo() {
         return this.velocidadHielo;
     }
 
+    @Override
     public int correrEnBarro() {
         return this.velocidadBarro;
     }

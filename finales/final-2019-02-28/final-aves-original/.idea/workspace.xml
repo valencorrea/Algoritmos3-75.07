@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b1415a-57fc-4d48-830f-faeea9f443d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Cantante.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Volador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/AbelPintos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/AbelPintos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Gorrion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Gorrion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Pinguino.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Pinguino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/AbelPintos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/AbelPintos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/Avestruz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Avestruz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/Corredor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/Corredor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/superficies/PistaAtletismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/superficies/PistaAtletismo.java" afterDir="false" />
@@ -32,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/superficies/Superficie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/superficies/Superficie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AbelPintosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AbelPintosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AvestruzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AvestruzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600068761575</updated>
       <workItem from="1600068762912" duration="5287000" />
-      <workItem from="1600119404539" duration="368000" />
+      <workItem from="1600119404539" duration="692000" />
     </task>
     <servers />
   </component>

@@ -5,9 +5,10 @@ import modelo.superficies.Superficie;
 public class Avestruz implements Corredor {
 
     private int velocidadPistaAtletismo= 70;
-    private int velocidadBarro = 0;
-    private int velocidadHielo = 70;
+    private int velocidadBarro = 70;
+    private int velocidadHielo = 0;
 
+    @Override
     public int correr(Superficie superficie) {
         return superficie.correr(this);
     }

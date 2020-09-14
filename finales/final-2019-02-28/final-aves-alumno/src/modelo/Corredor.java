@@ -4,10 +4,12 @@ import modelo.superficies.Superficie;
 
 public interface Corredor {
 
-    public abstract int correrEnPistaDeAtletismo();
+    int correr(Superficie superficie);
 
-    public abstract int correrEnBarro();
+    int correrEnPistaDeAtletismo();
 
-    public abstract int correrEnHielo();
+    int correrEnBarro();
+
+    int correrEnHielo();
 
 }
