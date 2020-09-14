@@ -1,11 +1,15 @@
 package modelo.corredores;
 
-public class Avestruz extends Corredor {
+import modelo.superficies.Superficie;
 
-    public Avestruz(){
-        this.velocidadPistaAtletismo = 70;
-        this.velocidadHielo = 0;
-        this.velocidadBarro = 70;
+public class Avestruz implements Corredor {
+
+    private int velocidadPistaAtletismo= 70;
+    private int velocidadBarro = 0;
+    private int velocidadHielo = 70;
+
+    public int correr(Superficie superficie) {
+        return superficie.correr(this);
     }
 
     @Override

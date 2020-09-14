@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b1415a-57fc-4d48-830f-faeea9f443d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AvestruzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/tests/AvestruzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/AbelPintos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/AbelPintos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/Avestruz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/Avestruz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/Corredor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-aves-alumno/src/modelo/corredores/Corredor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

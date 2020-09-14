@@ -3,7 +3,7 @@ package modelo;
 import modelo.corredores.Corredor;
 import modelo.superficies.Superficie;
 
-public class Pinguino extends Corredor {
+public class Pinguino implements Corredor, Nadador {
 
     public int correr(Superficie superficie) {
         return superficie.correr(this);
@@ -24,6 +24,7 @@ public class Pinguino extends Corredor {
         return 5;
     }
 
+    @Override
     public int nadar() {
         return 20;
     }

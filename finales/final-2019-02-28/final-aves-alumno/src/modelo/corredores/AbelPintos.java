@@ -1,6 +1,12 @@
 package modelo.corredores;
 
-public class AbelPintos extends Corredor {
+import modelo.superficies.Superficie;
+
+public class AbelPintos implements Corredor {
+
+    protected int velocidadPistaAtletismo;
+    protected int velocidadBarro;
+    protected int velocidadHielo;
 
     private String cancion = "vas a verme llegar vas a oir mi cancion";
 
@@ -9,6 +15,11 @@ public class AbelPintos extends Corredor {
         this.velocidadBarro = 2;
         this.velocidadHielo = 0;
     }
+
+    public int correr(Superficie superficie) {
+        return superficie.correr(this);
+    }
+
 
     public String cantar() {
         return this.cancion;
