@@ -22,6 +22,6 @@ public class DosPorUno {
     }
 
     public double renta() {
-        return this.precioPromo.rentaPromo(this.costo);
+        return this.precioPromo.renta(this.costo);
     }
 }

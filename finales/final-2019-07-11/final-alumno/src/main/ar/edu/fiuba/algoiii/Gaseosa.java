@@ -14,6 +14,6 @@ public class Gaseosa {
     }
 
     public double renta() {
-        return this.precioIndividual.rentaProductoIndividual(this.costo);
+        return this.precioIndividual.renta(this.costo);
     }
 }

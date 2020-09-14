@@ -38,7 +38,6 @@ public class PitufosTest {
         DosPorUno promo = new DosPorUno(200);
         promo.añadirProductos(gaseosa1, gaseosa2);
 
-        // combo.setCosto(200);
         promo.asociarPrecioPromo(new Precio(1200, new Pesos()));
 
         double renta = promo.renta();
