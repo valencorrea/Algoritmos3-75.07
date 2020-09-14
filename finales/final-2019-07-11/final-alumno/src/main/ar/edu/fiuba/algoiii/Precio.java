@@ -3,9 +3,9 @@ package main.ar.edu.fiuba.algoiii;
 public class Precio {
 
     private int valor;
-    private Pesos moneda;
+    private Moneda moneda;
 
-    public Precio(int valor, Pesos moneda) {
+    public Precio(int valor, Moneda moneda) {
         this.valor = valor;
         this.moneda = moneda;
     }

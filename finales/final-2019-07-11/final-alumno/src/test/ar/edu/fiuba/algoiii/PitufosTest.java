@@ -1,9 +1,6 @@
 package test.ar.edu.fiuba.algoiii;
 
-import main.ar.edu.fiuba.algoiii.DosPorUno;
-import main.ar.edu.fiuba.algoiii.Gaseosa;
-import main.ar.edu.fiuba.algoiii.Pesos;
-import main.ar.edu.fiuba.algoiii.Precio;
+import main.ar.edu.fiuba.algoiii.*;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -22,6 +19,19 @@ public class PitufosTest {
     }
 
     @Test
+    public void testUnaGaseosaConCosto100YPrecio10DolaresSale400DeRenta(){
+
+        Gaseosa gaseosa = new Gaseosa(100);
+        gaseosa.asociarPrecioIndivudial(new Precio(10, new Dolares()));
+
+        double renta = gaseosa.renta();
+
+        assertEquals(400.0, renta);
+
+    }
+
+/*
+    @Test
     public void testDosGaseosasConCosto100YPrecio1200EnPesosTienePromo2X1(){
 
         Gaseosa gaseosa1 = new Gaseosa(100);
@@ -38,7 +48,7 @@ public class PitufosTest {
         assertEquals(1000.0, renta);
 
     }
-
+*/
 /*
     @Test
     public void test2() {
