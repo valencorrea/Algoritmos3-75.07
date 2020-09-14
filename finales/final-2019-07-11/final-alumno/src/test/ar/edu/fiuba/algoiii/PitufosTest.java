@@ -1,5 +1,6 @@
 package test.ar.edu.fiuba.algoiii;
 
+import main.ar.edu.fiuba.algoiii.DosPorUno;
 import main.ar.edu.fiuba.algoiii.Gaseosa;
 import main.ar.edu.fiuba.algoiii.Pesos;
 import main.ar.edu.fiuba.algoiii.Precio;
@@ -18,32 +19,27 @@ public class PitufosTest {
         double renta = gaseosa.renta();
 
         assertEquals(renta, 100.0);
-
-
     }
-/*
+
     @Test
     public void testDosGaseosasConCosto100YPrecio1200EnPesosTienePromo2X1(){
 
-        Gaseosa gaseosa1 = new Gaseosa(100, );
+        Gaseosa gaseosa1 = new Gaseosa(100);
         Gaseosa gaseosa2 = new Gaseosa(100);
 
-        Promo promo = new Promo();
-
-        promo.DosPorUno(gaseosa1, gaseosa2);
-
+        DosPorUno promo = new DosPorUno();
+        promo.añadirProductos(gaseosa1, gaseosa2);
 
         // combo.setCosto(200);
-        gaseosa01.setCosto(100);
-        gaseosa02.setCosto(100);
+        promo.asociarPrecioPromo(new Precio(1200, new Pesos()));
 
-        double renta = combo.setPrecio(1200, Moneda.PESOS);
+        double renta = promo.renta();
 
         assertEquals(1000.0, renta);
 
     }
 
-
+/*
     @Test
     public void test2() {
         Gaseosa c = new Gaseosa();

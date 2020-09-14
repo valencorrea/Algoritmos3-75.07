@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="pasa primera test">
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Pesos.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/teoria" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Precio.java" afterDir="false" />
+    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="pasa mejor la primera con clase Precio">
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/DosPorUno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Gaseosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Gaseosa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Gaseosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Gaseosa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/PitufosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/PitufosTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/PitufosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/PitufosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,22 @@
       <recent name="main.ar.edu.fiuba.algoiii" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PitufosTest.testUnaGaseosaConCosto100YPrecio200PesosSale100DeRenta">
+  <component name="RunManager" selected="JUnit.PitufosTest">
+    <configuration name="PitufosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.ar.edu.fiuba.algoiii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.ar.edu.fiuba.algoiii" />
+      <option name="MAIN_CLASS_NAME" value="test.ar.edu.fiuba.algoiii.PitufosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PitufosTest.testUnaGaseosaConCosto100YPrecio200PesosSale100DeRenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final-alumno" />
       <extension name="coverage">
@@ -101,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PitufosTest" />
         <item itemvalue="JUnit.PitufosTest.testUnaGaseosaConCosto100YPrecio200PesosSale100DeRenta" />
         <item itemvalue="JUnit.test.ar.edu.fiuba.algoiii in final-alumno" />
       </list>
@@ -116,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600043511561</updated>
-      <workItem from="1600043512905" duration="2037000" />
+      <workItem from="1600043512905" duration="2407000" />
     </task>
     <task id="LOCAL-00001" summary="agrego rtas teoria">
       <created>1600044303205</created>
@@ -132,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600044775703</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pasa mejor la primera con clase Precio">
+      <created>1600045571495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600045571495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +173,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="agrego rtas teoria" />
     <MESSAGE value="pasa primera test" />
-    <option name="LAST_COMMIT_MESSAGE" value="pasa primera test" />
+    <MESSAGE value="pasa mejor la primera con clase Precio" />
+    <option name="LAST_COMMIT_MESSAGE" value="pasa mejor la primera con clase Precio" />
   </component>
   <component name="WindowStateProjectService">
     <state x="281" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600043563730">
@@ -163,22 +185,22 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1600045236330" />
-    <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1600044761895">
+    <state width="981" height="54" key="GridCell.Tab.0.bottom" timestamp="1600045556656">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600044761895" />
-    <state width="981" height="179" key="GridCell.Tab.0.center" timestamp="1600044761895">
+    <state width="981" height="54" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600045556656" />
+    <state width="981" height="54" key="GridCell.Tab.0.center" timestamp="1600045556656">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600044761895" />
-    <state width="981" height="179" key="GridCell.Tab.0.left" timestamp="1600044761895">
+    <state width="981" height="54" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600045556656" />
+    <state width="981" height="54" key="GridCell.Tab.0.left" timestamp="1600045556656">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600044761895" />
-    <state width="981" height="179" key="GridCell.Tab.0.right" timestamp="1600044761895">
+    <state width="981" height="54" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600045556656" />
+    <state width="981" height="54" key="GridCell.Tab.0.right" timestamp="1600045556656">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600044761895" />
+    <state width="981" height="54" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600045556656" />
     <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600044314001">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
