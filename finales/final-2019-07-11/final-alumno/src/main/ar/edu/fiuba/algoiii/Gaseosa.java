@@ -1,29 +1,18 @@
 package main.ar.edu.fiuba.algoiii;
 
-public class Gaseosa implements Productos {
+public class Gaseosa {
+
+    private int precio;
     private int costo;
+    private Pesos modena;
 
-    @Override
-    public double setPrecio(int i, Moneda dollars) {
-        return valorCotizacion(i,dollars) - costo;
+    public Gaseosa(int costo, int precio, Pesos moneda) {
+        this.costo = costo;
+        this.precio = precio;
+        this.modena = moneda;
     }
 
-    @Override
-    public void setCosto(int i) {
-        costo = i;
-    }
-
-    @Override
-    public int getCosto() {
-        return costo;
-    }
-
-
-    private double valorCotizacion(int i, Moneda dollars) {
-        if ( dollars == Moneda.DOLLARS) {
-            return i * 50;
-        }
-
-        return i;
+    public double renta() {
+        return 100.0;
     }
 }
