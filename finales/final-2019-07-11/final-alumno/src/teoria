@@ -1,0 +1,26 @@
+
+
+2. Identifique potenciales problemas de diseño en el código. Enumérelos en una hoja y
+justifique por qué considera que representan un problema de diseño.
+
+    RESPUESTA:
+        - MiClase es un pesimo nombre de una clase (no es descriptivo); idem EqualsTest
+        - los tests de EqualsTest no se entienden, los metodos tambien estan confusos, el de dif
+        deberia ser siempre dif a 10 o como?
+        - test2 tampooc es buen nombre, que estoy testeando?? (que - cuando - resultado)
+        - c es un pesimo nombre de variable, que representa??
+        - DosPorUno combo = new DosPorUno(Arrays.asList(gaseosa01, gaseosa02)); esta vendiendome
+        toda la implementacion interna del modelo, la clase DosPorUno deberia encargarse de ver
+        si agrega o no al array -> viola el tell dont ask
+        - Moneda.PESOS whats that??¿
+        - que es i???
+        - DosPorUno es un producto??
+
+
+3. ¿Se viola algún principio de diseño? ¿Cuál(es)?
+
+    RESPUESTA:
+        - si Productos fuese una clase abstracta se violaria el LSP ya que no es un producto
+        - open close hay mucho harcodeo de cuentas, tal vez se podrian hacer mas delegaciones
+        - single responsability en donsPorUno y Gaseosa ya que ambas tienen varias razones de
+        cambio por tener varios metodos

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-2019-07-11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/DosPorUno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Gaseosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/MiClase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Moneda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-2019-07-12-original/src/test/ar/edu/fiuba/algoiii/EqualsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-2019-07-12-original/src/test/ar/edu/fiuba/algoiii/PitufosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final-alumno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/DosPorUno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Gaseosa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/MiClase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Moneda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Productos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/EqualsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/PitufosTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/DosPorUno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Gaseosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/MiClase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Moneda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teoria" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/EqualsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/PitufosTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hTmZW1QnoAjZboWeDWLzZwcAGi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test.ar.edu.fiuba.algoiii in final-alumno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.ar.edu.fiuba.algoiii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.ar.edu.fiuba.algoiii" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.ar.edu.fiuba.algoiii in final-alumno" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="" />
+      <created>1600043511561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600043511561</updated>
+      <workItem from="1600043512905" duration="756000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="281" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600043563730">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="281" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.728@0.0.1024.728" timestamp="1600043563730" />
+    <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1600043552302">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600043552302" />
+    <state width="981" height="179" key="GridCell.Tab.0.center" timestamp="1600043552302">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600043552302" />
+    <state width="981" height="179" key="GridCell.Tab.0.left" timestamp="1600043552302">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600043552302" />
+    <state width="981" height="179" key="GridCell.Tab.0.right" timestamp="1600043552302">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600043552302" />
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600043538201">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1024.728@0.0.1024.728" timestamp="1600043538201" />
+  </component>
+</project>
