@@ -1,12 +1,21 @@
 package modelo;
 
 import modelo.superficies.Corredor;
-import modelo.superficies.PistaAtletismo;
 
 public class Avestruz implements Corredor {
-/*
-    public int correr(PistaAtletismo pistaAtletismo) {
-        pistaAtletismo.correr(this);
-    }*/
 
+    @Override
+    public int correrEnPistaDeAtletismo() {
+        return 0;
+    }
+
+    @Override
+    public int correrEnBarro() {
+        return 0;
+    }
+
+    @Override
+    public int correrEnHielo() {
+        return 0;
+    }
 }

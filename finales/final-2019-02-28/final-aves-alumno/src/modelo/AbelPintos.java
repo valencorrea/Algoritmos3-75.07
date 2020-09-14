@@ -5,6 +5,9 @@ import modelo.superficies.Superficie;
 
 public class AbelPintos implements Corredor {
 
+    private int velocidadPistaAtletismo = 15;
+    private int velocidadBarro = 2;
+    private int velocidadHielo = 0;
     private String cancion = "vas a verme llegar vas a oir mi cancion";
 
     public String cantar() {
@@ -16,14 +19,15 @@ public class AbelPintos implements Corredor {
     }
 
     public int correrEnPistaDeAtletismo() {
-        return 15;
+        return this.velocidadPistaAtletismo;
     }
 
     public int correrEnHielo() {
-        return 0;
+        return this.velocidadHielo;
     }
 
     public int correrEnBarro() {
-        return 2;
+        return this.velocidadBarro;
     }
+
 }
