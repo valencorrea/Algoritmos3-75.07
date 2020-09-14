@@ -2,22 +2,23 @@ package main.ar.edu.fiuba.algoiii.promos;
 
 import main.ar.edu.fiuba.algoiii.formasDePago.Precio;
 import main.ar.edu.fiuba.algoiii.productos.Gaseosa;
+import main.ar.edu.fiuba.algoiii.productos.Producto;
 
 import java.util.ArrayList;
 
 public class DosPorUno {
 
     private int costo;
-    private ArrayList<Gaseosa> productosEnPromo = new ArrayList<Gaseosa>();
+    private ArrayList<Producto> productosEnPromo = new ArrayList<Producto>();
     private Precio precioPromo;
 
     public DosPorUno(int costo) {
         this.costo = costo;
     }
 
-    public void añadirProductos(Gaseosa gaseosa1, Gaseosa gaseosa2) {
-        this.productosEnPromo.add(gaseosa1);
-        this.productosEnPromo.add(gaseosa2);
+    public void añadirProductos(Producto producto1, Producto producto2) {
+        this.productosEnPromo.add(producto1);
+        this.productosEnPromo.add(producto2);
     }
 
     public void asociarPrecioPromo(Precio precio) {
@@ -31,8 +32,8 @@ public class DosPorUno {
     public double costo() {
         int costo = 0;
 
-        for(Gaseosa gaseosa: productosEnPromo){
-            costo += gaseosa.costo();
+        for(Producto producto: productosEnPromo){
+            costo += producto.costo();
         }
 
         return costo;
