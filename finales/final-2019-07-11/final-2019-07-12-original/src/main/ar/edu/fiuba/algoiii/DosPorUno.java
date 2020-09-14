@@ -28,7 +28,6 @@ public class DosPorUno  implements Productos {
     @Override
     public double setPrecio(int i, Moneda dollars) {
 
-
         return valorCotizacion(i, dollars) - getCosto();
     }
 

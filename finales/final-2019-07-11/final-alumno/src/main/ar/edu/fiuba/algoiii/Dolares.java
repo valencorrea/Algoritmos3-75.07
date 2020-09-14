@@ -7,4 +7,9 @@ public class Dolares implements Moneda{
         return (precioProducto * 50) - costoProducto;
     }
 
+    @Override
+    public double rentaPromo(int precioProducto, int costoProducto) {
+        return (precioProducto * 50) - costoProducto;
+    }
+
 }

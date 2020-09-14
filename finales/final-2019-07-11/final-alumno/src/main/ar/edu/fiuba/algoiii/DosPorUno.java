@@ -4,8 +4,13 @@ import java.util.ArrayList;
 
 public class DosPorUno {
 
+    private int costo;
     private ArrayList<Gaseosa> productosEnPromo = new ArrayList<Gaseosa>();
     private Precio precioPromo;
+
+    public DosPorUno(int costo) {
+        this.costo = costo;
+    }
 
     public void añadirProductos(Gaseosa gaseosa1, Gaseosa gaseosa2) {
         this.productosEnPromo.add(gaseosa1);
@@ -17,6 +22,6 @@ public class DosPorUno {
     }
 
     public double renta() {
-        return 1000.0;
+        return this.precioPromo.rentaPromo(this.costo);
     }
 }

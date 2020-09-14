@@ -13,4 +13,8 @@ public class Precio {
     public double rentaProductoIndividual(int costo) {
         return this.moneda.rentaProductoIndividual(this.valor, costo);
     }
+
+    public double rentaPromo(int costo) {
+        return this.moneda.rentaPromo(this.valor, costo);
+    }
 }

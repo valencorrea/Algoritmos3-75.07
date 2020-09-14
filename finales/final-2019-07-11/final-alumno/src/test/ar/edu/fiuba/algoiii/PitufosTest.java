@@ -30,14 +30,12 @@ public class PitufosTest {
 
     }
 
-/*
     @Test
     public void testDosGaseosasConCosto100YPrecio1200EnPesosTienePromo2X1(){
 
         Gaseosa gaseosa1 = new Gaseosa(100);
         Gaseosa gaseosa2 = new Gaseosa(100);
-
-        DosPorUno promo = new DosPorUno();
+        DosPorUno promo = new DosPorUno(200);
         promo.añadirProductos(gaseosa1, gaseosa2);
 
         // combo.setCosto(200);
@@ -48,19 +46,8 @@ public class PitufosTest {
         assertEquals(1000.0, renta);
 
     }
-*/
+
 /*
-    @Test
-    public void test2() {
-        Gaseosa c = new Gaseosa();
-
-        c.setCosto(100);
-
-        double renta = c.setPrecio(200, Moneda.PESOS);
-
-        assertEquals(renta, 100.0);
-    }
-
     @Test
     public void test3() {
         Gaseosa gaseosa01 = new Gaseosa();
@@ -74,16 +61,6 @@ public class PitufosTest {
         double renta = combo.setPrecio(1200, Moneda.PESOS);
 
         assertEquals(1000.0, renta);
-    }
-
-    @Test
-    public void test4() {
-        Gaseosa gaseosa = new Gaseosa();
-        gaseosa.setCosto(100);
-
-        double renta = gaseosa.setPrecio(10, Moneda.DOLLARS);
-
-        assertEquals(400.0, renta);
     }
 */
 }
