@@ -19,16 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="agrego clase abstracta Producto">
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/VacaTest.class" afterDir="false" />
+    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="cambio Gaseosa por Producto en todos lados">
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/formasDePago/Precio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/formasDePago/Vaca.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/productos/Alfajor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/productos/Gaseosa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/productos/Producto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/DosPorUno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Gaseosa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Precio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clasesProductos.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/diagramas/clasesProductos.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/EqualsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/GaseosaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/GaseosaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/PromoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/PromoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/monedas/Pesos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/monedas/Pesos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/promos/DosPorUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/promos/DosPorUno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secuenciaProductos.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/diagramas/secuenciaProductos.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\repoGitHub\Algoritmos3-75.07\finales\final-2019-07-11\final-alumno\src\diagramas" />
+      <recent name="C:\Users\Usuario\Desktop\repoGitHub\Algoritmos3-75.07\finales\final-2019-07-11\final-alumno\src" />
+      <recent name="C:\Users\Usuario\Desktop\repoGitHub\Algoritmos3-75.07\finales\final-2019-07-11\final-alumno\diagramas" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.ar.edu.fiuba.algoiii" />
     </key>
@@ -167,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600043511561</updated>
-      <workItem from="1600043512905" duration="6632000" />
+      <workItem from="1600043512905" duration="8892000" />
     </task>
     <task id="LOCAL-00001" summary="agrego rtas teoria">
       <created>1600044303205</created>
@@ -274,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600050052459</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="cambio Gaseosa por Producto en todos lados">
+      <created>1600050175760</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600050175760</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +321,8 @@
     <MESSAGE value="agrego la vaca" />
     <MESSAGE value="refactor carpetas" />
     <MESSAGE value="agrego clase abstracta Producto" />
-    <option name="LAST_COMMIT_MESSAGE" value="agrego clase abstracta Producto" />
+    <MESSAGE value="cambio Gaseosa por Producto en todos lados" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambio Gaseosa por Producto en todos lados" />
   </component>
   <component name="WindowStateProjectService">
     <state x="281" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600043563730">
@@ -326,29 +341,33 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1600049011420" />
-    <state width="981" height="26" key="GridCell.Tab.0.bottom" timestamp="1600050088236">
+    <state width="981" height="26" key="GridCell.Tab.0.bottom" timestamp="1600050156130">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="26" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600050088236" />
-    <state width="981" height="26" key="GridCell.Tab.0.center" timestamp="1600050088236">
+    <state width="981" height="26" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600050156130" />
+    <state width="981" height="26" key="GridCell.Tab.0.center" timestamp="1600050156130">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="26" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600050088236" />
-    <state width="981" height="26" key="GridCell.Tab.0.left" timestamp="1600050088236">
+    <state width="981" height="26" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600050156130" />
+    <state width="981" height="26" key="GridCell.Tab.0.left" timestamp="1600050156130">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="26" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600050088236" />
-    <state width="981" height="26" key="GridCell.Tab.0.right" timestamp="1600050088236">
+    <state width="981" height="26" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600050156130" />
+    <state width="981" height="26" key="GridCell.Tab.0.right" timestamp="1600050156130">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="26" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600050088236" />
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600049773563">
+    <state width="981" height="26" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600050156130" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600050178268">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600049773563" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600050178268" />
     <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600043538201">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1024.728@0.0.1024.728" timestamp="1600043538201" />
+    <state x="208" y="152" key="git4idea.merge.GitPullDialog" timestamp="1600052391615">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="208" y="152" key="git4idea.merge.GitPullDialog/0.0.1024.728@0.0.1024.728" timestamp="1600052391615" />
   </component>
 </project>

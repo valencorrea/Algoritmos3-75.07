@@ -1,7 +1,6 @@
 package main.ar.edu.fiuba.algoiii.promos;
 
 import main.ar.edu.fiuba.algoiii.formasDePago.Precio;
-import main.ar.edu.fiuba.algoiii.productos.Gaseosa;
 import main.ar.edu.fiuba.algoiii.productos.Producto;
 
 import java.util.ArrayList;

@@ -1,7 +1,4 @@
 package main.ar.edu.fiuba.algoiii.monedas;
-
-import main.ar.edu.fiuba.algoiii.monedas.Moneda;
-
 public class Pesos implements Moneda {
 
     @Override
