@@ -1,6 +1,8 @@
 package test.ar.edu.fiuba.algoiii;
 
 import main.ar.edu.fiuba.algoiii.*;
+import main.ar.edu.fiuba.algoiii.monedas.Dolares;
+import main.ar.edu.fiuba.algoiii.monedas.Pesos;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -61,4 +63,19 @@ public class PitufosTest {
         assertEquals(39500.0, renta);
 
     }
+
+    @Test
+    public void testelCostoTotalDeUnaPromoConDosGaseosasA80Es(){
+
+        Gaseosa gaseosa1 = new Gaseosa(80);
+        Gaseosa gaseosa2 = new Gaseosa(80);
+        DosPorUno promo = new DosPorUno(500);
+        promo.añadirProductos(gaseosa1, gaseosa2);
+
+        double costoTotal = promo.costo();
+
+        assertEquals(160.0, costoTotal);
+
+    }
+
 }

@@ -16,4 +16,8 @@ public class Gaseosa {
     public double renta() {
         return this.precioIndividual.renta(this.costo);
     }
+
+    public int costo() {
+        return this.costo;
+    }
 }

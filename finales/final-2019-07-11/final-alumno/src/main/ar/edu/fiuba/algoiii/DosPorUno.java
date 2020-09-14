@@ -24,4 +24,14 @@ public class DosPorUno {
     public double renta() {
         return this.precioPromo.renta(this.costo);
     }
+
+    public double costo() {
+        int costo = 0;
+
+        for(Gaseosa gaseosa: productosEnPromo){
+            costo += gaseosa.costo();
+        }
+
+        return costo;
+    }
 }

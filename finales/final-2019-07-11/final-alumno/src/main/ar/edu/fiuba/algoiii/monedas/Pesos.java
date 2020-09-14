@@ -1,6 +1,8 @@
-package main.ar.edu.fiuba.algoiii;
+package main.ar.edu.fiuba.algoiii.monedas;
 
-public class Pesos implements Moneda{
+import main.ar.edu.fiuba.algoiii.monedas.Moneda;
+
+public class Pesos implements Moneda {
 
     @Override
     public double renta(int precioProducto, int costoProducto) {

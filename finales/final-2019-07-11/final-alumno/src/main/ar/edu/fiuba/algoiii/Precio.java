@@ -1,5 +1,7 @@
 package main.ar.edu.fiuba.algoiii;
 
+import main.ar.edu.fiuba.algoiii.monedas.Moneda;
+
 public class Precio {
 
     private int valor;
