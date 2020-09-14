@@ -2,6 +2,7 @@ package tests;
 
 import modelo.AbelPintos;
 import modelo.PistaAtletismo;
+import modelo.PistaDeHielo;
 import modelo.SupDeBarro;
 import org.junit.Test;
 
@@ -42,26 +43,15 @@ public class AbelPintosTest {
 
     }
 
-    /*
-    *
-    * public int correr(Superficie superficie) {
+    @Test
+    public void testAbelNoPuedeDarNiUnPasoEnUnaPistaDeHielo(){
 
-		if (superficie == Superficie.PISTA_ATLETISMO) {
-			// unos 15 km/h
-			return 15;
-		}
+        AbelPintos abel = new AbelPintos();
 
-		if (superficie == Superficie.BARRO) {
-			//medio lento pero se puede
-			return 2;
-		}
+        int kmPorHora = abel.correr(new PistaDeHielo());
 
-		if (superficie == Superficie.HIELO) {
-			//olvidate, me caigo.
-			return 0;
-		}
-    *
-    *
-    * */
+        assertEquals(kmPorHora, 0);
+
+    }
 
 }
