@@ -4,23 +4,27 @@ import modelo.superficies.Superficie;
 
 public class Pinguino implements Corredor, Nadador {
 
+    private int velocidadHielo = 20;
+    private int velocidadEnAtletismo = 0;
+    private int velocidadEnBarro = 0;
+
     public int correr(Superficie superficie) {
         return superficie.correr(this);
     }
 
     @Override
     public int correrEnPistaDeAtletismo() {
-        return 0;
+        return this.velocidadEnAtletismo;
     }
 
     @Override
     public int correrEnBarro() {
-        return 0;
+        return this.velocidadEnBarro;
     }
 
     @Override
     public int correrEnHielo() {
-        return 5;
+        return this.velocidadHielo;
     }
 
     @Override

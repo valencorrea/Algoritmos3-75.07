@@ -37,10 +37,3 @@ En este sentido cualquiera de las siguientes situaciones conlleva a la desaproba
 
 		a) Realice PRIMERO un diagrama de clases A MANO ALZADA de como sera su nuevo diseño.
 		b) Realice un diagrama de secuencia A MANO ALZADA del avestruz corriendo sobre el Barro.
-
-
-3) Preguntas teóricas: A determinar por el docente.
-
-
-4) Lecturas obligatorias: A determinar por el docente.
-
