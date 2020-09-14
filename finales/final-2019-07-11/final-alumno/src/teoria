@@ -15,6 +15,7 @@ justifique por qué considera que representan un problema de diseño.
         - Moneda.PESOS whats that??¿
         - que es i???
         - DosPorUno es un producto??
+        - es re confuso que setPrecio ademas devuelva el valor de la renta
 
 
 3. ¿Se viola algún principio de diseño? ¿Cuál(es)?

@@ -10,4 +10,7 @@ public class Precio {
         this.moneda = moneda;
     }
 
+    public double rentaProductoIndividual(int costo) {
+        return this.moneda.rentaProductoIndividual(this.valor, costo);
+    }
 }
