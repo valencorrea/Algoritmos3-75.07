@@ -1,6 +1,6 @@
 package modelo.superficies;
 
-import modelo.corredores.Corredor;
+import modelo.Corredor;
 
 public interface Superficie {
 

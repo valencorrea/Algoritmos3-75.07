@@ -1,4 +1,4 @@
-package modelo.corredores;
+package modelo;
 
 import modelo.superficies.Superficie;
 

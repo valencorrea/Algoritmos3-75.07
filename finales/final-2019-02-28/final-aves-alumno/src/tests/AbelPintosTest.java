@@ -1,6 +1,6 @@
 package tests;
 
-import modelo.corredores.AbelPintos;
+import modelo.AbelPintos;
 import modelo.superficies.PistaAtletismo;
 import modelo.superficies.PistaDeHielo;
 import modelo.superficies.SupDeBarro;

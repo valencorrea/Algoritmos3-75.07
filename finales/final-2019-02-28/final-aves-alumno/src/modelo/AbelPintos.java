@@ -1,8 +1,8 @@
-package modelo.corredores;
+package modelo;
 
 import modelo.superficies.Superficie;
 
-public class AbelPintos implements Corredor {
+public class AbelPintos implements Corredor, Cantante {
 
     protected int velocidadPistaAtletismo;
     protected int velocidadBarro;
@@ -20,7 +20,7 @@ public class AbelPintos implements Corredor {
         return superficie.correr(this);
     }
 
-
+    @Override
     public String cantar() {
         return this.cancion;
     }

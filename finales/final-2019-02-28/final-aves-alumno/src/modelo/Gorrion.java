@@ -1,6 +1,6 @@
 package modelo;
 
-public class Gorrion {
+public class Gorrion implements  Volador, Cantante{
 
     private String canto;
     private int velocidad;
@@ -10,11 +10,14 @@ public class Gorrion {
         this.canto = canto;
     }
 
+    @Override
     public int volar() {
         return this.velocidad;
     }
 
+    @Override
     public String cantar() {
         return this.canto;
     }
+
 }

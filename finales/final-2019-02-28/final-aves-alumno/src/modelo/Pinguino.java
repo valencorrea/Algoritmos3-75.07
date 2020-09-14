@@ -1,6 +1,5 @@
 package modelo;
 
-import modelo.corredores.Corredor;
 import modelo.superficies.Superficie;
 
 public class Pinguino implements Corredor, Nadador {
