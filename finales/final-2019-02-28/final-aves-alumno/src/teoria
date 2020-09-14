@@ -1,0 +1,21 @@
+
+
+
+	a) ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos porqué considera que representan un problema de diseño.
+
+	    RESPUESTA:
+            - por que volar y cantar devuelven strings?? que es 50??
+            - es muy estucturado usar tantos ifs, por cada superficie nueva voy a tener que
+            agregar otro if
+
+
+
+	b) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
+
+        RESPUESTA:
+            - interface segregation: gorrion no sabe correr; also avestruz no sabe hacer nada
+            de esa interfaz!! pura excepcion bro para que la implementa? abel pintos tampoco puede
+            hacer todp eso, flashearon
+            - open close: mas que nada con todos los ifs esos y comparaciones de strings
+            - single responsability: todas tienen mas de una razon de cambio lo cual es suficiente
+            para violar el principio
