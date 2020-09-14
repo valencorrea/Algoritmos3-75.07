@@ -19,18 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="refactor clases de tests">
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/GaseosaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/PromoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Alfajor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/Vaca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ar/edu/fiuba/algoiii/VacaTest.java" afterDir="false" />
+    <list default="true" id="0bcdcc92-90cd-455f-b9bd-1457f8bf6440" name="Default Changelist" comment="refactor carpetas">
+      <change afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/productos/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Gaseosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/main/ar/edu/fiuba/algoiii/Gaseosa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/final-alumno/teoria" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final-alumno/teoria" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/final-alumno/test/ar/edu/fiuba/algoiii/EqualsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teoria" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/productos/Alfajor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/productos/Alfajor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/productos/Gaseosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ar/edu/fiuba/algoiii/productos/Gaseosa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -168,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600043511561</updated>
-      <workItem from="1600043512905" duration="6082000" />
+      <workItem from="1600043512905" duration="6519000" />
     </task>
     <task id="LOCAL-00001" summary="agrego rtas teoria">
       <created>1600044303205</created>
@@ -254,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600048524843</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="agrego la vaca">
+      <created>1600049622580</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600049622580</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor carpetas">
+      <created>1600049771067</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600049771067</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +294,9 @@
     <MESSAGE value="pasan 4 tests" />
     <MESSAGE value="agrego metodo para obtener el costo dela promo (y gaseosa)" />
     <MESSAGE value="refactor clases de tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor clases de tests" />
+    <MESSAGE value="agrego la vaca" />
+    <MESSAGE value="refactor carpetas" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor carpetas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="281" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600043563730">
@@ -319,10 +331,10 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state width="981" height="26" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600049527219" />
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600048636245">
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600049773563">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600048636245" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600049773563" />
     <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600043538201">
       <screen x="0" y="0" width="1024" height="728" />
     </state>

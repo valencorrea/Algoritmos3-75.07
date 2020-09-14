@@ -2,9 +2,8 @@ package main.ar.edu.fiuba.algoiii.productos;
 
 import main.ar.edu.fiuba.algoiii.formasDePago.Vaca;
 
-public class Alfajor {
+public class Alfajor extends Producto{
 
-    private int costo;
     private Vaca vaca;
 
     public Alfajor(int costo) {
@@ -18,4 +17,5 @@ public class Alfajor {
     public double renta() {
         return this.vaca.renta();
     }
+
 }

@@ -2,9 +2,8 @@ package main.ar.edu.fiuba.algoiii.productos;
 
 import main.ar.edu.fiuba.algoiii.formasDePago.Precio;
 
-public class Gaseosa {
+public class Gaseosa extends Producto{
 
-    private int costo;
     private Precio precioIndividual;
 
     public Gaseosa(int costo) {
@@ -19,7 +18,4 @@ public class Gaseosa {
         return this.precioIndividual.renta(this.costo);
     }
 
-    public int costo() {
-        return this.costo;
-    }
 }
