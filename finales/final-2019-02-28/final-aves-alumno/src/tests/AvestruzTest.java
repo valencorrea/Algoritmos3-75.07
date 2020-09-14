@@ -1,13 +1,15 @@
 package tests;
 
-import modelo.Avestruz;
+import modelo.corredores.Avestruz;
 import modelo.superficies.PistaAtletismo;
+import modelo.superficies.PistaDeHielo;
+import modelo.superficies.SupDeBarro;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
 public class AvestruzTest {
-/*
+
     @Test
     public void testUnAvestruzEnUnaPistaDeAtletismoCorreA70KmPorHora(){
 
@@ -18,23 +20,33 @@ public class AvestruzTest {
         assertEquals(velocidad, 70);
 
     }
-*/
+
+    @Test
+    public void testUnAvestruzEnUnaPistaDeHieloNiSeMueve(){
+
+        Avestruz avestruz = new Avestruz();
+
+        int velocidad = avestruz.correr(new PistaDeHielo());
+
+        assertEquals(velocidad, 0);
+
+    }
+/*
+    @Test
+    public void testUnAvestruzEnUnaPistaDeHieloCorreA70KmPorHora(){
+
+        Avestruz avestruz = new Avestruz();
+
+        int velocidad = avestruz.correr(new PistaDeHielo());
+
+        assertEquals(velocidad, 70);
+
+    }*/
 
 
 
     /*
     *
-    * public int correr(Superficie superficie) {
-
-		if (superficie == Superficie.PISTA_ATLETISMO) {
-			// corriendo soy un/a champion 70 km/h
-			return 70;
-		}
-
-		if (superficie == Superficie.BARRO) {
-			// Nada me detiene !!
-			return 70;
-		}
 
 		if (superficie == Superficie.HIELO) {
 			// En realidad el hielo si.
