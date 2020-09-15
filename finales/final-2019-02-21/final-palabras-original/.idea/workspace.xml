@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18abb61c-26e4-44a8-89dc-bd83aab506f2" name="Default Changelist" comment="agrego rtas teoricas">
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/final-palabras-alumno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/final-palabras-alumno.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/test/PalabraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/PalabraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teoria" beforeDir="false" afterPath="$PROJECT_DIR$/teoria" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/testSistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final2020-09-10/version-alumno/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final2020-09-10/version-alumno/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600138306170</updated>
-      <workItem from="1600138307405" duration="1909000" />
+      <workItem from="1600138307405" duration="3144000" />
     </task>
     <task id="LOCAL-00001" summary="agrego rtas teoricas">
       <created>1600139432530</created>

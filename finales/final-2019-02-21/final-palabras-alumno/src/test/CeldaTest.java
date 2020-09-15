@@ -1,6 +1,7 @@
 package test;
 
 import modelo.Celda;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -17,39 +18,15 @@ public class CeldaTest {
         assertEquals(1, peso);
     }
 
+    @Test
+    public void testQuieroCrearUnaCeldaPeroNoPuedoPorqueSuPesoEsMenorACero(){
 
+        try {
+            new Celda('A', -1);
+            Assert.fail("No se arrojo exception al querer crear una celda con peso menor a 0");
+        } catch (RuntimeException exception) {
+            Assert.assertEquals("No se puede tener una celda con peso menor a 0", exception.getMessage());
+        }
+    }
 
 }
-
-/*
-*
-*  	// Tablero
-        Celda celda_1_1 = new Celda();
-        Celda celda_1_2 = new Celda();
-        Celda celda_2_2 = new Celda();
-
-        // Primera Palabra
-        Palabra primera = new Palabra();
-        *
-        celda_1_1.setLetra("A");
-        celda_1_1.setPeso(1);
-        primera.celdas.add(celda_1_1);
-        celda_1_2.setLetra("L");
-        celda_1_2.setPeso(1);
-        primera.celdas.add(celda_1_2);
-
-        assertEquals(2, primera.puntaje());
-
-        // Segunda palabra
-        Palabra segunda = new Palabra();
-        celda_1_2.setLetra("L");
-        celda_1_2.setPeso(1);
-        segunda.celdas.add(celda_1_2);
-        celda_2_2.setLetra("O");
-        celda_2_2.setPeso(1);
-        segunda.celdas.add(celda_2_2);
-
-        assertEquals(1, segunda.puntaje());
-
-*
-* */

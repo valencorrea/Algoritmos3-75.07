@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b01e5000-7530-4408-8df1-fa346a4e22a3" name="Default Changelist" comment="ahre ahora funciona el kilos() en la abstracta ¿?¿">
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/DosPorUno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Gaseosa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/MiClase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Moneda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/main/ar/edu/fiuba/algoiii/Productos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/test/ar/edu/fiuba/algoiii/EqualsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../final-2019-07-11/final-2019-07-12-original/src/test/ar/edu/fiuba/algoiii/PitufosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-21/final-palabras-alumno/src/test/CeldaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-21/final-palabras-alumno/src/test/CeldaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-21/final-palabras-alumno/src/test/PalabraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-21/final-palabras-alumno/src/test/PalabraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-21/final-palabras-original/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-21/final-palabras-original/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../final-2019-07-11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaVersion/version-alumno" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -182,6 +177,7 @@
       <workItem from="1599943543392" duration="2754000" />
       <workItem from="1599947057351" duration="15102000" />
       <workItem from="1600035129642" duration="1168000" />
+      <workItem from="1600142144270" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="pasa la primer prueba">
       <created>1599945199902</created>
@@ -354,10 +350,10 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1599953031687" />
-    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1600043025270">
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1600142183838">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1600043025270" />
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1600142183838" />
     <state width="981" height="18" key="GridCell.Tab.0.bottom" timestamp="1600043026705">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
