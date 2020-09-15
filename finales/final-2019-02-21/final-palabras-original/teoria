@@ -1,0 +1,22 @@
+
+
+	a) ¿Qué potenciales problemas de diseño encuentra en el codigo? Enumérelos explicando PARA CADA UNO de ellos porqué considera que representan un problema de diseño.
+
+        RESPUESTA:
+            - un solo test? -> no se hizo con tdd
+            - man que tienen con los pitufos, que esta testeando la test??
+            - primera.celdas.add(celda_1_1); es de caja blanca :/ la desventaja es que el test
+            esta condicionado a esa unica implementacion.
+            - hay mucho de programacion estructurada, ifs y acceder a campos para en base a eso actuar, cuando
+            yo deberia actuar y que el objeto se encargue de responder como sepa
+            - que es c?? que representa?? no lo se porque es un horrible nombre de variable xd
+
+
+
+
+
+	b) ¿Se viola algún(os) principio(s) de diseño ? ¿Cual(es)?
+
+        RESPUESTA:
+            - viola el srp: tiene varias razones de cambio
+            - palabra viola el dependency inversion ya que depende de una clase concreta(array de celdas)

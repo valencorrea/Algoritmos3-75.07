@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18abb61c-26e4-44a8-89dc-bd83aab506f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/final-palabras-alumno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final-palabras-original.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/final-palabras-original.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/main/Celda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/main/Palabra.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/test/testSistema.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Celda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Palabra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teoria" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-28/javaVersion/final-aves-alumno/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-28/javaVersion/final-aves-alumno/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-28/javaVersion/final-aves-alumno/out/production/final-aves-alumno/modelo/Pinguino.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-28/javaVersion/final-aves-alumno/out/production/final-aves-alumno/modelo/Pinguino.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hWsiBlx0qh2vIZdmFCNBVWaAjN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="JUnit.test in final-palabras-original">
+    <configuration name="test in final-palabras-original" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-palabras-original" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSistema" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-palabras-original" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.testSistema" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test in final-palabras-original" />
+        <item itemvalue="JUnit.testSistema" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18abb61c-26e4-44a8-89dc-bd83aab506f2" name="Default Changelist" comment="" />
+      <created>1600138306170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600138306170</updated>
+      <workItem from="1600138307405" duration="1108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1600139259620">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600139259620" />
+    <state width="981" height="179" key="GridCell.Tab.0.center" timestamp="1600139259620">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600139259620" />
+    <state width="981" height="179" key="GridCell.Tab.0.left" timestamp="1600139259620">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600139259620" />
+    <state width="981" height="179" key="GridCell.Tab.0.right" timestamp="1600139259620">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600139259620" />
+    <state x="328" y="141" key="chooseDestDirectoryDialog" timestamp="1600139239721">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="328" y="141" key="chooseDestDirectoryDialog/0.0.1024.728@0.0.1024.728" timestamp="1600139239721" />
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600138322242">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1024.728@0.0.1024.728" timestamp="1600138322242" />
+  </component>
+</project>
