@@ -1,6 +1,8 @@
 package test;
 
+import modelo.letras.Caracter;
 import modelo.Celda;
+import modelo.letras.Vocal;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,7 +13,7 @@ public class CeldaTest {
     @Test
     public void testCreoUnaCeldaYSuPesoEsElIndicado(){
 
-        Celda celda = new Celda('B', 1);
+        Celda celda = new Celda(new Caracter('B', 1));
 
         int peso = celda.calcularPuntaje();
 
@@ -22,23 +24,21 @@ public class CeldaTest {
     public void testQuieroCrearUnaCeldaPeroNoPuedoPorqueSuPesoEsMenorACero(){
 
         try {
-            new Celda('A', -1);
+            new Celda(new Caracter('B', -1));
             Assert.fail("No se arrojo exception al querer crear una celda con peso menor a 0");
         } catch (RuntimeException exception) {
-            Assert.assertEquals("No se puede tener una celda con peso menor a 0", exception.getMessage());
+            Assert.assertEquals("No se puede tener una letra con peso menor a 0", exception.getMessage());
         }
     }
 
     @Test
     public void testUnaCeldaContieneUnaVocalSeDuplicaSuPeso(){
 
-        Celda celda = new Celda('A', 1);
+        Celda celda = new Celda(new Vocal('A', 1));
 
         int peso = celda.calcularPuntaje();
 
         assertEquals(2, peso);
 
     }
-
-
 }

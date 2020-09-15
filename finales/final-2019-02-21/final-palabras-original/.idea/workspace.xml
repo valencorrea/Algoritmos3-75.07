@@ -20,15 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18abb61c-26e4-44a8-89dc-bd83aab506f2" name="Default Changelist" comment="agrego rtas teoricas">
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/modelo/Celda.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/test/CeldaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Letra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/estadosCelda/EstadoCelda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/estadosCelda/EstadoContabilizada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/estadosCelda/EstadoSinContabilizar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/letras/Caracter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/letras/Letra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/letras/Vocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/modelo/Celda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/modelo/Celda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/test/CeldaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/test/CeldaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Celda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Celda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Palabra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Palabra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/test/PalabraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/PalabraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -111,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600138306170</updated>
-      <workItem from="1600138307405" duration="4528000" />
+      <workItem from="1600138307405" duration="6466000" />
     </task>
     <task id="LOCAL-00001" summary="agrego rtas teoricas">
       <created>1600139432530</created>
@@ -143,22 +145,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="agrego rtas teoricas" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1600139259620">
+    <state width="981" height="40" key="GridCell.Tab.0.bottom" timestamp="1600152070765">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600139259620" />
-    <state width="981" height="179" key="GridCell.Tab.0.center" timestamp="1600139259620">
+    <state width="981" height="40" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600152070765" />
+    <state width="981" height="40" key="GridCell.Tab.0.center" timestamp="1600152070765">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600139259620" />
-    <state width="981" height="179" key="GridCell.Tab.0.left" timestamp="1600139259620">
+    <state width="981" height="40" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600152070765" />
+    <state width="981" height="40" key="GridCell.Tab.0.left" timestamp="1600152070764">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600139259620" />
-    <state width="981" height="179" key="GridCell.Tab.0.right" timestamp="1600139259620">
+    <state width="981" height="40" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600152070764" />
+    <state width="981" height="40" key="GridCell.Tab.0.right" timestamp="1600152070765">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600139259620" />
+    <state width="981" height="40" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600152070765" />
     <state x="328" y="141" key="chooseDestDirectoryDialog" timestamp="1600139239721">
       <screen x="0" y="0" width="1024" height="728" />
     </state>

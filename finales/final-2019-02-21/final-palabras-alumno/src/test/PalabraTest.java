@@ -1,5 +1,6 @@
 package test;
 
+import modelo.letras.Caracter;
 import modelo.Celda;
 import modelo.Palabra;
 import org.junit.Test;
@@ -11,7 +12,7 @@ public class PalabraTest {
     @Test
     public void testCreoUnaPalabraConUnaCeldaDePeso1MeDevuelveElPuntajeEsperado(){
 
-        Celda celda = new Celda('H', 1);
+        Celda celda = new Celda(new Caracter('H', 1));
         Palabra palabra = new Palabra();
 
         palabra.agregarCelda(celda);
@@ -24,8 +25,8 @@ public class PalabraTest {
     @Test
     public void testCreoUnaPalabraConDosCeldasDePesos1Y0MeDevuelveElPuntajeEsperado(){
 
-        Celda unaCelda = new Celda('H', 0);
-        Celda otraCelda = new Celda('G', 1);
+        Celda unaCelda = new Celda(new Caracter('H', 0));
+        Celda otraCelda = new Celda(new Caracter('G', 1));
 
         Palabra palabra = new Palabra();
 
@@ -40,8 +41,8 @@ public class PalabraTest {
     @Test
     public void testCreoUnaPalabraConDosCeldasDePesos1y1MeDevuelveElPuntajeEsperado(){
 
-        Celda unaCelda = new Celda('H', 1);
-        Celda otraCelda = new Celda('G', 1);
+        Celda unaCelda = new Celda(new Caracter('G', 1));
+        Celda otraCelda = new Celda(new Caracter('F', 1));
 
         Palabra palabra = new Palabra();
 
