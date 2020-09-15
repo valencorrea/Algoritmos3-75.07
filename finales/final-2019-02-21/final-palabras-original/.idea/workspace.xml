@@ -19,32 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18abb61c-26e4-44a8-89dc-bd83aab506f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/final-palabras-alumno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final-palabras-original.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/final-palabras-original.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/main/Celda.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/main/Palabra.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-palabras-original/test/testSistema.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Celda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Palabra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teoria" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-02-28/javaVersion/final-aves-alumno/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-28/javaVersion/final-aves-alumno/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-02-28/javaVersion/final-aves-alumno/out/production/final-aves-alumno/modelo/Pinguino.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-28/javaVersion/final-aves-alumno/out/production/final-aves-alumno/modelo/Pinguino.class" afterDir="false" />
+    <list default="true" id="18abb61c-26e4-44a8-89dc-bd83aab506f2" name="Default Changelist" comment="agrego rtas teoricas">
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/final-palabras-alumno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/final-palabras-alumno.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teoria" beforeDir="false" afterPath="$PROJECT_DIR$/teoria" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/testSistema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +100,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600138306170</updated>
-      <workItem from="1600138307405" duration="1108000" />
+      <workItem from="1600138307405" duration="1909000" />
     </task>
+    <task id="LOCAL-00001" summary="agrego rtas teoricas">
+      <created>1600139432530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600139432530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +125,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="agrego rtas teoricas" />
+    <option name="LAST_COMMIT_MESSAGE" value="agrego rtas teoricas" />
   </component>
   <component name="WindowStateProjectService">
     <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1600139259620">
