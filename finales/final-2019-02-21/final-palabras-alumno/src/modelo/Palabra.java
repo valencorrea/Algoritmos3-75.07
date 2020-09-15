@@ -1,7 +1,5 @@
 package modelo;
 
-import modelo.Celda;
-
 import java.util.LinkedList;
 
 public class Palabra {
