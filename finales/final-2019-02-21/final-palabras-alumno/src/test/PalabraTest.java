@@ -11,7 +11,7 @@ public class PalabraTest {
     @Test
     public void testCreoUnaPalabraConUnaCeldaDePeso1MeDevuelveElPuntajeEsperado(){
 
-        Celda celda = new Celda('A', 1);
+        Celda celda = new Celda('H', 1);
         Palabra palabra = new Palabra();
 
         palabra.agregarCelda(celda);
@@ -24,7 +24,7 @@ public class PalabraTest {
     @Test
     public void testCreoUnaPalabraConDosCeldasDePesos1Y0MeDevuelveElPuntajeEsperado(){
 
-        Celda unaCelda = new Celda('A', 0);
+        Celda unaCelda = new Celda('H', 0);
         Celda otraCelda = new Celda('G', 1);
 
         Palabra palabra = new Palabra();
@@ -40,7 +40,7 @@ public class PalabraTest {
     @Test
     public void testCreoUnaPalabraConDosCeldasDePesos1y1MeDevuelveElPuntajeEsperado(){
 
-        Celda unaCelda = new Celda('A', 1);
+        Celda unaCelda = new Celda('H', 1);
         Celda otraCelda = new Celda('G', 1);
 
         Palabra palabra = new Palabra();

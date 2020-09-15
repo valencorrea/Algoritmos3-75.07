@@ -11,9 +11,9 @@ public class CeldaTest {
     @Test
     public void testCreoUnaCeldaYSuPesoEsElIndicado(){
 
-        Celda celda = new Celda('A', 1);
+        Celda celda = new Celda('B', 1);
 
-        int peso = celda.calcularPeso();
+        int peso = celda.calcularPuntaje();
 
         assertEquals(1, peso);
     }
@@ -28,5 +28,17 @@ public class CeldaTest {
             Assert.assertEquals("No se puede tener una celda con peso menor a 0", exception.getMessage());
         }
     }
+
+    @Test
+    public void testUnaCeldaContieneUnaVocalSeDuplicaSuPeso(){
+
+        Celda celda = new Celda('A', 1);
+
+        int peso = celda.calcularPuntaje();
+
+        assertEquals(2, peso);
+
+    }
+
 
 }

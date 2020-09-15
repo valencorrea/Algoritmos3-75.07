@@ -20,10 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18abb61c-26e4-44a8-89dc-bd83aab506f2" name="Default Changelist" comment="agrego rtas teoricas">
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/modelo/Celda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/test/CeldaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Letra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Celda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Celda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/test/PalabraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/PalabraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final2020-09-10/version-alumno/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final2020-09-10/version-alumno/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +42,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1hWsiBlx0qh2vIZdmFCNBVWaAjN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -99,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600138306170</updated>
-      <workItem from="1600138307405" duration="3144000" />
+      <workItem from="1600138307405" duration="4528000" />
     </task>
     <task id="LOCAL-00001" summary="agrego rtas teoricas">
       <created>1600139432530</created>
@@ -126,6 +138,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="agrego rtas teoricas" />
     <option name="LAST_COMMIT_MESSAGE" value="agrego rtas teoricas" />
   </component>
