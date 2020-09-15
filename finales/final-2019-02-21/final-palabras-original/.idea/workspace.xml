@@ -20,20 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18abb61c-26e4-44a8-89dc-bd83aab506f2" name="Default Changelist" comment="agrego rtas teoricas">
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/estadosCelda/EstadoCelda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/estadosCelda/EstadoContabilizada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/estadosCelda/EstadoSinContabilizar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/letras/Caracter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/letras/Letra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/letras/Vocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/modelo/Celda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/modelo/Celda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/test/CeldaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/out/production/final-palabras-alumno/test/CeldaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Celda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Celda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Palabra.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/modelo/Palabra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/CeldaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/src/test/PalabraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/src/test/PalabraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../final-palabras-alumno/clases.png" beforeDir="false" afterPath="$PROJECT_DIR$/../final-palabras-alumno/diagramas/clases.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
