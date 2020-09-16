@@ -1,14 +1,13 @@
 package tests;
 
 import modelo.Auto;
-import modelo.SinTelepase;
 import modelo.TieneTelepase;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class AutoTest {
-/*
+
     @Test
     public void testUnAutoTieneTelepaseEntoncesPagaLaMitadDelPeaje(){
 
@@ -18,7 +17,7 @@ public class AutoTest {
 
         assertEquals(4, costoPeaje);
     }
-
+/*
     @Test
     public void testUnAutoNoTieneTelepaseEntoncesPagaSegunCantidadDeRuedas(){
 

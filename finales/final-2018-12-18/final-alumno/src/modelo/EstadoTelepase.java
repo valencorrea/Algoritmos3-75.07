@@ -2,6 +2,6 @@ package modelo;
 
 public interface EstadoTelepase {
 
-    int pagarPeaje(Transporte transporte);
+    int pagarPeaje(int precioPorRueda, int cantidadRuedas);
 
 }
