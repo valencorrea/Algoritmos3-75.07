@@ -20,22 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1057d74-e009-41f8-806c-5cf2ec785731" name="Default Changelist" comment="termino de agregar unitarias">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/EmpanadaCeliaca.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/final-alumno/modelo/EmpanaderoCeliaco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/comida/PanNoCeliaco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/final-alumno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/Inversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/Inversionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/InversionistaArriesgado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/InversionistaConservador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/test/PruebaSupremaDelSistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/final-original.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/src/modelo/Inversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/src/modelo/Inversionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/src/modelo/InversionistaArriesgado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/src/modelo/InversionistaConservador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-original/src/test/PruebaSupremaDelSistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-21/final-palabras-original/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-21/final-palabras-original/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Comida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/comida/Comida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/EmpanadaCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/comida/EmpanadaCeliaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/EmpanadaNoCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/comida/EmpanadaNoCeliaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/EmpanaderoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/EmpanaderoCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/EmpanaderoNoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/EmpanaderoNoCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/PanCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/comida/PanCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/PanNoCeliaco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/PanaderoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PanaderoCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/PanaderoNoCeliaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PanaderoNoCeliaco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/PersonaCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PersonaCeliaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/PersonaNoCeliaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/PersonaNoCeliaca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/PersonaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PersonaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +170,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599877287045</updated>
       <workItem from="1599877288301" duration="5256000" />
+      <workItem from="1600206009427" duration="1054000" />
+      <workItem from="1600218258723" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="pasa la primer test (dividida en 3 unit tests)">
       <created>1599879133878</created>
@@ -207,6 +217,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pasa la primer test (dividida en 3 unit tests)" />
@@ -224,6 +235,10 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1599878167175" />
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1600213080060">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1600213080060" />
     <state width="981" height="21" key="GridCell.Tab.0.bottom" timestamp="1599897596864">
       <screen x="0" y="0" width="1024" height="728" />
     </state>

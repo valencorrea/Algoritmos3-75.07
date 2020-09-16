@@ -80,7 +80,7 @@ public class PersonaTest {
 
 
 	/* Nueva funcionalidad (master cheff) */
-	@Test
+	@Test 
 	public void unMasterCheffLeCocinaAUnHipertensoYTiene10PorcientoMenosDeCalorias() {
 
 		PersonaHipertensa personaHipertensa = new PersonaHipertensa();
