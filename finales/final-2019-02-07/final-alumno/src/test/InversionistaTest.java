@@ -13,7 +13,7 @@ public class InversionistaTest {
     @Test
     public void testLaInversionDeUnInversionistaConservadorConTipo0EsLaEsperada(){
 
-        InversionistaConservador inversionista = new InversionistaConservador(new Tipo0(100));
+        InversionistaConservador inversionista = new InversionistaConservador(new Tipo0(), 100);
 
         int inversion = inversionista.inversion();
 
@@ -23,7 +23,7 @@ public class InversionistaTest {
     @Test
     public void testLaInversionDeUnInversionistaArriesgadoConTipo0EsLaEsperada(){
 
-        InversionistaArriesgado inversionista = new InversionistaArriesgado(new Tipo0(100));
+        InversionistaArriesgado inversionista = new InversionistaArriesgado(new Tipo0(), 100);
 
         int inversion = inversionista.inversion();
 
@@ -33,7 +33,7 @@ public class InversionistaTest {
     @Test
     public void testLaInversionDeUnInversionistaConservadorConTipo1EsLaEsperada(){
 
-        InversionistaConservador inversionista = new InversionistaConservador(new Tipo1(100));
+        InversionistaConservador inversionista = new InversionistaConservador(new Tipo1(), 100);
 
         int inversion = inversionista.inversion();
 
@@ -43,8 +43,8 @@ public class InversionistaTest {
 }
 
 
+
 /*
-*
 
 		Inversion inversion0 = new Inversion(0);
 		Inversion inversion1 = new Inversion(1);
@@ -72,8 +72,5 @@ public class InversionistaTest {
 	}
 
 
+*/
 
-}
-
-*
-* */
