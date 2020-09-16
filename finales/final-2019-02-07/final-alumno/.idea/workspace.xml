@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="221421b0-295f-4566-ad10-c4fcda1bb520" name="Default Changelist" comment="acomodo clases en carpeta" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hZTSn4ENq4QYLVU6KtogemlOlK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final-original" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\repoGitHub\Algoritmos3-75.07\finales\final-2019-02-07\final-alumno\diagramas" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="modelo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InversionistaTest">
+    <configuration name="InversionistaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.InversionistaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in final-alumno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InversionistaTest" />
+        <item itemvalue="JUnit.test in final-alumno" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="221421b0-295f-4566-ad10-c4fcda1bb520" name="Default Changelist" comment="" />
+      <created>1600217616752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600217616752</updated>
+      <workItem from="1600217617923" duration="642000" />
+      <workItem from="1600226964931" duration="5295000" />
+    </task>
+    <task id="LOCAL-00001" summary="agrego interface tipo">
+      <created>1600228409478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600228409478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="agrego interfaz inversionista">
+      <created>1600228729346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600228729346</updated>
+    </task>
+    <task id="LOCAL-00003" summary="agrego metodo de inversion segun el inversionista">
+      <created>1600229496122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600229496122</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor paquetes">
+      <created>1600229680310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600229680310</updated>
+    </task>
+    <task id="LOCAL-00005" summary="comit interno">
+      <created>1600233212167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600233212167</updated>
+    </task>
+    <task id="LOCAL-00006" summary="borro uml clases.png">
+      <created>1600233319931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600233319931</updated>
+    </task>
+    <task id="LOCAL-00007" summary="acomodo clases en carpeta">
+      <created>1600233349532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600233349532</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="agrego interface tipo" />
+    <MESSAGE value="agrego interfaz inversionista" />
+    <MESSAGE value="agrego metodo de inversion segun el inversionista" />
+    <MESSAGE value="refactor paquetes" />
+    <MESSAGE value="comit interno" />
+    <MESSAGE value="borro uml clases.png" />
+    <MESSAGE value="acomodo clases en carpeta" />
+    <option name="LAST_COMMIT_MESSAGE" value="acomodo clases en carpeta" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1600229022203">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1600229022203" />
+    <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600227480341">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1600227480341" />
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1600227114552">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1600227114552" />
+    <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1600235669517">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600235669517" />
+    <state width="981" height="179" key="GridCell.Tab.0.center" timestamp="1600235669516">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600235669516" />
+    <state width="981" height="179" key="GridCell.Tab.0.left" timestamp="1600235669516">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600235669516" />
+    <state width="981" height="179" key="GridCell.Tab.0.right" timestamp="1600235669516">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600235669516" />
+    <state x="150" y="125" key="MultipleFileMergeDialog" timestamp="1600233331407">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="150" y="125" key="MultipleFileMergeDialog/0.0.1024.728@0.0.1024.728" timestamp="1600233331407" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600233354376">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600233354376" />
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600227192432">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1024.728@0.0.1024.728" timestamp="1600227192432" />
+    <state x="208" y="152" key="git4idea.merge.GitPullDialog" timestamp="1600233324465">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="208" y="152" key="git4idea.merge.GitPullDialog/0.0.1024.728@0.0.1024.728" timestamp="1600233324465" />
+    <state x="243" y="121" key="refactoring.ChangeSignatureDialog" timestamp="1600228643492">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="243" y="121" key="refactoring.ChangeSignatureDialog/0.0.1024.728@0.0.1024.728" timestamp="1600228643492" />
+  </component>
+</project>
