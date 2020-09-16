@@ -1,6 +1,6 @@
 package modelo;
 
-public class PanCeliaco implements Pan {
+public class PanCeliaco implements Comida {
 
     @Override
     public int comer() {

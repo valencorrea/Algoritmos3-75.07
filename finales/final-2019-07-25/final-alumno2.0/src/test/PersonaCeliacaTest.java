@@ -23,7 +23,7 @@ public class PersonaCeliacaTest {
         PersonaCeliaca persona = new PersonaCeliaca();
         Panadero panadero = new Panadero(new TipoCocineroCeliaco());
 
-        Pan pan = panadero.hacerPan();
+        Comida pan = panadero.hacerPan();
         persona.comer(pan);
 
         int calorias = persona.calcularCalorias();

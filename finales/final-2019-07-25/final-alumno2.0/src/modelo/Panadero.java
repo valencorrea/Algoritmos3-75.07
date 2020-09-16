@@ -8,7 +8,7 @@ public class Panadero {
         this.tipoPanadero = tipo;
     }
 
-    public Pan hacerPan() {
+    public Comida hacerPan() {
         return this.tipoPanadero.hacerPan();
     }
 }

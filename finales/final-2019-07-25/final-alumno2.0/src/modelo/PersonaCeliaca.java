@@ -8,7 +8,7 @@ public class PersonaCeliaca {
         return this.calorias;
     }
 
-    public void comer(Pan pan) {
-        this.calorias = pan.comer();
+    public void comer(Comida comida) {
+        this.calorias = comida.comer();
     }
 }
