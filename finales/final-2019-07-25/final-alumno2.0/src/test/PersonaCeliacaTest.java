@@ -1,6 +1,37 @@
 package test;
 
+import modelo.*;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 public class PersonaCeliacaTest {
+
+    @Test
+    public void testPersonaCeliacaArrancaCon0CaloriasPorqueNoComioNada(){
+
+        PersonaCeliaca persona = new PersonaCeliaca();
+
+        int calorias = persona.calcularCalorias();
+
+        assertEquals(calorias, 0);
+    }
+
+    @Test
+    public void testPersonaCeliacaComePanSusCaloriasSon10(){
+
+        PersonaCeliaca persona = new PersonaCeliaca();
+        Panadero panadero = new Panadero(new TipoCocineroCeliaco());
+
+        Pan pan = panadero.hacerPan();
+        persona.comer(pan);
+
+        int calorias = persona.calcularCalorias();
+
+        assertEquals(calorias, 10);
+    }
+
+
 }
 
 	/*

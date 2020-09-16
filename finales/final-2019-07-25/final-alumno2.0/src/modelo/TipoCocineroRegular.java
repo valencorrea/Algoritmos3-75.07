@@ -1,6 +1,6 @@
 package modelo;
 
-public class Regular {
+public class TipoCocineroRegular implements TipoCocinero{
 
     public PanRegular hacerPan() {
         return new PanRegular();

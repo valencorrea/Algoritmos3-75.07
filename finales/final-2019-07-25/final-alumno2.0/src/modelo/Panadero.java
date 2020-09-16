@@ -2,13 +2,13 @@ package modelo;
 
 public class Panadero {
 
-    private Regular tipoPanadero;
+    private TipoCocinero tipoPanadero;
 
-    public Panadero(Regular tipoPanadero) {
-        this.tipoPanadero = tipoPanadero;
+    public Panadero(TipoCocinero tipo) {
+        this.tipoPanadero = tipo;
     }
 
-    public PanRegular hacerPan() {
+    public Pan hacerPan() {
         return this.tipoPanadero.hacerPan();
     }
 }

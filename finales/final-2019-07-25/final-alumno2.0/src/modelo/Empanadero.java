@@ -2,9 +2,9 @@ package modelo;
 
 public class Empanadero {
 
-    private Regular tipoEmpanadero;
+    private TipoCocineroRegular tipoEmpanadero;
 
-    public Empanadero(Regular regular) {
+    public Empanadero(TipoCocineroRegular regular) {
         this.tipoEmpanadero = regular;
     }
 

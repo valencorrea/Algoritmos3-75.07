@@ -8,7 +8,7 @@ public class PersonaSinEnfermedades {
         return this.calorias;
     }
 
-    public void comer(Comida comida) {
+    public void comer(Pan comida) {
         this.calorias = comida.comer();
     }
 }
