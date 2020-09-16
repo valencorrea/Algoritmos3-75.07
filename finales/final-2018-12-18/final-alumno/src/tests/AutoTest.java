@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class AutoTest {
-/*
+
     @Test
     public void testUnAutoTieneTelepaseEntoncesPagaLaMitadDelPeaje(){
 
@@ -16,6 +16,6 @@ public class AutoTest {
         int costoPeaje = auto.pagarPeaje();
 
         assertEquals(4, costoPeaje);
-    }*/
+    }
 
 }

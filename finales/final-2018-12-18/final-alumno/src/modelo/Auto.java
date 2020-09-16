@@ -1,8 +1,8 @@
 package modelo;
 
 public class Auto {
-/*
-    private  TieneTelepase estadoTelepase;
+
+    private final TieneTelepase estadoTelepase;
     private int precioPorRueda = 2;
     private int cantidadRuedas = 4;
 
@@ -11,6 +11,10 @@ public class Auto {
     }
 
     public int pagarPeaje() {
-        this.estadoTelepase.pagarPeaje();
-    }*/
+        return this.estadoTelepase.pagarPeaje(this);
+    }
+
+    public int pagarConTelepase() {
+        return ((this.precioPorRueda * this.cantidadRuedas) / 2);
+    }
 }
