@@ -1,9 +1,9 @@
 package test;
 
-import modelo.InversionistaArriesgado;
-import modelo.InversionistaConservador;
-import modelo.Tipo0;
-import modelo.Tipo1;
+import modelo.tiposDeInversionistas.InversionistaArriesgado;
+import modelo.tiposDeInversionistas.InversionistaConservador;
+import modelo.tiposDeInversion.Tipo0;
+import modelo.tiposDeInversion.Tipo1;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -38,6 +38,16 @@ public class InversionistaTest {
         int inversion = inversionista.inversion();
 
         assertEquals(100, inversion);
+    }
+
+    @Test
+    public void testLaInversionDeUnInversionistaArriesgadoConTipo1EsLaEsperada(){
+
+        InversionistaArriesgado inversionista = new InversionistaArriesgado(new Tipo1(), 100);
+
+        int inversion = inversionista.inversion();
+
+        assertEquals(300, inversion);
     }
 
 }

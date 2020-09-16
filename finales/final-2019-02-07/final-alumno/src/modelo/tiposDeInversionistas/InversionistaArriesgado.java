@@ -1,4 +1,6 @@
-package modelo;
+package modelo.tiposDeInversionistas;
+
+import modelo.tiposDeInversion.Tipo;
 
 public class InversionistaArriesgado implements Inversionista{
 
@@ -16,7 +18,7 @@ public class InversionistaArriesgado implements Inversionista{
 
     @Override
     public int inversionTipo1() {
-        return 0;
+        return this.monto * 3;
     }
 
     @Override

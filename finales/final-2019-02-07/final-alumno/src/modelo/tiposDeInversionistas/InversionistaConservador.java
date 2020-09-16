@@ -1,4 +1,6 @@
-package modelo;
+package modelo.tiposDeInversionistas;
+
+import modelo.tiposDeInversion.Tipo;
 
 public class InversionistaConservador implements Inversionista{
 
