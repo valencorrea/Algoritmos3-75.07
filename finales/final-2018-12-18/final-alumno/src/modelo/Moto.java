@@ -1,12 +1,12 @@
 package modelo;
 
-public class Moto {
-/*
-    private SinTelepase estadoTelepase;
+public class Moto implements Transporte{
+
+    private EstadoTelepase estadoTelepase;
     private int precioPorRueda = 2;
     private int cantidadRuedas = 2;
 
-    public Moto(SinTelepase estadoTelepase) {
+    public Moto(EstadoTelepase estadoTelepase) {
         this.estadoTelepase =  estadoTelepase;
     }
 
@@ -16,6 +16,11 @@ public class Moto {
 
     public int pagarSinTelepase() {
         return (this.cantidadRuedas * this.precioPorRueda);
-    }*/
+    }
+
+    @Override
+    public int pagarConTelepase() {
+        return 0;
+    }
 }
 
