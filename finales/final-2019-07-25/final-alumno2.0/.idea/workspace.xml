@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef8dbce-dc50-46d4-9e4a-83cf621f50b0" name="Default Changelist" comment="de baja por segunda vez">
-      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/test/InversionistaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/final-alumno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/final-alumno.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/Inversion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/Inversionista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/InversionistaArriesgado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/InversionistaConservador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/test/PruebaSupremaDelSistema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2018-12-18/final-alumno/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2018-12-18/final-alumno/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2018-12-18/final-alumno/final-2018-12-18.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2018-12-18/final-alumno/final-2018-12-18.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2018-12-18/final-alumno/src/CabinaDePeaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2018-12-18/final-alumno/src/Transporte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2018-12-18/final-original/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2018-12-18/final-original/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +165,7 @@
       <updated>1600218970713</updated>
       <workItem from="1600218971943" duration="7027000" />
       <workItem from="1600227283629" duration="3000" />
+      <workItem from="1600237051245" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="pasa las primeras 3">
       <created>1600222688733</created>
