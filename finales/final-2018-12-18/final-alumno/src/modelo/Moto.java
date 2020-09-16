@@ -1,6 +1,6 @@
 package modelo;
 
-public class Moto implements Transporte{
+public class Moto implements Transporte, PagadorSinTelepase{
 
     private EstadoTelepase estadoTelepase;
     private int precioPorRueda = 2;
@@ -22,5 +22,6 @@ public class Moto implements Transporte{
     public int pagarConTelepase() {
         return 0;
     }
+
 }
 
