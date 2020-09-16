@@ -1,10 +1,7 @@
-package modelo.transportes;
+package modelo;
 
-import modelo.pagadores.PagadorConTelepase;
-import modelo.pagadores.PagadorSinTelepase;
-
-public class Camion implements PagadorSinTelepase, PagadorConTelepase {
-
+public class Camion{
+/*
     private int cantidadRuedas = 18;
     private int precioPorRueda = 2;
 
@@ -17,5 +14,5 @@ public class Camion implements PagadorSinTelepase, PagadorConTelepase {
     public int pagarPeajeSinTelepase() {
         return (this.precioPorRueda * this.cantidadRuedas);
     }
-
+*/
 }
