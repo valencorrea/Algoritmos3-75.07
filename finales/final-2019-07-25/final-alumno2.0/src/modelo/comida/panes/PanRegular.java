@@ -1,4 +1,6 @@
-package modelo;
+package modelo.comida.panes;
+
+import modelo.comida.Comida;
 
 public class PanRegular implements Comida {
 

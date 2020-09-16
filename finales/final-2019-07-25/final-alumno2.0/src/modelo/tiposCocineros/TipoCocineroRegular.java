@@ -1,4 +1,7 @@
-package modelo;
+package modelo.tiposCocineros;
+
+import modelo.comida.empanadas.EmpanadaRegular;
+import modelo.comida.panes.PanRegular;
 
 public class TipoCocineroRegular implements TipoCocinero{
 

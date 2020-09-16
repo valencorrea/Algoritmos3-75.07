@@ -1,5 +1,8 @@
 package modelo;
 
+import modelo.comida.Comida;
+import modelo.tiposCocineros.TipoCocinero;
+
 public class Panadero {
 
     private TipoCocinero tipoPanadero;

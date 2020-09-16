@@ -1,6 +1,12 @@
 package test;
 
 import modelo.*;
+import modelo.comida.Comida;
+import modelo.comida.empanadas.EmpanadaRegular;
+import modelo.personas.PersonaCeliaca;
+import modelo.personas.PersonaSinEnfermedades;
+import modelo.tiposCocineros.TipoCocineroCeliaco;
+import modelo.tiposCocineros.TipoCocineroRegular;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -31,6 +37,19 @@ public class PersonaCeliacaTest {
         assertEquals(calorias, 10);
     }
 
+    @Test
+    public void testPersonaCeliacaComeEmpanadaSusCaloriasSon15(){
+
+        PersonaCeliaca persona = new PersonaCeliaca();
+        Empanadero empanadero = new Empanadero(new TipoCocineroCeliaco());
+
+        Comida empanada = empanadero.hacerEmpanada();
+        persona.comer(empanada);
+
+        int calorias = persona.calcularCalorias();
+
+        assertEquals(calorias, 15);
+    }
 
 }
 

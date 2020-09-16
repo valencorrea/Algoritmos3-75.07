@@ -1,14 +1,19 @@
 package modelo;
 
+import modelo.comida.Comida;
+import modelo.comida.empanadas.EmpanadaRegular;
+import modelo.tiposCocineros.TipoCocinero;
+import modelo.tiposCocineros.TipoCocineroRegular;
+
 public class Empanadero {
 
-    private TipoCocineroRegular tipoEmpanadero;
+    private TipoCocinero tipoEmpanadero;
 
-    public Empanadero(TipoCocineroRegular regular) {
+    public Empanadero(TipoCocinero regular) {
         this.tipoEmpanadero = regular;
     }
 
-    public EmpanadaRegular hacerEmpanada() {
+    public Comida hacerEmpanada() {
         return this.tipoEmpanadero.hacerEmpanada();
     }
 }

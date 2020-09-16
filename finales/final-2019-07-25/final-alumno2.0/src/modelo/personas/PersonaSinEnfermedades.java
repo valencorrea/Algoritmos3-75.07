@@ -1,4 +1,6 @@
-package modelo;
+package modelo.personas;
+
+import modelo.comida.Comida;
 
 public class PersonaSinEnfermedades {
 
