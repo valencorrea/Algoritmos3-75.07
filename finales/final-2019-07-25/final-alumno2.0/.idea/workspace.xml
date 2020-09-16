@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ef8dbce-dc50-46d4-9e4a-83cf621f50b0" name="Default Changelist" comment="de baja por segunda vez">
+      <change afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/test/InversionistaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/final-alumno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/final-alumno.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/Inversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/Inversionista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/InversionistaArriesgado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/modelo/InversionistaConservador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../final-2019-02-07/final-alumno/src/test/PruebaSupremaDelSistema.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hZWD0Cn4r8nHDGatEoiBJYTqtG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../final2020-09-10/javaVersion/version-alumno" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="modelo.tiposCocineros" />
+      <recent name="modelo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.test in final-alumno2.0">
+    <configuration name="PersonaCeliacaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PersonaCeliacaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonaCeliacaTest.testPersonaCeliacaArrancaCon0CaloriasPorqueNoComioNada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PersonaCeliacaTest" />
+      <option name="METHOD_NAME" value="testPersonaCeliacaArrancaCon0CaloriasPorqueNoComioNada" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonaCeliacaTest.testPersonaCeliacaComePanSusCaloriasSon10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PersonaCeliacaTest" />
+      <option name="METHOD_NAME" value="testPersonaCeliacaComePanSusCaloriasSon10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonaSinEnfermedadesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PersonaSinEnfermedadesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in final-alumno2.0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-alumno2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test in final-alumno2.0" />
+        <item itemvalue="JUnit.PersonaCeliacaTest.testPersonaCeliacaComePanSusCaloriasSon10" />
+        <item itemvalue="JUnit.PersonaCeliacaTest" />
+        <item itemvalue="JUnit.PersonaCeliacaTest.testPersonaCeliacaArrancaCon0CaloriasPorqueNoComioNada" />
+        <item itemvalue="JUnit.PersonaSinEnfermedadesTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ef8dbce-dc50-46d4-9e4a-83cf621f50b0" name="Default Changelist" comment="" />
+      <created>1600218970713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600218970713</updated>
+      <workItem from="1600218971943" duration="7027000" />
+      <workItem from="1600227283629" duration="3000" />
+    </task>
+    <task id="LOCAL-00001" summary="pasa las primeras 3">
+      <created>1600222688733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600222688733</updated>
+    </task>
+    <task id="LOCAL-00002" summary="completo tests de persona sin enfermedades">
+      <created>1600224075767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600224075767</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tengo logica de panaderos celiacos y no celiacos">
+      <created>1600225732091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600225732091</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cambio interfaz pan por comida">
+      <created>1600225890428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600225890428</updated>
+    </task>
+    <task id="LOCAL-00005" summary="agrego todo para las empanadas">
+      <created>1600226529088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600226529088</updated>
+    </task>
+    <task id="LOCAL-00006" summary="de baja por segunda vez">
+      <created>1600226929029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600226929029</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pasa las primeras 3" />
+    <MESSAGE value="completo tests de persona sin enfermedades" />
+    <MESSAGE value="tengo logica de panaderos celiacos y no celiacos" />
+    <MESSAGE value="cambio interfaz pan por comida" />
+    <MESSAGE value="agrego todo para las empanadas" />
+    <MESSAGE value="de baja por segunda vez" />
+    <option name="LAST_COMMIT_MESSAGE" value="de baja por segunda vez" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1600226331142">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="317" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1600226331142" />
+    <state x="294" y="105" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600224360529">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="294" y="105" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1024.728@0.0.1024.728" timestamp="1600224360529" />
+    <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600225763186">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="242" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728@0.0.1024.728" timestamp="1600225763186" />
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1600220516947">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1600220516947" />
+    <state width="981" height="67" key="GridCell.Tab.0.bottom" timestamp="1600226954929">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="67" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1600226954929" />
+    <state width="981" height="67" key="GridCell.Tab.0.center" timestamp="1600226954928">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="67" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1600226954928" />
+    <state width="981" height="67" key="GridCell.Tab.0.left" timestamp="1600226954928">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="67" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1600226954928" />
+    <state width="981" height="67" key="GridCell.Tab.0.right" timestamp="1600226954928">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="67" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1600226954928" />
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600226936487">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="104" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1600226936487" />
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600218983381">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="216" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1024.728@0.0.1024.728" timestamp="1600218983381" />
+  </component>
+</project>
