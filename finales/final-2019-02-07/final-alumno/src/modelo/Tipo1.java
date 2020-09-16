@@ -9,7 +9,7 @@ public class Tipo1 implements Tipo{
     }
 
     @Override
-    public int inversion() {
+    public int inversion(Inversionista inversionistaArriesgado) {
         return 100;
     }
 }

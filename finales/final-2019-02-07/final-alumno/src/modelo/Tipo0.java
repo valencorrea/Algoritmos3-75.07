@@ -8,7 +8,7 @@ public class Tipo0 implements Tipo{
         this.monto = monto;
     }
 
-    public int inversion() {
+    public int inversion(Inversionista inversionistaArriesgado) {
         return monto * 2;
     }
 }

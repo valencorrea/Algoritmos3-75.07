@@ -2,7 +2,7 @@ package modelo;
 
 public interface Tipo {
 
-    int inversion();
+    int inversion(Inversionista inversionista);
 
 }
 

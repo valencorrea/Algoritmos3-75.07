@@ -1,6 +1,6 @@
 package modelo;
 
-public class InversionistaArriesgado {
+public class InversionistaArriesgado implements Inversionista{
 
     private Tipo tipo;
 
@@ -9,6 +9,6 @@ public class InversionistaArriesgado {
     }
 
     public int inversion() {
-        return this.tipo.inversion();
+        return this.tipo.inversion(this);
     }
 }
