@@ -1,8 +1,9 @@
 package modelo;
 
-public class SinTelepase {
+public class SinTelepase implements EstadoTelepase{
 
-    public int pagarPeaje(Moto transporte) {
+    @Override
+    public int pagarPeaje(Transporte transporte) {
         return transporte.pagarSinTelepase();
     }
 }

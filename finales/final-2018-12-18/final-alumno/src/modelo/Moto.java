@@ -1,7 +1,7 @@
 package modelo;
 
 public class Moto {
-
+/*
     private SinTelepase estadoTelepase;
     private int precioPorRueda = 2;
     private int cantidadRuedas = 2;
@@ -16,6 +16,6 @@ public class Moto {
 
     public int pagarSinTelepase() {
         return (this.cantidadRuedas * this.precioPorRueda);
-    }
+    }*/
 }
 

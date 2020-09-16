@@ -1,8 +1,8 @@
 package modelo;
 
-public class TieneTelepase {
+public class TieneTelepase implements EstadoTelepase {
 
-    public int pagarPeaje(Auto transporte) {
+    public int pagarPeaje(Transporte transporte) {
         return transporte.pagarConTelepase();
     }
 
