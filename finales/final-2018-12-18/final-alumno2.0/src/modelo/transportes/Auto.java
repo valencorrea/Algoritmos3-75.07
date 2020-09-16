@@ -1,6 +1,9 @@
-package modelo;
+package modelo.transportes;
 
-public class Auto implements PagadorSinTelepase, PagadorConTelepase{
+import modelo.pagadores.PagadorConTelepase;
+import modelo.pagadores.PagadorSinTelepase;
+
+public class Auto implements PagadorSinTelepase, PagadorConTelepase {
 
     private int precioPorRueda = 2;
     private int cantidadRuedas = 4;

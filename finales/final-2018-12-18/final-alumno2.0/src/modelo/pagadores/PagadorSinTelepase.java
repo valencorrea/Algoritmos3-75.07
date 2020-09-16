@@ -1,4 +1,4 @@
-package modelo;
+package modelo.pagadores;
 
 public interface PagadorSinTelepase {
 

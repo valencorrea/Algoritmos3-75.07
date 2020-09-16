@@ -1,6 +1,6 @@
 package test;
 
-import modelo.Auto;
+import modelo.transportes.Auto;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

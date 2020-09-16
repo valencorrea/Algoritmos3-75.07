@@ -1,6 +1,8 @@
-package modelo;
+package modelo.transportes;
 
-public class Moto implements PagadorSinTelepase{
+import modelo.pagadores.PagadorSinTelepase;
+
+public class Moto implements PagadorSinTelepase {
 
     private int cantidadRuedas = 2;
     private int precioPorRuedas = 2;

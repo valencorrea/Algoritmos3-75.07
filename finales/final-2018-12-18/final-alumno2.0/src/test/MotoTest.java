@@ -1,6 +1,6 @@
 package test;
 
-import modelo.Moto;
+import modelo.transportes.Moto;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
