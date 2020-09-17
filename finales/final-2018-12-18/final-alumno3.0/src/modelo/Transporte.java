@@ -1,7 +1,9 @@
 package modelo;
 
-public interface Transporte {
+public abstract class Transporte {
 
-    int pagarPeaje();
+    int pagarPeaje(){
+        return this.tipoPagador.pagar(this.cantidadRuedas, this.precioPorRueda, this.coeficienteTelepase);
+    }
 
 }
