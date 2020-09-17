@@ -2,7 +2,7 @@ package modelo;
 
 public class CabinaDePeaje {
 
-    public int cobrarPeaje(Moto moto) {
+    public int cobrarPeaje(Transporte moto) {
         return moto.pagarPeaje();
     }
 

@@ -1,6 +1,6 @@
 package modelo;
 
-public class Moto {
+public class Moto extends Transporte{
 
     private PagadorSinTelepase tipoPagador;
     private int cantidadRuedas = 2;

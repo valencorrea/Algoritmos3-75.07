@@ -3,6 +3,7 @@ package test;
 import modelo.CabinaDePeaje;
 import modelo.Moto;
 import modelo.PagadorSinTelepase;
+import modelo.Transporte;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
