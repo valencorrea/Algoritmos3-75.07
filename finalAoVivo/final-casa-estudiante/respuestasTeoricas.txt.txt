@@ -1,0 +1,41 @@
+
+
+  a. ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos
+	 porqué considera que representan un problema de diseño.
+
+        RESPUESTA:
+
+            - No considero que HELATODO sea un buen nombre descriptivo ya que al leerlo por primera
+            vez se me hace dificil entender que esta representando
+            - Durante la cursada charlamos que no se consideraba algo muy orientado a objetos el
+            preguntar el "tipo" de una clase, como se hace en el siguiente de la descarga de los
+            autos. Esto nuevamente se repite cuando el auto antes de realizar una carga pregunta
+            si es o no una Bici, no deberia preguntar y luego actuar, sino que le deberia decir al
+            objeto que actue y que el se encargue de como resolverlo.
+            - Ademas, al yo indroducir cosas como ifs estaria metiendome mas en el lado de la
+            programacion estructurada, por lo que mencione anteriormente(violaria el tell dont ask)
+            - Por otro lado, no me parece un buen nombre descriptivo el tener que llamar a las carpetas
+            entregadas con "casa" ya que no representan bien el modelo tratado
+            - El que considero el mayor de los problemas, es que en el modelo entregado, primero que hay una unica
+            test y segundo que es integral. Un modelo que fue hecho en base a una practica tdd es mas propenso a ser
+            mas solido y consistente ya que constantemente lo tenes que ir refactorizando de forma tal que su desarrollo
+            sea incremental, a medida que se van agregando nuevas funcionalidades. Por otro lado te permite tener un
+            control constante del estado de tu modelo en cuanto a su funcionamiento :)
+
+
+  b. ¿Se viola algún(os) principio(s) de diseño? ¿Cual(es)?
+
+        RESPUESTA:
+
+            - considero que el modelo propuesto viola el ppio de open close; ya que por cada vehiculo que
+            yo quiera agregar voy a tener que hacer la siguiente verificacion: puedo agregarlo a este? ademas
+            tambien como mencione antes asi estoy violando el encapsulamiento
+            - por otro lado tambien se viola el principio de responsabilidad unica, dado que tanto la moto como
+            el auto tienen mas de una razon de cambio
+            - ademas de estos, al yo introducirles el atributo Stack estoy violando el ppio de dependency inversion
+            ya que sugiere que lo ideal sea que los objetos dependan de abstracciones y no de cosas concretas, ya
+            que las ultimas son las mas propensas a requerir cambios
+
+
+
+

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class VehiculosTest {
-
+/*
     @Test
     public void test() {
         Auto auto = new Auto();
@@ -27,5 +27,5 @@ public class VehiculosTest {
         moto.cargar(Cargas.HELATODO);
         assertEquals(moto.descargar(), Cargas.HELATODO);
     }
-
+*/
 }
