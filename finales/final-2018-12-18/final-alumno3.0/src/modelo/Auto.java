@@ -1,6 +1,6 @@
 package modelo;
 
-public class Auto {
+public class Auto implements Transporte{
 
     private EstadoTelepase tipoPagador;
     private int cantidadRuedas = 4;
