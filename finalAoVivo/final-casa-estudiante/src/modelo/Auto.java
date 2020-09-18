@@ -13,4 +13,15 @@ public class Auto {
     public void cargar(Helatodo carga) {
         carga.cargarEnAuto(this.cargas);
     }
+
+    public void descargar() {
+        verificacionDeCargamento();
+        this.cargas.remove(this.cargas.size()-1);
+    }
+
+    private void verificacionDeCargamento() {
+        if(cantidadCargas() == 0){
+            throw new RuntimeException("No se puede descargar un auto sin cargamento");
+        }
+    }
 }
