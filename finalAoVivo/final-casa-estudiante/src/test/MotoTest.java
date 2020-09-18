@@ -1,5 +1,6 @@
 package test;
 
+import modelo.Bici;
 import modelo.Helatodo;
 import modelo.Moto;
 import org.junit.Assert;
@@ -57,6 +58,20 @@ public class MotoTest {
             Assert.fail("No se arrojo exception al querer descargar una moto sin cargamento");
         } catch (RuntimeException exception) {
             assertEquals("No se puede descargar una moto sin cargamento", exception.getMessage());
+        }
+    }
+
+    @Test
+    public void unaMotoQuiereCargarUnaBiciNoPuede(){
+
+        Moto moto = new Moto();
+        Bici bici = new Bici();
+
+        try {
+            moto.cargar(bici);
+            Assert.fail("No se arrojo exception al querer cargar una bici en una moto");
+        } catch (RuntimeException exception) {
+            assertEquals("No se puede cargar una bici en una moto", exception.getMessage());
         }
     }
 
