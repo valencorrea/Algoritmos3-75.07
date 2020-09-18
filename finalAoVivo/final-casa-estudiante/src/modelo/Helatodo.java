@@ -1,15 +1,14 @@
 package modelo;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Helatodo {
+public class Helatodo implements Carga{
 
-    public void cargarEnMoto(ArrayList<Helatodo> cargas) {
+    public void cargarEnMoto(LinkedList<Carga> cargas) {
         cargas.add(this);
     }
 
-    public void cargarEnAuto(LinkedList<Helatodo> cargas) {
+    public void cargarEnAuto(LinkedList<Carga> cargas) {
         cargas.add(this);
     }
 }

@@ -4,13 +4,13 @@ import java.util.LinkedList;
 
 public class Auto {
 
-    private LinkedList cargas = new LinkedList();
+    private LinkedList<Carga> cargas = new LinkedList<Carga>();
 
     public int cantidadCargas() {
         return this.cargas.size();
     }
 
-    public void cargar(Helatodo carga) {
+    public void cargar(Carga carga) {
         carga.cargarEnAuto(this.cargas);
     }
 

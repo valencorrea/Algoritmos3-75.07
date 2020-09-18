@@ -1,12 +1,12 @@
 package modelo;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Moto {
 
-    private ArrayList<Helatodo> cargas = new ArrayList<>();
+    private LinkedList<Carga> cargas = new LinkedList<Carga>();
 
-    public void cargar(Helatodo carga) {
+    public void cargar(Carga carga) {
         carga.cargarEnMoto(this.cargas);
     }
 

@@ -1,8 +1,8 @@
 package test;
 
 import modelo.Auto;
+import modelo.Bici;
 import modelo.Helatodo;
-import modelo.Moto;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -54,7 +54,7 @@ public class AutoTest {
     }
 
     @Test
-    public void unAutoSinCargamentoQuiereDescargarNoPuede(){
+    public void testUnAutoSinCargamentoQuiereDescargarNoPuede(){
 
         Auto auto = new Auto();
 
@@ -65,5 +65,17 @@ public class AutoTest {
             assertEquals("No se puede descargar un auto sin cargamento", exception.getMessage());
         }
     }
+/*
+    @Test
+    public void testUnAutoQuiereCargarUnaBiciNoPuede(){
 
+        Auto auto = new Auto();
+        Bici bici = new Bici();
+
+        auto.cargar(bici);
+
+        int cantidadCargas = auto.cantidadCargas();
+        assertEquals(0, cantidadCargas);
+    }
+*/
 }
