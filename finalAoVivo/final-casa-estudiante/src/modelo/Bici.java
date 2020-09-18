@@ -5,8 +5,8 @@ import java.util.LinkedList;
 public class Bici implements Carga{
 
     @Override
-    public void cargarEnAuto(LinkedList<Carga> cargas) {
-
+    public void cargarEnAuto(LinkedList<Carga> cargas, EstadoPortabici estado) {
+        estado.cargar(cargas, this);
     }
 
     @Override

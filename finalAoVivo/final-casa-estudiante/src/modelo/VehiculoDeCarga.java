@@ -10,8 +10,6 @@ public abstract class VehiculoDeCarga {
         return this.cargas.size();
     }
 
-    public abstract void cargar(Carga carga);
-
     public void descargar() {
         verificacionDeCargamento();
         this.cargas.remove(this.cargas.size()-1);
@@ -19,4 +17,5 @@ public abstract class VehiculoDeCarga {
 
     protected abstract void verificacionDeCargamento();
 
+    public abstract void agregarlePortabici();
 }
