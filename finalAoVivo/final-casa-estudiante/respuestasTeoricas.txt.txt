@@ -1,5 +1,13 @@
 
 
+    ACLARACION SUMAMENTE IMPORTANTA
+
+        Comprendo a la perfeccion que mi modelo viola el ppio de la segregacion de la interfaz
+
+        AGREGARLE LA JUSTIFICACION DE POR QUE LO ELEGI AL FINAL
+
+
+
   a. ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos
 	 porqué considera que representan un problema de diseño.
 

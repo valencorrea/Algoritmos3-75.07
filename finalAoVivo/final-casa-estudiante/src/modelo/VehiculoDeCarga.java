@@ -10,9 +10,7 @@ public abstract class VehiculoDeCarga {
         return this.cargas.size();
     }
 
-    public void cargar(Carga carga) {
-        carga.cargarEnAuto(this.cargas);
-    }
+    public abstract void cargar(Carga carga);
 
     public void descargar() {
         verificacionDeCargamento();
