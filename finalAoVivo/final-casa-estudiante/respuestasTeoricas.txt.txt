@@ -14,8 +14,9 @@
         al utilizar ifs como porque no respeto el ppio general del tell dont ask, como mencione tambien que el modelo
         entregado por la catedra violaba.
         Entiendo que los ppios estan para intentar seguirlos para tener mejores practicas y un mejor codigo,
-        pero tambien se como bien comentaron en las clases que muchas veces tenemos que tomar desiciones en cuanto
-        a cual priorizar. En mi caso decidi priorizar el no depender de clases abstractas no teniendo un array
+        pero tambien se como bien comentaron en las clases, y mismo en el dia de ayer en una publicacion que realice
+        preguntando tambien que decision de diseño seria mas conveniente, que muchas veces tenemos que tomar elecciones
+        en cuanto a que cosas priorizar. En mi caso decidi priorizar el no depender de clases abstractas no teniendo un array
         por cada tipo de carga, lo cual me trae una gran consecuencia la cual es violar el ppio de segregacion
         de la interfaz.
 
