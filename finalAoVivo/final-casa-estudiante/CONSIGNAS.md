@@ -21,7 +21,7 @@ En este sentido cualquiera de las siguientes situaciones conlleva a la desaproba
 ## Consignas
 
 ### Consigna 1
-El modelo de dominio pertenece a vehículos y sus capacidades de cargas (`Auto` y `Moto`). Lea y ejecute `VehiculosTest`. Luego analice el modelo otorgado y conteste:
+El modelo de dominio pertenece a vehículos y sus capacidades de cargas (`Auto` y `Moto`). Lea y ejecute `test.VehiculosTest`. Luego analice el modelo otorgado y conteste:
 
     a. ¿Qué potenciales problemas de diseño encuentra en el código? Enumérelos explicando PARA CADA UNO de ellos
 	 porqué considera que representan un problema de diseño.
