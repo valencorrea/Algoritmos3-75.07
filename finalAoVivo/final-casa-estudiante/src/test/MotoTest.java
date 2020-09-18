@@ -111,4 +111,17 @@ public class MotoTest {
         assertEquals(1, cantidadCargas);
     }
 
+    @Test
+    public void motoQuiereAgregarUnPortabiciNoPuede(){
+
+        Moto moto = new Moto();
+
+        try {
+            moto.agregarlePortabici();
+            Assert.fail("No se arrojo exception al querer agregarle un portabici a una moto");
+        } catch (RuntimeException exception) {
+            assertEquals("No se puede agregar un portabici en una moto", exception.getMessage());
+        }
+    }
+
 }
