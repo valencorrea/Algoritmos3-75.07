@@ -1,8 +1,8 @@
 package test;
 
-import modelo.Bici;
-import modelo.Helatodo;
-import modelo.Moto;
+import modelo.cargas.Bici;
+import modelo.cargas.Helatodo;
+import modelo.vehiculosDeCarga.Moto;
 import org.junit.Assert;
 import org.junit.Test;
 

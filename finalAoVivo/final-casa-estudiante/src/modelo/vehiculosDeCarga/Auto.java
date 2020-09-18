@@ -1,6 +1,11 @@
-package modelo;
+package modelo.vehiculosDeCarga;
 
-public class Auto extends VehiculoDeCarga{
+import modelo.cargas.Carga;
+import modelo.estadoPortabici.EstadoPortabici;
+import modelo.estadoPortabici.NoTienePortabici;
+import modelo.estadoPortabici.TienePortabici;
+
+public class Auto extends VehiculoDeCarga {
 
     private EstadoPortabici estadoPortabici = new NoTienePortabici();
 

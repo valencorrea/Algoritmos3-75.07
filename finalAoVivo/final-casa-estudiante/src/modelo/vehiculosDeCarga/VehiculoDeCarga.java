@@ -1,4 +1,6 @@
-package modelo;
+package modelo.vehiculosDeCarga;
+
+import modelo.cargas.Carga;
 
 import java.util.LinkedList;
 

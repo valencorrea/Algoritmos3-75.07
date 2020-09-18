@@ -1,4 +1,6 @@
-package modelo;
+package modelo.cargas;
+
+import modelo.estadoPortabici.EstadoPortabici;
 
 import java.util.LinkedList;
 

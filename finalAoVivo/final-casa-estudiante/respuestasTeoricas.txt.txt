@@ -2,9 +2,22 @@
 
     ACLARACION SUMAMENTE IMPORTANTA
 
-        Comprendo a la perfeccion que mi modelo viola el ppio de la segregacion de la interfaz
-
-        AGREGARLE LA JUSTIFICACION DE POR QUE LO ELEGI AL FINAL
+        Soy 200% consciente de que mi modelo tiene una inmensa desventaja y es la siguiente: tanto
+        helatodo como la bici saben cargarse en ambos vehiculos, lo cual viola inmediatamente el
+        ppio de segregacion de la interfaz ya que le estoy dando a una clase mensajes que no necesita, tal
+        como nos mostro pablo en clase con el ejemplo del pato de goma. Mi justificacion es que al intentar
+        unificar clases en mis vehiculos, llego a la conclusion de que seria adecuado utilizar una arraylist
+        de cargas, en donde puedo introducir la carga que se me ponga en el camino, lo cual me sirve para
+        respetar el encapsulamiento (haciendo utilizacion tambien de polimorfismo) diciendole a la carga misma
+        que se cargue en donde le corresponda. Otra forma que pense involucraba preguntarle al objeto si podria
+        cargarse, pero tampoco me parece adecuado tanto porque me estoy metiendo en programacion estructurada
+        al utilizar ifs como porque no respeto el ppio general del tell dont ask, como mencione tambien que el modelo
+        entregado por la catedra violaba.
+        Entiendo que los ppios estan para intentar seguirlos para tener mejores practicas y un mejor codigo,
+        pero tambien se como bien comentaron en las clases que muchas veces tenemos que tomar desiciones en cuanto
+        a cual priorizar. En mi caso decidi priorizar el no depender de clases abstractas no teniendo un array
+        por cada tipo de carga, lo cual me trae una gran consecuencia la cual es violar el ppio de segregacion
+        de la interfaz.
 
 
 
@@ -29,6 +42,7 @@
             mas solido y consistente ya que constantemente lo tenes que ir refactorizando de forma tal que su desarrollo
             sea incremental, a medida que se van agregando nuevas funcionalidades. Por otro lado te permite tener un
             control constante del estado de tu modelo en cuanto a su funcionamiento :)
+
 
 
   b. ¿Se viola algún(os) principio(s) de diseño? ¿Cual(es)?
