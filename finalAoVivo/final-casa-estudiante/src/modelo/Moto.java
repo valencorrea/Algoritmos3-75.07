@@ -15,6 +15,11 @@ public class Moto {
     }
 
     public void descargar() {
+        verificacionDeCargamento();
+        this.cargas.remove(this.cargas.size()-1);
+    }
+
+    private void verificacionDeCargamento() {
         if(cantidadCargas() == 0){
             throw new RuntimeException("No se puede descargar una moto sin cargamento");
         }

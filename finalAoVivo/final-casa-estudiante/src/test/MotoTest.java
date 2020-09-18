@@ -60,4 +60,21 @@ public class MotoTest {
         }
     }
 
+    @Test
+    public void testUnaMotoPuedeDescargarLuegoDeHaberCargadoUnHelatodo(){
+
+        Moto moto = new Moto();
+        Helatodo unHelatodo = new Helatodo();
+
+        moto.cargar(unHelatodo);
+
+        int cantidadCargas = moto.cantidadCargas();
+        assertEquals(1, cantidadCargas);
+
+        moto.descargar();
+
+        cantidadCargas = moto.cantidadCargas();
+        assertEquals(0, cantidadCargas);
+    }
+
 }
