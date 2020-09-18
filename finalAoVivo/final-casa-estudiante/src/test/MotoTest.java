@@ -96,5 +96,4 @@ public class MotoTest {
         assertEquals(1, cantidadCargas);
     }
 
-
 }
