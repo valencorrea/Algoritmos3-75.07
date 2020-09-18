@@ -17,5 +17,4 @@ public abstract class VehiculoDeCarga {
 
     protected abstract void verificacionDeCargamento();
 
-    public abstract void agregarlePortabici();
 }

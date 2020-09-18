@@ -10,7 +10,6 @@ public class Auto extends VehiculoDeCarga{
         }
     }
 
-    @Override
     public void agregarlePortabici() {
         this.estadoPortabici = new TienePortabici();
     }

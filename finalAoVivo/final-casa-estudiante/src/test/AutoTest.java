@@ -78,7 +78,19 @@ public class AutoTest {
         } catch (RuntimeException exception) {
             assertEquals("No se puede cargar una bici sin portabici", exception.getMessage());
         }
+    }
 
+    @Test
+    public void testAutoTienePortabiciPuedeAgregarUnaBici(){
+
+        Auto auto = new Auto();
+        Bici bici = new Bici();
+
+        auto.agregarlePortabici();
+        auto.cargar(bici);
+
+        int cantidadCargas = auto.cantidadCargas();
+        assertEquals(1, cantidadCargas);
     }
 
 }

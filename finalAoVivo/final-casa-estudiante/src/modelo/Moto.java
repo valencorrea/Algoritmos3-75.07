@@ -12,9 +12,4 @@ public class Moto extends VehiculoDeCarga{
         }
     }
 
-    @Override
-    public void agregarlePortabici() {
-        throw new RuntimeException("No se puede agregar un portabici en la moto");
-    }
-
 }
