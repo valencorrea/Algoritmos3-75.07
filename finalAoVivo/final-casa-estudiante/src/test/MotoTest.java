@@ -2,10 +2,10 @@ package test;
 
 import modelo.Helatodo;
 import modelo.Moto;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class MotoTest {
 
@@ -35,6 +35,29 @@ public class MotoTest {
         int cantidadCargas = moto.cantidadCargas();
 
         assertEquals(2, cantidadCargas);
+    }
+
+    @Test
+    public void testUnaMotoSinCargamentoNoTieneCarga(){
+
+        Moto moto = new Moto();
+
+        int cantidadCargas = moto.cantidadCargas();
+
+        assertEquals(0, cantidadCargas);
+    }
+
+    @Test
+    public void unaMotoSinCargamentoQuiereDescargarNoPuede(){
+
+        Moto moto = new Moto();
+
+        try {
+            moto.descargar();
+            Assert.fail("No se arrojo exception al querer descargar una moto sin cargamento");
+        } catch (RuntimeException exception) {
+            assertEquals("No se puede descargar una moto sin cargamento", exception.getMessage());
+        }
     }
 
 }
