@@ -77,4 +77,24 @@ public class MotoTest {
         assertEquals(0, cantidadCargas);
     }
 
+    @Test
+    public void testLuegoDeCargarDosElementosYsacarUnoLaCantidadDeCargasEsLaCorrecta(){
+
+        Moto moto = new Moto();
+        Helatodo unHelatodo = new Helatodo();
+        Helatodo otroHelatodo = new Helatodo();
+
+        moto.cargar(unHelatodo);
+        moto.cargar(otroHelatodo);
+
+        int cantidadCargas = moto.cantidadCargas();
+        assertEquals(2, cantidadCargas);
+
+        moto.descargar();
+
+        cantidadCargas = moto.cantidadCargas();
+        assertEquals(1, cantidadCargas);
+    }
+
+
 }
