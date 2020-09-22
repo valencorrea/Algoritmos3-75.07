@@ -27,4 +27,7 @@ public class Moto {
         }
     }
 
+    public void agregarlePortabici() {
+        throw new RuntimeException("No se puede agregar un portabici en una moto");
+    }
 }

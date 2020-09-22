@@ -4,6 +4,7 @@ import modelo.Bici;
 import modelo.Helatodo;
 import modelo.Moto;
 import org.junit.Assert;
+import org.junit.Rule;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -87,6 +88,19 @@ public class MotoTest {
 
         int cantidadCargas = moto.cantidadCargas();
         assertEquals(0, cantidadCargas);
+    }
+
+    @Test
+    public void motoQuiereAgregarUnPortabiciNoPuede(){
+
+        Moto moto = new Moto();
+
+        try {
+            moto.agregarlePortabici();
+            Assert.fail("No se arrojo exception al querer agregarle un portabici a una moto");
+        } catch (RuntimeException exception) {
+            assertEquals("No se puede agregar un portabici en una moto", exception.getMessage());
+        }
     }
 
 }
