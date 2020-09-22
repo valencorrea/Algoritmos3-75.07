@@ -77,4 +77,17 @@ public class AutoTest {
         assertEquals(0, cantidadCargas);
     }
 
+    @Test
+    public void testAutoTienePortabiciPuedeAgregarUnaBici(){
+
+        Auto auto = new Auto();
+        Bici bici = new Bici();
+
+        auto.agregarlePortabici();
+        auto.cargar(bici);
+
+        int cantidadCargas = auto.cantidadCargas();
+        assertEquals(1, cantidadCargas);
+    }
+
 }

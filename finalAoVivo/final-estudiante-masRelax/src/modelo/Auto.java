@@ -28,4 +28,7 @@ public class Auto {
         }
     }
 
+    public void agregarlePortabici() {
+        this.estadoPortabici = new ConPortabici();
+    }
 }
