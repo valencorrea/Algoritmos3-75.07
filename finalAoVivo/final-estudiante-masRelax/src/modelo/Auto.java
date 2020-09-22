@@ -1,25 +1,18 @@
 package modelo;
 
-import java.util.LinkedList;
+import modelo.estadoPortabici.ConPortabici;
+import modelo.estadoPortabici.EstadoPortabici;
+import modelo.estadoPortabici.SinPortabici;
+import modelo.objetosCargables.Carga;
 
-public class Auto {
+public class Auto extends VehiculoDeCarga{
 
-    private LinkedList<Carga> cargas = new LinkedList<Carga>();
     private EstadoPortabici estadoPortabici = new SinPortabici();
-
-    public int cantidadCargas() {
-        return this.cargas.size();
-    }
 
     public void cargar(Carga carga) {
         if(carga.puedoCargarmeEnAuto(this, this.estadoPortabici)){
             this.cargas.add(carga);
         }
-    }
-
-    public void descargar() {
-        verificacionDeCargamento();
-        this.cargas.remove();
     }
 
     public void verificacionDeCargamento() {

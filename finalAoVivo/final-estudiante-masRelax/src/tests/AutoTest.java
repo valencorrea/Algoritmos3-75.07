@@ -1,8 +1,8 @@
 package tests;
 
 import modelo.Auto;
-import modelo.Bici;
-import modelo.Helatodo;
+import modelo.objetosCargables.Bici;
+import modelo.objetosCargables.Helatodo;
 import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

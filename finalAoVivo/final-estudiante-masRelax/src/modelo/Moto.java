@@ -1,24 +1,13 @@
 package modelo;
 
-import java.util.LinkedList;
+import modelo.objetosCargables.Carga;
 
-public class Moto {
-
-    private LinkedList<Carga> cargas = new LinkedList<Carga>();
-
-    public int cantidadCargas() {
-        return this.cargas.size();
-    }
+public class Moto extends VehiculoDeCarga{
 
     public void cargar(Carga carga) {
         if(carga.puedoCargarmeEnMoto(this)){
             this.cargas.add(carga);
         }
-    }
-
-    public void descargar() {
-        verificacionDeCargamento();
-        this.cargas.remove();
     }
 
     public void verificacionDeCargamento() {

@@ -1,4 +1,4 @@
-package modelo;
+package modelo.estadoPortabici;
 
 public class SinPortabici implements EstadoPortabici {
 
