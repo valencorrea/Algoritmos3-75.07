@@ -1,11 +1,10 @@
 package modelo;
 
-import java.util.LinkedList;
-
 public class Helatodo implements Carga{
 
-    public void cargarmeEnMoto(LinkedList<Carga> cargas) {
-        cargas.add(this);
+    @Override
+    public boolean puedoCargarmeEnMoto(Moto moto) {
+        return true;
     }
 
 }

@@ -11,7 +11,9 @@ public class Moto {
     }
 
     public void cargar(Carga carga) {
-        carga.cargarmeEnMoto(this.cargas);
+        if (carga.puedoCargarmeEnMoto(this)){
+            this.cargas.add(carga);
+        }
     }
 
     public void descargar() {

@@ -78,17 +78,15 @@ public class MotoTest {
     }
 
     @Test
-    public void unaMotoQuiereCargarUnaBiciNoPuede(){
+    public void unaMotoQuiereCargarUnaBiciNoPuede() {
 
         Moto moto = new Moto();
         Bici bici = new Bici();
 
-        try {
-            moto.cargar(bici);
-            Assert.fail("No se arrojo exception al querer cargar una bici en una moto");
-        } catch (RuntimeException exception) {
-            assertEquals("No se puede cargar una bici en una moto", exception.getMessage());
-        }
+        moto.cargar(bici);
+
+        int cantidadCargas = moto.cantidadCargas();
+        assertEquals(0, cantidadCargas);
     }
 
 }
