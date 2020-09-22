@@ -4,14 +4,14 @@ import java.util.LinkedList;
 
 public class Moto {
 
-    private LinkedList<Helatodo> cargas = new LinkedList<Helatodo>();
+    private LinkedList<Carga> cargas = new LinkedList<Carga>();
 
     public int cantidadCargas() {
         return this.cargas.size();
     }
 
-    public void cargar(Helatodo helatodo) {
-        helatodo.cargarmeEnMoto(this.cargas);
+    public void cargar(Carga carga) {
+        carga.cargarmeEnMoto(this.cargas);
     }
 
     public void descargar() {

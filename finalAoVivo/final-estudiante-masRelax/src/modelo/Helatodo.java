@@ -2,9 +2,9 @@ package modelo;
 
 import java.util.LinkedList;
 
-public class Helatodo {
+public class Helatodo implements Carga{
 
-    public void cargarmeEnMoto(LinkedList<Helatodo> cargas) {
+    public void cargarmeEnMoto(LinkedList<Carga> cargas) {
         cargas.add(this);
     }
 
