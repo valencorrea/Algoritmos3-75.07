@@ -1,6 +1,7 @@
 package tests;
 
 import modelo.Auto;
+import modelo.Bici;
 import modelo.Helatodo;
 import org.junit.Assert;
 import org.junit.Test;
@@ -62,6 +63,18 @@ public class AutoTest {
         } catch (RuntimeException exception) {
             assertEquals("No se puede descargar un auto sin cargamento", exception.getMessage());
         }
+    }
+
+    @Test
+    public void testUnAutoSinPortabiciQuiereCargarBiciNoCarga(){
+
+        Auto auto = new Auto();
+        Bici bici = new Bici();
+
+        auto.cargar(bici);
+
+        int cantidadCargas = auto.cantidadCargas();
+        assertEquals(0, cantidadCargas);
     }
 
 }

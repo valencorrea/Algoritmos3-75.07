@@ -6,4 +6,9 @@ public class Bici implements Carga{
     public boolean puedoCargarmeEnMoto(Moto moto) {
         return false;
     }
+
+    @Override
+    public boolean puedoCargarmeEnAuto(Auto auto, EstadoPortabici estadoPortabici) {
+        return estadoPortabici.puedoCargarBici();
+    }
 }

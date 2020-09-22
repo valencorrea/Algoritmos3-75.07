@@ -7,4 +7,9 @@ public class Helatodo implements Carga{
         return true;
     }
 
+    @Override
+    public boolean puedoCargarmeEnAuto(Auto auto, EstadoPortabici estadoPortabici) {
+        return true;
+    }
+
 }

@@ -4,14 +4,17 @@ import java.util.LinkedList;
 
 public class Auto {
 
-    private LinkedList<Helatodo> cargas = new LinkedList<Helatodo>();
+    private LinkedList<Carga> cargas = new LinkedList<Carga>();
+    private EstadoPortabici estadoPortabici = new SinPortabici();
 
     public int cantidadCargas() {
         return this.cargas.size();
     }
 
-    public void cargar(Helatodo helatodo) {
-        this.cargas.add(helatodo);
+    public void cargar(Carga carga) {
+        if(carga.puedoCargarmeEnAuto(this, this.estadoPortabici)){
+            this.cargas.add(carga);
+        }
     }
 
     public void descargar() {
