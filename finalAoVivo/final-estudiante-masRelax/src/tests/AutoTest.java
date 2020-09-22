@@ -2,6 +2,7 @@ package tests;
 
 import modelo.Auto;
 import modelo.Helatodo;
+import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -48,6 +49,19 @@ public class AutoTest {
         cantidadCargas = auto.cantidadCargas();
         assertEquals(1, cantidadCargas);
 
+    }
+
+    @Test
+    public void testUnAutoSinCargamentoQuiereDescargarNoPuede(){
+
+        Auto auto = new Auto();
+
+        try {
+            auto.descargar();
+            Assert.fail("No se arrojo exception al querer descargar un auto sin cargamento");
+        } catch (RuntimeException exception) {
+            assertEquals("No se puede descargar un auto sin cargamento", exception.getMessage());
+        }
     }
 
 }

@@ -15,6 +15,14 @@ public class Auto {
     }
 
     public void descargar() {
+        verificacionDeCargamento();
         this.cargas.remove();
     }
+
+    public void verificacionDeCargamento() {
+        if (cantidadCargas() == 0) {
+            throw new RuntimeException("No se puede descargar un auto sin cargamento");
+        }
+    }
+
 }
