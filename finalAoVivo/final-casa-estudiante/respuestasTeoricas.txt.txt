@@ -1,28 +1,8 @@
-
+﻿
 
     ACLARACION SUMAMENTE IMPORTANTA (DECISIONES DE IMPLEMENTACION RESPECTO A MI MODELLO)
 
-        Soy 200% consciente de que mi modelo tiene una inmensa desventaja y es la siguiente: tanto
-        helatodo como la bici saben cargarse en ambos vehiculos, lo cual viola inmediatamente el
-        ppio de segregacion de la interfaz ya que le estoy dando a una clase mensajes que no necesita, tal
-        como nos mostro pablo en clase con el ejemplo del pato de goma (se y entiendo que no se deberia
-        aspirar a tener metodos que no requeris y menos aun que al utilizarlos tire error).
-        Mi justificacion es que al intentar unificar clases en mis vehiculos, llego a la conclusion de
-        que seria adecuado utilizar una arraylist
-        de cargas, en donde puedo introducir la carga que se me ponga en el camino, lo cual me sirve para
-        respetar el encapsulamiento (haciendo utilizacion tambien de polimorfismo) diciendole a la carga misma
-        que se cargue en donde le corresponda. Otra forma que pense involucraba preguntarle al objeto si podria
-        cargarse, pero tampoco me parece adecuado tanto porque me estoy metiendo en programacion estructurada
-        al utilizar ifs como porque no respeto el ppio general del tell dont ask, como mencione tambien que el modelo
-        entregado por la catedra violaba.
-        Entiendo que los ppios estan para intentar seguirlos para tener mejores practicas y un mejor codigo,
-        pero tambien se como bien comentaron en las clases, y mismo en el dia de ayer en una publicacion que realice
-        preguntando tambien que decision de diseño seria mas conveniente, que muchas veces tenemos que tomar elecciones
-        en cuanto a que cosas priorizar. En mi caso decidi priorizar el no depender de clases abstractas no teniendo un array
-        por cada tipo de carga, lo cual me trae una gran consecuencia la cual es violar el ppio de segregacion
-        de la interfaz.
-
-        sobre uml()
+       jeje esto lo borro xd
 
 
 
