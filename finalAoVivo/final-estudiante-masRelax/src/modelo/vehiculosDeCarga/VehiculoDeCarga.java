@@ -1,4 +1,4 @@
-package modelo;
+package modelo.vehiculosDeCarga;
 
 import modelo.objetosCargables.Carga;
 import java.util.LinkedList;

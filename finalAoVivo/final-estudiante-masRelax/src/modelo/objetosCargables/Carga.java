@@ -1,7 +1,7 @@
 package modelo.objetosCargables;
 
-import modelo.Auto;
-import modelo.Moto;
+import modelo.vehiculosDeCarga.Auto;
+import modelo.vehiculosDeCarga.Moto;
 import modelo.estadoPortabici.EstadoPortabici;
 
 public interface Carga {

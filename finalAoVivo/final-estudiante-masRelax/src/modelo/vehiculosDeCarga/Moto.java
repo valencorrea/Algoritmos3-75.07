@@ -1,4 +1,4 @@
-package modelo;
+package modelo.vehiculosDeCarga;
 
 import modelo.objetosCargables.Carga;
 
@@ -19,4 +19,5 @@ public class Moto extends VehiculoDeCarga{
     public void agregarlePortabici() {
         throw new RuntimeException("No se puede agregar un portabici en una moto");
     }
+
 }

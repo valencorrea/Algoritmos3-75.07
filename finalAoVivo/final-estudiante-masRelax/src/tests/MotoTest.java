@@ -2,7 +2,7 @@ package tests;
 
 import modelo.objetosCargables.Bici;
 import modelo.objetosCargables.Helatodo;
-import modelo.Moto;
+import modelo.vehiculosDeCarga.Moto;
 import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

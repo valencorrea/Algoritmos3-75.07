@@ -1,4 +1,4 @@
-package modelo;
+package modelo.vehiculosDeCarga;
 
 import modelo.estadoPortabici.ConPortabici;
 import modelo.estadoPortabici.EstadoPortabici;
@@ -24,4 +24,5 @@ public class Auto extends VehiculoDeCarga{
     public void agregarlePortabici() {
         this.estadoPortabici = new ConPortabici();
     }
+
 }

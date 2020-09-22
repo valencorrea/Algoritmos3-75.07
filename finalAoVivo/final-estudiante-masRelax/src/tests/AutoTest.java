@@ -1,6 +1,6 @@
 package tests;
 
-import modelo.Auto;
+import modelo.vehiculosDeCarga.Auto;
 import modelo.objetosCargables.Bici;
 import modelo.objetosCargables.Helatodo;
 import org.junit.Assert;
