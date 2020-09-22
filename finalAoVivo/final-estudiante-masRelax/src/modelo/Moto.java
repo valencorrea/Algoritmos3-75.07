@@ -11,14 +11,14 @@ public class Moto {
     }
 
     public void cargar(Carga carga) {
-        if (carga.puedoCargarmeEnMoto(this)){
+        if(carga.puedoCargarmeEnMoto(this)){
             this.cargas.add(carga);
         }
     }
 
     public void descargar() {
         verificacionDeCargamento();
-        this.cargas.removeLast();
+        this.cargas.remove();
     }
 
     public void verificacionDeCargamento() {
