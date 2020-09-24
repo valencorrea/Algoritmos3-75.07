@@ -156,4 +156,23 @@ public class TiendaTest {
         }
     }
 
+    @Test
+    public void testSiYaNoMeQuedoStockNoPuedoComprarlo(){
+
+        Tienda tienda = new Tienda("un nombre de tienda");
+        tienda.agregarStock("Raspberry", new ProductoStockeado(3500, 0));
+
+        Pedido pedido = new Pedido();
+        ProductoCliente producto = new ProductoCliente(new EnvioInternacional(), new CuponCyberMonday(), "Raspberry", 1);
+
+        pedido.agregarProducto(producto);
+
+        try {
+            tienda.cobrarPedido(pedido);
+            Assert.fail("No se arrojo exception al querer comprar un producto del que ya no me quedaron unidades");
+        } catch (RuntimeException exception) {
+            assertEquals("No se puede comprar un producto del cual ya no tengo unidades", exception.getMessage());
+        }
+    }
+
 }

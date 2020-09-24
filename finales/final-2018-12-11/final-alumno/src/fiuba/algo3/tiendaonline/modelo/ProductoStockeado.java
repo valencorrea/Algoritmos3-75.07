@@ -15,6 +15,13 @@ public class ProductoStockeado {
     }
 
     public void reducirStock(ProductoCliente productoCliente) {
+        verificarStock();
         this.stock -= productoCliente.cantidadUnidades();
+    }
+
+    private void verificarStock() {
+        if(stock <= 0){
+            throw new RuntimeException("No se puede comprar un producto del cual ya no tengo unidades");
+        }
     }
 }
