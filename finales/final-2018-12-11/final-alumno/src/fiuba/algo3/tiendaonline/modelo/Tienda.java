@@ -6,26 +6,18 @@ import java.util.Map;
 public class Tienda {
 
     private String nombre;
-    private Map<String, Producto> productos = new HashMap<String, Producto>();
+    private Map<String, ProductoStockeado> productos = new HashMap<String, ProductoStockeado>();
 
     public Tienda(String nombre) {
         this.nombre = nombre;
     }
 
-    public void agregarStock(String nombreProducto, Producto producto) {
+    public void agregarStock(String nombreProducto, ProductoStockeado producto) {
         this.productos.put(nombreProducto, producto);
     }
 
     public double cobrarPedido(Pedido pedido) {
-        Producto productoEnTienda = buscarProducto(pedido);
-        productoEnTienda.descontarCantidadComprada(pedido);
-        return pedido.cobrarPedido(productoEnTienda);
+        return pedido.cobrarPedido(this.productos);
     }
 
-    private Producto buscarProducto(Pedido pedido) {
-        if(!this.productos.containsKey(pedido)){
-            //error
-        }
-        return this.productos.get(pedido.codigo());
-    }
 }

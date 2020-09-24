@@ -1,12 +1,11 @@
-package fiuba.algo3.tiendaonline.modelo;
+package fiuba.algo3.tiendaonline.modelo.cupones;
 
 import fiuba.algo3.tiendaonline.modelo.cupones.Cupon;
 
 public class CuponCyberMonday implements Cupon {
 
     @Override
-    public double bonificar(double precioBase) {
-        return precioBase * 0.5;
+    public double descuento() {
+        return 0.5;
     }
-
 }

@@ -1,34 +1,35 @@
 package fiuba.algo3.tiendaonline.modelo;
 
 import fiuba.algo3.tiendaonline.modelo.cupones.Cupon;
+import fiuba.algo3.tiendaonline.modelo.envios.Envio;
+import java.util.LinkedList;
+import java.util.Map;
 
 public class Pedido {
 
-    private int cantidadUnidades;
-    private String nombreProducto;
-    private Envio envio;
-    private Cupon cupon;
+    private LinkedList<ProductoCliente> productos = new LinkedList<ProductoCliente>();
 
-    public Pedido(Envio envio, Cupon cupon, String nombreProducto, int cantidadUnidades) {
-        this.envio = envio;
-        this.cupon = cupon;
-        this.nombreProducto = nombreProducto;
-        this.cantidadUnidades = cantidadUnidades;
+    public void agregarProducto(ProductoCliente producto) {
+        this.productos.add(producto);
     }
 
-    public String codigo() {
-        return this.nombreProducto;
+    public double cobrarPedido(Map <String, ProductoStockeado> productos) {
+        double precio = 0;
+
+        for(ProductoCliente productoCliente: this.productos){
+            ProductoStockeado productoStockeado = buscarEnDeposito(productoCliente, productos);
+            productoStockeado.reducirStock(productoCliente);
+            precio += productoCliente.precio(productoStockeado);
+        }
+        
+        return precio;
     }
 
-    public int cantidadDeUnidades() {
-        return this.cantidadUnidades;
+    private ProductoStockeado buscarEnDeposito(ProductoCliente productoCliente, Map<String, ProductoStockeado> productos) {
+    if(!productos.containsValue(productoCliente)){
+        //error
+    }
+    return productos.get(productoCliente.nombre());
     }
 
-    public double cobrarPedido(Producto productoEnTienda) {//refactorizar esta mugre
-        double precioBase = productoEnTienda.precio();
-        precioBase = this.cupon.bonificar(precioBase);
-        precioBase = this.envio.agregarCostoEnvio(precioBase);
-        precioBase = precioBase * this.cantidadUnidades;
-        return precioBase;
-    }
 }
