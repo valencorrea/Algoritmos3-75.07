@@ -1,6 +1,8 @@
 package fiuba.algo3.tiendaonline.tests;
 
 import fiuba.algo3.tiendaonline.modelo.*;
+import fiuba.algo3.tiendaonline.modelo.cupones.CuponBlackFriday;
+import fiuba.algo3.tiendaonline.modelo.cupones.CuponNavidad;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -62,6 +64,29 @@ public class TiendaTest {
         Pedido pedido = new Pedido(new EnvioInternacional(), new CuponBlackFriday(), "Raspberry", 2);//cantidad que quiero pedir
 
         assertEquals(1260, tienda.cobrarPedido(pedido), DELTA);
+    }
+
+    @Test
+    public void testUnArduinoKitPi3CuponBlackFridayPorEnvioInternacionalCuestaLoQueDeberia(){
+
+        Tienda tienda = new Tienda("un nombre de tienda");
+
+        tienda.agregarStock("Arduino kit", new Producto(2000, 4));
+
+        Pedido pedido = new Pedido(new EnvioInternacional(), new CuponBlackFriday(), "Arduino kit", 1);//cantidad que quiero pedir
+
+        assertEquals(360, tienda.cobrarPedido(pedido), DELTA);
+    }
+    @Test
+    public void testUnArduinoKitPi3CuponCyberMondayPorEnvioInternacionalCuestaLoQueDeberia(){
+
+        Tienda tienda = new Tienda("un nombre de tienda");
+
+        tienda.agregarStock("Arduino kit", new Producto(2000, 4));
+
+        Pedido pedido = new Pedido(new EnvioInternacional(), new CuponCyberMonday(), "Arduino kit", 1);//cantidad que quiero pedir
+
+        assertEquals(1200, tienda.cobrarPedido(pedido), DELTA);
     }
 
 }

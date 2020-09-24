@@ -1,4 +1,4 @@
-package fiuba.algo3.tiendaonline.modelo;
+package fiuba.algo3.tiendaonline.modelo.cupones;
 
 public interface Cupon {
 

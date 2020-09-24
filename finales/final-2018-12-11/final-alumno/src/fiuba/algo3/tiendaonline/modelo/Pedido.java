@@ -1,5 +1,7 @@
 package fiuba.algo3.tiendaonline.modelo;
 
+import fiuba.algo3.tiendaonline.modelo.cupones.Cupon;
+
 public class Pedido {
 
     private int cantidadUnidades;
