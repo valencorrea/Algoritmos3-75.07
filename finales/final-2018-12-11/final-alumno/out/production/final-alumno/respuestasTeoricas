@@ -1,0 +1,20 @@
+
+2. Identifique potenciales problemas de diseño en el código. Enumérelos en una hoja y justifique por qué considera que
+representan un problema de diseño.
+
+    RESPUESTA:
+        - test01 test02?? que estas probando??
+        - getNombre se usa solo en la test? ifTrue: esta mal que exista
+        - llaman a los productos con strings -> definitely not
+        - mucho setter
+        - usa enums -> bad smell
+        - solo 2 pruebas?? no hicieron tdd ahi entonces el codigo va a estar mas debilucho :(
+        - define los atributos en diferentes lugares
+
+
+3. ¿Se viola algún principio de diseño? ¿Cuál(es)?
+
+   RESPUESTA:
+        - no vi nada menos open close que esto
+        - viola el dep inversion
+        - tiene mil mensajes asi que tambien el de single responsability
