@@ -6,6 +6,7 @@ import fiuba.algo3.tiendaonline.modelo.cupones.CuponCyberMonday;
 import fiuba.algo3.tiendaonline.modelo.cupones.CuponNavidad;
 import fiuba.algo3.tiendaonline.modelo.envios.EnvioInternacional;
 import fiuba.algo3.tiendaonline.modelo.envios.EnvioLocal;
+import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -135,6 +136,24 @@ public class TiendaTest {
         pedido.agregarProducto(otroProducto);
 
         assertEquals(4500, tienda.cobrarPedido(pedido), DELTA);
+    }
+
+    @Test
+    public void testSiNoTengoUnProductoEnStockNoPuedoComprarlo(){
+
+        Tienda tienda = new Tienda("un nombre de tienda");
+
+        Pedido pedido = new Pedido();
+        ProductoCliente producto = new ProductoCliente(new EnvioInternacional(), new CuponCyberMonday(), "Raspberry", 1);
+
+        pedido.agregarProducto(producto);
+
+        try {
+            tienda.cobrarPedido(pedido);
+            Assert.fail("No se arrojo exception al querer comprar un producto que no tengo stockeado");
+        } catch (RuntimeException exception) {
+            assertEquals("No se puede comprar un producto que no se tiene en stock", exception.getMessage());
+        }
     }
 
 }

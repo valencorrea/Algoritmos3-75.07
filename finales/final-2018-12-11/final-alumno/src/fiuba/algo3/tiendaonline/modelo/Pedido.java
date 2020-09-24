@@ -26,10 +26,10 @@ public class Pedido {
     }
 
     private ProductoStockeado buscarEnDeposito(ProductoCliente productoCliente, Map<String, ProductoStockeado> productos) {
-    if(!productos.containsValue(productoCliente)){
-        //error
-    }
-    return productos.get(productoCliente.nombre());
+        if(!productos.containsKey(productoCliente.nombre())){
+            throw new RuntimeException("No se puede comprar un producto que no se tiene en stock");
+        }
+        return productos.get(productoCliente.nombre());
     }
 
 }
