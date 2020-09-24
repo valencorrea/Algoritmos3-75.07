@@ -22,10 +22,11 @@ public class Pedido {
         return this.cantidadUnidades;
     }
 
-    public double cobrarPedido(Producto productoEnTienda) {
+    public double cobrarPedido(Producto productoEnTienda) {//refactorizar esta mugre
         double precioBase = productoEnTienda.precio();
         precioBase = this.cupon.bonificar(precioBase);
         precioBase = this.envio.agregarCostoEnvio(precioBase);
+        precioBase = precioBase * this.cantidadUnidades;
         return precioBase;
     }
 }

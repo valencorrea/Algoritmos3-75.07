@@ -52,6 +52,18 @@ public class TiendaTest {
         assertEquals(630, tienda.cobrarPedido(pedido), DELTA);
     }
 
+    @Test
+    public void testDosRaspberryPi3CuponBlackFridayPorEnvioInternacionalCuestaLoQueDeberia(){
+
+        Tienda tienda = new Tienda("un nombre de tienda");
+
+        tienda.agregarStock("Raspberry", new Producto(3500, 4)); //precio y stock
+
+        Pedido pedido = new Pedido(new EnvioInternacional(), new CuponBlackFriday(), "Raspberry", 2);//cantidad que quiero pedir
+
+        assertEquals(1260, tienda.cobrarPedido(pedido), DELTA);
+    }
+
 }
 
 
